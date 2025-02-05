@@ -22,6 +22,7 @@ const meta = {
 	description:
 		note.data.description || `Read about my note posted on: ${note.data.date.toLocaleDateString()}`,
 	title: note.data.title,
+	tags: note.data.tags.join(", "),
 };
 ---
 

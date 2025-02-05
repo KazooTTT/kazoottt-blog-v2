@@ -28,6 +28,7 @@ const note = defineCollection({
 	schema: baseSchema.extend({
 		description: z.string().optional().nullable(),
 		date: z.union([z.string(), z.date()]).transform((val) => new Date(val)),
+		tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 	}),
 });
 

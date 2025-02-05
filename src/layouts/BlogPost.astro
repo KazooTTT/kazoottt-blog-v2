@@ -18,6 +18,7 @@ const {
 	description,
 	date_modified: updatedDate,
 	date: publishDate,
+	tags,
 } = post.data;
 const socialImage = ogImage ?? `/og-image/${post.id}.png`;
 const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
@@ -28,9 +29,10 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 <BaseLayout
 	meta={{
 		articleDate,
-		description,
+		description: description ?? "",
 		ogImage: socialImage,
 		title,
+		tags: tags.join(", "),
 	}}
 >
 	<article class="grow break-words" data-pagefind-body>

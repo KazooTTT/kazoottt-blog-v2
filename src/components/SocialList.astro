@@ -13,9 +13,19 @@ const socialLinks: {
 	name: string;
 }[] = [
 	{
-		friendlyName: "Github",
-		link: "https://github.com/chrismwilliams/astro-cactus",
+		friendlyName: "Email",
+		link: "mailto:work@kazoottt.top",
+		name: "mdi:email",
+	},
+	{
+		friendlyName: "GitHub",
+		link: "https://github.com/kazoottt",
 		name: "mdi:github",
+	},
+	{
+		friendlyName: "Twitter",
+		link: "https://x.com/kazoottt",
+		name: "mdi:twitter",
 	},
 ];
 ---
@@ -32,7 +42,7 @@ const socialLinks: {
 						rel={`noreferrer ${isWebmention ? "me authn" : ""}`}
 						target="_blank"
 					>
-						<Icon aria-hidden="true" class="h-8 w-8" focusable="false" name={name} />
+						<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name={name} />
 						<span class="sr-only">{friendlyName}</span>
 					</a>
 				</li>
