@@ -47,32 +47,26 @@ const friends: { name: string; url: string; description?: string }[] = [
 		description: "my friends ",
 	}}
 >
-	<div class="container mx-auto px-4 py-8">
-		<h1 class="title mb-6">Friends</h1>
-		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-			{
-				friends.map((friend) => (
-					<a
-						href={friend.url.startsWith("http") ? friend.url : `https://${friend.url}`}
-						target="_blank"
-						rel="noopener noreferrer"
-						class="block rounded-lg bg-white p-6 shadow-md transition-shadow duration-300 hover:shadow-lg dark:bg-gray-800"
-					>
-						<h2 class="text-xl font-semibold">{friend.name}</h2>
-						{friend.description && (
-							<p class="mt-2 truncate text-sm text-gray-600 dark:text-gray-400">
-								{friend.description}
-							</p>
-						)}
-					</a>
-				))
-			}
-		</div>
+	<div class="mb-6 flex items-center gap-3">
+		<h1 class="title">Friends</h1>
+	</div>
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+		{
+			friends.map((friend) => (
+				<a
+					href={friend.url.startsWith("http") ? friend.url : `https://${friend.url}`}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="block rounded-lg bg-white p-6 shadow-md transition-shadow duration-300 hover:shadow-lg dark:bg-gray-800"
+				>
+					<h2 class="text-xl font-semibold">{friend.name}</h2>
+					{friend.description && (
+						<p class="mt-2 truncate text-sm text-gray-600 dark:text-gray-400">
+							{friend.description}
+						</p>
+					)}
+				</a>
+			))
+		}
 	</div>
 </BaseLayout>
-
-<style>
-	.container {
-		max-width: 1200px;
-	}
-</style>
