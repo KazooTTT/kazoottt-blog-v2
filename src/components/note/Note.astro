@@ -29,7 +29,7 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = note.data.date_created
 
 const date = note.data.date_created ?? note.data.date;
 let modifiedDate = note.data?.date_modified;
-if (modifiedDate && modifiedDate.getTime() === date.getTime()) {
+if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 	modifiedDate = undefined;
 }
 ---
@@ -43,7 +43,7 @@ if (modifiedDate && modifiedDate.getTime() === date.getTime()) {
 		{
 			isPreview ? (
 				<>
-					{index + 1}.{" "}
+					{index ? `${index + 1}.` : ""}
 					<a class="cactus-link" href={`/notes/${note.id}/`}>
 						{note.data.title}
 					</a>
@@ -64,10 +64,7 @@ if (modifiedDate && modifiedDate.getTime() === date.getTime()) {
 			)
 		}
 	</div>
-	<div
-		class="prose prose-sm prose-cactus mt-4 max-w-none [&>p:last-of-type]:mb-0"
-		class:list={{ "line-clamp-6": isPreview }}
-	>
+	<div class="prose prose-sm prose-cactus mt-4 max-w-none [&>p:last-of-type]:mb-0">
 		<Content />
 	</div>
 	{!isPreview && <GiscusComment client:load />}
