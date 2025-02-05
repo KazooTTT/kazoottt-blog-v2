@@ -1,0 +1,39 @@
+---
+import type { HTMLTag, Polymorphic } from 'astro/types'
+import type { CollectionEntry } from 'astro:content'
+
+import FormattedDate from '../FormattedDate.astro'
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+	post: CollectionEntry<'post'>
+	prefix?: string
+	withDesc?: boolean
+	showYear?: boolean
+}
+
+const { as: Tag = 'div', post, prefix = '/blog/', withDesc = false, showYear = false } = Astro.props
+const postDate = post.data.date
+const year = postDate.getFullYear()
+const coverImage = post.data.coverImage
+---
+
+{showYear && <h2 class='my-2 text-xl font-semibold'>{year}</h2>}
+<li class='flex flex-col gap-2 sm:flex-row sm:gap-x-4 [&_q]:basis-full'>
+	<FormattedDate class='min-w-[80px]' date={postDate} />
+
+	<Tag>
+		{post.data.draft && <span class='text-red-500'>(Draft) </span>}
+		<a
+			data-astro-prefetch
+			href={`${prefix}${post.slug}/`}
+			class='transition-all hover:text-muted-foreground'
+		>
+			{post.data.title}
+		</a>
+		{
+			withDesc && (
+				<p class='line-clamp-2 text-sm italic text-muted-foreground'>{post.data.description}</p>
+			)
+		}
+	</Tag>
+</li>
