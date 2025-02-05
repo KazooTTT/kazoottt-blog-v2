@@ -4,15 +4,17 @@ date: 2025-02-05
 author: KazooTTT
 type: Post
 status: Published
-tags: []
+tags:
+  - askfm
+  - 爬虫
 finished: false
 published: false
-category: 
+category: 软件
 slug: askfm-shutdown
 description: 
 toAstro: true
 date_created: 2025-02-05T00:48:47+08:00
-date_modified: 2025-02-05T12:33:26+08:00
+date_modified: 2025-02-05T23:08:50+08:00
 ---
 
 今天翻了一下 todo list, 发现其中有一个是：写 askfm 爬虫
