@@ -3,6 +3,7 @@ import { type CollectionEntry, render } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
 import type { HTMLTag, Polymorphic } from "astro/types";
 import GiscusComment from "@/components/componentsBefore/GiscusComment";
+import ArticleContainer from "./ArticleContainer.astro";
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
 	note: CollectionEntry<"note">;
 	isPreview?: boolean | undefined;
@@ -32,12 +33,10 @@ if (modifiedDate && modifiedDate.getTime() === date.getTime()) {
 }
 ---
 
-<article
-	class:list={[
-		isPreview &&
-			"inline-grid w-full rounded-md bg-[rgb(240,240,240)] px-4 py-3 dark:bg-[rgb(33,35,38)]",
-	]}
-	data-pagefind-body={isPreview ? false : true}
+<ArticleContainer
+	className={isPreview &&
+		"inline-grid w-full rounded-md bg-[rgb(240,240,240)] px-4 py-3 dark:bg-[rgb(33,35,38)]"}
+	dataPagefindBody={isPreview ? false : true}
 >
 	<Tag class="title" class:list={{ "text-base": isPreview }}>
 		{
@@ -71,4 +70,4 @@ if (modifiedDate && modifiedDate.getTime() === date.getTime()) {
 		<Content />
 	</div>
 	{!isPreview && <GiscusComment client:load />}
-</article>
+</ArticleContainer>
