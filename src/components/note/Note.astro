@@ -3,7 +3,8 @@ import { type CollectionEntry, render } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
 import type { HTMLTag, Polymorphic } from "astro/types";
 import GiscusComment from "@/components/componentsBefore/GiscusComment";
-import ArticleContainer from "./ArticleContainer.astro";
+import ArticleContainer from "../ArticleContainer.astro";
+
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
 	note: CollectionEntry<"note">;
 	isPreview?: boolean | undefined;
