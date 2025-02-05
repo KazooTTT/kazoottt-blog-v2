@@ -21,3 +21,23 @@ export function collectionDateSort(
 ) {
 	return b.data.date.getTime() - a.data.date.getTime();
 }
+
+const datePriorityForNote = ["date_modified", "date", "data_created"];
+
+export function collectionModifiedDateSort(
+	a: CollectionEntry<"post" | "note">,
+	b: CollectionEntry<"post" | "note">,
+) {
+	let dateA: Date = new Date(),
+		dateB: Date = new Date();
+	datePriorityForNote.forEach((key) => {
+		if (a.data[key as keyof typeof a.data]) {
+			dateA = a.data[key as keyof typeof a.data] as Date;
+		}
+		if (b.data[key as keyof typeof b.data]) {
+			dateB = b.data[key as keyof typeof b.data] as Date;
+		}
+	});
+
+	return dateB.getTime() - dateA.getTime();
+}

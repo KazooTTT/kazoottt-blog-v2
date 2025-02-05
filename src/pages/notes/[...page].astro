@@ -3,7 +3,7 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import Pagination from "@/components/Paginator.astro";
 import Note from "@/components/note/Note.astro";
 import PageLayout from "@/layouts/Base.astro";
-import { collectionDateSort } from "@/utils/date";
+import { collectionModifiedDateSort } from "@/utils/date";
 import type { GetStaticPaths, Page } from "astro";
 import { Icon } from "astro-icon/components";
 
@@ -11,7 +11,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 	const MAX_NOTES_PER_PAGE = 10;
 	const allNotes = await getCollection("note");
 	const notesCount = allNotes.length;
-	return paginate(allNotes.sort(collectionDateSort), {
+	return paginate(allNotes.sort(collectionModifiedDateSort), {
 		pageSize: MAX_NOTES_PER_PAGE,
 		props: { notesCount },
 	});
@@ -44,6 +44,10 @@ const paginationProps = {
 		},
 	}),
 };
+
+function calculateIndex(index: number, page: Page<CollectionEntry<"note">>) {
+	return index + page.start;
+}
 ---
 
 <PageLayout meta={meta}>
@@ -59,7 +63,7 @@ const paginationProps = {
 			{
 				page.data.map((note, index) => (
 					<li class="">
-						<Note note={note} as="h2" isPreview index={index} />
+						<Note note={note} as="h2" isPreview index={calculateIndex(index, page)} />
 					</li>
 				))
 			}

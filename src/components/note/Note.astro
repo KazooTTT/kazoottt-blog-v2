@@ -26,6 +26,10 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = note.data.date_created
 		};
 
 const date = note.data.date_created ?? note.data.date;
+let modifiedDate = note.data?.date_modified;
+if (modifiedDate && modifiedDate.getTime() === date.getTime()) {
+	modifiedDate = undefined;
+}
 ---
 
 <article
@@ -49,7 +53,17 @@ const date = note.data.date_created ?? note.data.date;
 			)
 		}
 	</Tag>
-	<FormattedDate dateTimeOptions={dateTimeOptions} date={date} />
+	<div>
+		<FormattedDate dateTimeOptions={dateTimeOptions} date={date} />
+		{
+			modifiedDate && (
+				<span class="bg-quote/5 text-quote rounded-lg px-2 py-1">
+					Updated:
+					<FormattedDate class="ms-1" date={modifiedDate} dateTimeOptions={dateTimeOptions} />
+				</span>
+			)
+		}
+	</div>
 	<div
 		class="prose prose-sm prose-cactus mt-4 max-w-none [&>p:last-of-type]:mb-0"
 		class:list={{ "line-clamp-6": isPreview }}
