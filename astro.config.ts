@@ -9,6 +9,7 @@ import webmanifest from "astro-webmanifest";
 import { defineConfig, envField } from "astro/config";
 import { expressiveCodeOptions } from "./src/site.config";
 import { siteConfig } from "./src/site.config";
+import react from "@astrojs/react";
 
 // Remark plugins
 import remarkDirective from "remark-directive"; /* Handle ::: directives as nodes */
@@ -67,6 +68,7 @@ export default defineConfig({
 				insertManifestLink: false,
 			},
 		}),
+		react(),
 	],
 	markdown: {
 		rehypePlugins: [

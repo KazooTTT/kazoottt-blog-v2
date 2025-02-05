@@ -2,7 +2,7 @@
 import { type CollectionEntry, render } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
 import type { HTMLTag, Polymorphic } from "astro/types";
-
+import GiscusComment from "@/components/componentsBefore/GiscusComment";
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
 	note: CollectionEntry<"note">;
 	isPreview?: boolean | undefined;
@@ -52,4 +52,5 @@ const date = note.data.date_created ?? note.data.date;
 	>
 		<Content />
 	</div>
+	{!isPreview && <GiscusComment client:load />}
 </article>
