@@ -6,7 +6,7 @@ function removeDupsAndLowerCase(array: string[]) {
 }
 
 const baseSchema = z.object({
-	title: z.string()
+	title: z.string(),
 });
 
 const post = defineCollection({
@@ -20,6 +20,8 @@ const post = defineCollection({
 			categories: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 			date: z.union([z.string(), z.date()]).transform((val) => new Date(val)),
 			date_modified: z.date().optional(),
+			data_created: z.date().optional(),
+			category: z.string().optional().nullable(),
 		}),
 });
 
@@ -28,9 +30,10 @@ const note = defineCollection({
 	schema: baseSchema.extend({
 		description: z.string().optional().nullable(),
 		date: z.union([z.string(), z.date()]).transform((val) => new Date(val)),
+		date_modified: z.date().optional(),
+		data_created: z.date().optional(),
 		tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 	}),
 });
-
 
 export const collections = { post, note };

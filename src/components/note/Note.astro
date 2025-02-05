@@ -10,6 +10,21 @@ type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
 
 const { as: Tag = "div", note, isPreview = false } = Astro.props;
 const { Content } = await render(note);
+const dateTimeOptions: Intl.DateTimeFormatOptions = note.data.date_created
+	? {
+			hour: "2-digit",
+			minute: "2-digit",
+			year: "2-digit",
+			month: "2-digit",
+			day: "2-digit",
+		}
+	: {
+			year: "2-digit",
+			month: "2-digit",
+			day: "2-digit",
+		};
+
+const date = note.data.date_created ?? note.data.date;
 ---
 
 <article
@@ -30,16 +45,7 @@ const { Content } = await render(note);
 			)
 		}
 	</Tag>
-	<FormattedDate
-		dateTimeOptions={{
-			hour: "2-digit",
-			minute: "2-digit",
-			year: "2-digit",
-			month: "2-digit",
-			day: "2-digit",
-		}}
-		date={note.data.date}
-	/>
+	<FormattedDate dateTimeOptions={dateTimeOptions} date={date} />
 	<div
 		class="prose prose-sm prose-cactus mt-4 max-w-none [&>p:last-of-type]:mb-0"
 		class:list={{ "line-clamp-6": isPreview }}
