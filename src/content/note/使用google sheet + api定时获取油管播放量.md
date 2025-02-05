@@ -15,7 +15,7 @@ tags:
   - 自动更新播放量
 finished: true
 published: true
-category: 
+category:
 slug: use-google-sheet-api-to-get-youtube-playbacks-on-a-regular-basis
 description: "在 MilkLove 的二搭剧 Whale Store xoxo 的 YouTube 预告片中，使用 Google Sheets 脚本可以定时获取视频播放量并存入表格。脚本主要包括以下步骤： 1.  **检查是否有 access token**: 脚本首先检查是否存在 access token。如果不存在，则会返回一个错误信息。 2.  **获取 video 的统计数据**: 脚本使用 YouTube API 来获取视频的统计数据，包括播放量等。若统计数据成功则将播放量返回给脚本。 3.  **记录播放量和时间到表格中**：如果在获取播放量后没有发生错误，则会向表格中插入一行，其中包含当前时间和播放量。 因此，通过这个脚本，可以定时地获取 YouTube 视频的播放量并存入 Google Sheets 表格。"
 toAstro: true
@@ -37,9 +37,9 @@ date_modified: 2025-01-22T13:39:19+08:00
 
 第一步，在 sheet 中的原始模板是这样的：
 
-| 链接                                                                                         | 视频 id                                                      | 时间  | 播放量 |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | --- | --- |
-| [https://www.youtube.com/watch?v=Eia_Sh_ZTyQ](https://www.youtube.com/watch?v=Eia_Sh_ZTyQ) | =MID(A2, FIND("v=", A2) + 2, LEN(A2) - FIND("v=", A2) - 1) |     |     |
+| 链接                                                                                       | 视频 id                                                    | 时间 | 播放量 |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ---- | ------ |
+| [https://www.youtube.com/watch?v=Eia_Sh_ZTyQ](https://www.youtube.com/watch?v=Eia_Sh_ZTyQ) | =MID(A2, FIND("v=", A2) + 2, LEN(A2) - FIND("v=", A2) - 1) |      |        |
 
 在第一列写上要监听的油管的链接，然后视频的 id 通过公式直接计算出来。
 
@@ -53,73 +53,75 @@ date_modified: 2025-01-22T13:39:19+08:00
 
 第三步，把代码复制到 Code.gs 中，效果如图：
 
-``` js
+```js
 function onOpenFunc() {
-  PropertiesService.getScriptProperties().setProperty("accessToken", ScriptApp.getOAuthToken());
+  PropertiesService.getScriptProperties().setProperty("accessToken", ScriptApp.getOAuthToken())
 }
 
 function getVideoViews(videoid) {
-  var accessToken = PropertiesService.getScriptProperties().getProperty('accessToken');
-  
+  var accessToken = PropertiesService.getScriptProperties().getProperty("accessToken")
+
   // Check if the access token exists
   if (!accessToken) {
-    Logger.log('No access token found.');
-    return 'Error: No access token';
+    Logger.log("No access token found.")
+    return "Error: No access token"
   }
-  
+
   try {
-    var videoStatsResponse = YouTube.Videos.list('statistics', {
-      'id': videoid, 
-      'access_token': accessToken
-    });
-    
+    var videoStatsResponse = YouTube.Videos.list("statistics", {
+      id: videoid,
+      access_token: accessToken,
+    })
+
     // Check if the response contains the expected data
-    if (videoStatsResponse.items && videoStatsResponse.items[0] && videoStatsResponse.items[0].statistics) {
-      return videoStatsResponse.items[0].statistics.viewCount;
+    if (
+      videoStatsResponse.items &&
+      videoStatsResponse.items[0] &&
+      videoStatsResponse.items[0].statistics
+    ) {
+      return videoStatsResponse.items[0].statistics.viewCount
     } else {
-      Logger.log('No statistics found for video ID: ' + videoid);
-      return 'Error: No statistics';
+      Logger.log("No statistics found for video ID: " + videoid)
+      return "Error: No statistics"
     }
   } catch (error) {
-    Logger.log('Error fetching statistics for video ID ' + videoid + ': ' + error.toString());
-    return 'Error: ' + error.toString();
+    Logger.log("Error fetching statistics for video ID " + videoid + ": " + error.toString())
+    return "Error: " + error.toString()
   }
 }
 
 function recordYouTubeViewCount() {
   // 获取活动表格
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet()
+
   // 获取第二行的 ID
-  var videoId = sheet.getRange(2, 2).getValue();   
-  
+  var videoId = sheet.getRange(2, 2).getValue()
+
   // 获取当前时间
-  var currentTime = new Date();
-  
+  var currentTime = new Date()
+
   try {
     // 获取播放量
-    var viewCount = getVideoViews(videoId);
-    
+    var viewCount = getVideoViews(videoId)
+
     // 获取当前表格的最后一行
-    var lastRow = sheet.getLastRow();
-    
+    var lastRow = sheet.getLastRow()
+
     // 在最后一行之后插入新行，并填写时间和播放量
-    sheet.insertRowAfter(lastRow);
-    sheet.getRange(lastRow + 1, 3).setValue(currentTime); // 设置时间
-    sheet.getRange(lastRow + 1, 4).setValue(viewCount); // 设置播放量
+    sheet.insertRowAfter(lastRow)
+    sheet.getRange(lastRow + 1, 3).setValue(currentTime) // 设置时间
+    sheet.getRange(lastRow + 1, 4).setValue(viewCount) // 设置播放量
   } catch (error) {
     // 错误处理
-    Logger.log('Error processing video ' + videoId + ': ' + error.toString());
-    
+    Logger.log("Error processing video " + videoId + ": " + error.toString())
+
     // 如果发生错误，记录错误信息
-    var lastRow = sheet.getLastRow();
-    sheet.insertRowAfter(lastRow);
-    sheet.getRange(lastRow + 1, 3).setValue(currentTime); // 设置时间
-    sheet.getRange(lastRow + 1, 4).setValue('Error: ' + error.toString()); // 设置错误信息
+    var lastRow = sheet.getLastRow()
+    sheet.insertRowAfter(lastRow)
+    sheet.getRange(lastRow + 1, 3).setValue(currentTime) // 设置时间
+    sheet.getRange(lastRow + 1, 4).setValue("Error: " + error.toString()) // 设置错误信息
   }
 }
-
-
 ```
 
 ![CleanShot 2024-12-15 at 21.41.33@2x.png](https://pictures.kazoottt.top/2024/12/20241215-bc187c06a7f8ff245814034294da6035.png)
