@@ -1,5 +1,4 @@
-import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
-import RobotoMono from "@/assets/roboto-mono-regular.ttf";
+import ZCOOLXiaoWei from "@/assets/ZCOOLXiaoWei-Regular.ttf";
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site.config";
 import { getFormattedDate } from "@/utils/date";
@@ -12,17 +11,11 @@ const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
 		{
-			data: Buffer.from(RobotoMono),
-			name: "Roboto Mono",
+			data: Buffer.from(ZCOOLXiaoWei),
+			name: "ZCOOLXiaoWei",
 			style: "normal",
 			weight: 400,
-		},
-		{
-			data: Buffer.from(RobotoMonoBold),
-			name: "Roboto Mono",
-			style: "normal",
-			weight: 700,
-		},
+		}
 	],
 	height: 630,
 	width: 1200,
@@ -79,11 +72,11 @@ export async function GET(context: APIContext) {
 export async function getStaticPaths() {
 	const posts = await getAllPosts();
 	return posts
-		.filter(({ data }) => !data.ogImage)
+		.filter(({ data }) => !data.banner)
 		.map((post) => ({
 			params: { slug: post.id },
 			props: {
-				pubDate: post.data.updatedDate ?? post.data.publishDate,
+				pubDate: post.data.date ?? post.data.date_modified ,
 				title: post.data.title,
 			},
 		}));
