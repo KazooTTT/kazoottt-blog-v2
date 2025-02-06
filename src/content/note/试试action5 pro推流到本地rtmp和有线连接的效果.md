@@ -7,7 +7,7 @@ tags:
   - dji
   - action5pro
 date_created: 2025-02-06T12:04:03+08:00
-date_modified: 2025-02-06T12:06:45+08:00
+date_modified: 2025-02-06T12:35:50+08:00
 date: 2025-02-06
 author: KazooTTT
 type: Post
