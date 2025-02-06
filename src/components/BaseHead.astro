@@ -121,3 +121,18 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 </script>
 
 <meta content={Astro.generator} name="generator" />
+
+<style is:global>
+	html,
+	body {
+		overflow-x: hidden;
+		width: 100%;
+		position: relative;
+	}
+
+	/* 确保所有图片不会溢出容器 */
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+</style>

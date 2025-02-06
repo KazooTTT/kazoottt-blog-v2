@@ -9,7 +9,7 @@ export interface Props {
 const { className = "", dataPagefindBody = true } = Astro.props;
 ---
 
-<article class={`${className}`} data-pagefind-body={dataPagefindBody}>
+<article class="mx-auto max-w-3xl overflow-x-hidden px-4">
 	<slot />
 
 	<div class="mt-8 border-t pt-4">
