@@ -38,7 +38,9 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 	}}
 >
 	<ArticleContainer className="grow break-words" dataPagefindBody={true}>
-		<div id="blog-hero" class="mb-12"><Masthead content={post} readingTime={readingTime} /></div>
+		<div id="blog-hero" class="mb-12">
+			<Masthead content={post} readingTime={readingTime} ogImage={socialImage} />
+		</div>
 		<div class="flex flex-col gap-10 lg:flex-row lg:items-start">
 			{!!headings.length && <TOC headings={headings} />}
 			<div

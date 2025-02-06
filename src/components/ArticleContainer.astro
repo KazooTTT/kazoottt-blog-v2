@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 import ShareButtons from "./ShareButtons.astro";
+import { cn } from "@/utils/tailwind";
 
 export interface Props {
 	className?: string;
@@ -9,7 +10,10 @@ export interface Props {
 const { className = "", dataPagefindBody = true } = Astro.props;
 ---
 
-<article class="mx-auto max-w-3xl overflow-x-hidden px-4">
+<article
+	class={cn("mx-auto max-w-3xl overflow-x-hidden px-4", className)}
+	data-pagefind-body={dataPagefindBody}
+>
 	<slot />
 
 	<div class="mt-8 border-t pt-4">

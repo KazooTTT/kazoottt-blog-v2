@@ -9,27 +9,31 @@ import Label from "../componentsBefore/Label.astro";
 interface Props {
 	content: CollectionEntry<"post">;
 	readingTime: string;
+	ogImage: string;
 }
 
 const {
 	content: { data },
 	readingTime,
+	ogImage,
 } = Astro.props;
 
 const dateTimeOptions: Intl.DateTimeFormatOptions = {
 	month: "long",
 };
+
+const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url).href;
 ---
 
 {
-	data.banner && (
+	socialImageURL && (
 		<div class="mb-6 aspect-video">
 			<Image
-				alt={data.banner}
+				alt={socialImageURL}
 				class="object-cover"
 				fetchpriority="high"
 				loading="eager"
-				src={data.banner}
+				src={socialImageURL}
 				inferSize={true}
 			/>
 		</div>
