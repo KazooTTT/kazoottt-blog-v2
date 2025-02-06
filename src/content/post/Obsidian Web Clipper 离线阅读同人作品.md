@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-06T11:59:39+08:00
-date_modified: 2025-02-06T13:55:34+08:00
+date_modified: 2025-02-06T15:43:41+08:00
 title: Obsidian Web Clipper 离线阅读同人作品
 date: 2025-02-06
 author: KazooTTT
@@ -33,6 +33,13 @@ astroType: post
 ![Pasted image 20250206130152](https://pictures.kazoottt.top/2025/02/20250206-Pasted%20image%2020250206130152.png)
 
 阅读列表生成效果如下：
+
+```dataview
+table dateformat(published, "yyyyMMdd") as "发布时间"
+from "Clippings"
+where contains(tags, "替换为你要筛选的标签")
+sort published desc    
+```
 
 ![Pasted image 20250206130132](https://pictures.kazoottt.top/2025/02/20250206-Pasted%20image%2020250206130132.png)
 
