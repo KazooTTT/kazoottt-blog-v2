@@ -1,6 +1,5 @@
 ---
 import { Icon } from "astro-icon/components";
-import ShareButtons from "./ShareButtons.astro";
 import { cn } from "@/utils/tailwind";
 
 export interface Props {
@@ -15,10 +14,6 @@ const { className = "", dataPagefindBody = true } = Astro.props;
 	data-pagefind-body={dataPagefindBody}
 >
 	<slot />
-
-	<div class="mt-8 border-t pt-4">
-		<ShareButtons />
-	</div>
 
 	<div id="myModal" class="modal">
 		<span class="close">

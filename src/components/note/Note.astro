@@ -4,6 +4,7 @@ import FormattedDate from "@/components/FormattedDate.astro";
 import type { HTMLTag, Polymorphic } from "astro/types";
 import GiscusComment from "@/components/componentsBefore/GiscusComment";
 import ArticleContainer from "../ArticleContainer.astro";
+import ShareButtons from "../ShareButtons.astro";
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
 	note: CollectionEntry<"note">;
 	isPreview?: boolean | undefined;
@@ -68,5 +69,13 @@ if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 			<Content />
 		</div>
 	</div>
+
 	{!isPreview && <GiscusComment client:load />}
+	{
+		!isPreview && (
+			<div class="mt-8 border-t pt-4">
+				<ShareButtons />
+			</div>
+		)
+	}
 </ArticleContainer>
