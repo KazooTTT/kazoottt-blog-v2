@@ -15,7 +15,7 @@ tags:
 finished: true
 published: true
 category: 软件
-slug: focusee-macos-review?lang=en
+slug: focusee-macos-review-en
 description: An analysis of Focusee's shortcomings on macOS, including severe color discrepancies, slow export speed, and sound card configuration conflicts, along with the author's refund experience.
 NotionID-notionnext: c692f30c-bcbc-48fd-9739-19e23a3e1e40
 link-notionnext: https://kazoottt.notion.site/Reasons-Not-to-Recommend-Purchasing-Focusee-for-macOS-Users-c692f30cbcbc48fd973919e23a3e1e40

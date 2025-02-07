@@ -5,7 +5,7 @@ author: KazooTTT
 tags: []
 finished: true
 published: true
-slug: open-graph?lang=en
+slug: open-graph-en
 description: Open Graph is a protocol introduced by Facebook in 2010, designed to enhance the display of preview cards when sharing links on social networks like Twitter. It allows websites to control how their content appears when shared, differentiating between links that show previews and those that do not. Twitter also has its own card system, which takes precedence over Open Graph if both are present. Tools like OpenGraph.xyz and opengraph.dev help in previewing and generating Open Graph meta tags for better social media sharing.
 NotionID-notionnext: 96e4d436-6fd9-4fec-865c-ac2d80b06be0
 link-notionnext: https://kazoottt.notion.site/open-graph-intro-96e4d4366fd94fec865cac2d80b06be0
