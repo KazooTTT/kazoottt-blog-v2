@@ -2,17 +2,25 @@
 import { generateToc } from "@/utils/generateToc";
 import type { MarkdownHeading } from "astro";
 import TOCHeading from "./TOCHeading.astro";
+import { cn } from "@/utils/tailwind";
 
 interface Props {
 	headings: MarkdownHeading[];
+	classname?: string;
 }
 
-const { headings } = Astro.props;
+const { headings, classname } = Astro.props;
 
 const toc = generateToc(headings);
 ---
 
-<details open class="lg:sticky lg:top-12 lg:order-2 lg:-me-32 lg:basis-64">
+<details
+	open
+	class={cn(
+		"[&::-webkit-scrollbar-thumb]:bg-accent/20 hover:[&::-webkit-scrollbar-thumb]:bg-accent/30 h-[calc(100vh-20rem)] overflow-x-hidden pr-4 lg:sticky lg:top-12 lg:order-2 lg:-me-32 lg:basis-64 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent",
+		classname
+	)}
+>
 	<summary class="title hover:marker:text-accent cursor-pointer text-lg">Table of Contents</summary>
 	<nav class="ms-4 lg:w-full">
 		<ol class="mt-4">
