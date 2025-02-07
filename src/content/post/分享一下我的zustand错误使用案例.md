@@ -18,7 +18,7 @@ description: zustand 是一个状态管理库，简单易用。它可以通过�
 toAstro: true
 astroType: "post"
 date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-03T19:30:01+08:00
+date_modified: 2025-02-07T11:17:02+08:00
 banner: https://pictures.kazoottt.top/2025/02/20250201-og-1738417688145.png
 ---
 
@@ -123,15 +123,15 @@ const CurrentCamera: React.FC = () => {
 
 > [!quote]
 > Recommended patterns 推荐模式
->
+> 
 > Single store 单一存储
->
+> 
 > Your applications global state should be located in a single Zustand store.
->
+> 
 > 你的应用程序的全局状态应该位于一个单一的 Zustand 存储中。
->
+> 
 > If you have a large application, Zustand supports splitting the store into slices.
->
+> 
 > 如果你有一个大型应用程序，Zustand 支持将存储拆分为切片。
 
 ## 错误用法 4 与 UI 无关的 state 通过 selector 获取

@@ -29,7 +29,7 @@ link-notionnext: 'https://kazoottt.notion.site/ChainForge-40ec4f8d20304ce1b8c7c1
 rinId: 8
 toAstro: true
 date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-01-22T13:39:19+08:00
+date_modified: 2025-02-07T11:17:03+08:00
 ---
 
 # ChainForge 简单介绍

@@ -13,7 +13,7 @@ description:
 toAstro: true
 astroType: 
 date_created: 2025-02-06T13:02:16+08:00
-date_modified: 2025-02-06T13:48:00+08:00
+date_modified: 2025-02-07T11:17:02+08:00
 ---
 
 访问 craft.do，登录后在右上角新建 doc ，复制你要切图的长文内容到里面去。 (如果你创建数量达到上限，可以打开一个老的文档替换你新的内容）

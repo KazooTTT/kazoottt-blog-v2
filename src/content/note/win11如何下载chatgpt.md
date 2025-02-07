@@ -16,7 +16,7 @@ published: false
 category: 软件
 toAstro: true
 date_created: 2025-01-04T11:34:08+08:00
-date_modified: 2025-01-30T21:45:00+08:00
+date_modified: 2025-02-07T11:17:02+08:00
 ---
 
 打开设置 - 时间和语言 - 选择国家和地区为美国

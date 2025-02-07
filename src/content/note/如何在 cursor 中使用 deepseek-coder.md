@@ -18,7 +18,7 @@ link-notionnext: >-
   https://kazoottt.notion.site/cursor-deepseek-coder-f759bbe6aa4b4317969544927430146b
 toAstro: true
 date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-01-22T13:39:19+08:00
+date_modified: 2025-02-07T11:17:03+08:00
 ---
 
 # 如何在 cursor 中使用 deepseek-coder

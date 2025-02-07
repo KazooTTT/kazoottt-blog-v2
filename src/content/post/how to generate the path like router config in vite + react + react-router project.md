@@ -17,7 +17,7 @@ description:
 toAstro: true
 astroType: "post"
 date_created: 2025-01-14T17:31:35+08:00
-date_modified: 2025-01-22T13:39:19+08:00
+date_modified: 2025-02-07T11:25:34+08:00
 ---
 
 when i use react-router and vite, i want to config my router in the router.config.ts file and also generate some config for the target path dir. (like the nextjs router which is automatically generated based on the file structure)

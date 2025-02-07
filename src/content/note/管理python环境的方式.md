@@ -15,7 +15,7 @@ description: >-
 category: 后端
 toAstro: true
 date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-01T23:35:48+08:00
+date_modified: 2025-02-07T11:16:07+08:00
 ---
 
 # 管理 python 环境的方式

@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-05T13:21:09+08:00
-date_modified: 2025-02-05T23:07:24+08:00
+date_modified: 2025-02-07T11:17:02+08:00
 title: 使用 1password 的 secure notes 存储提示词
 date: 2025-02-05
 author: KazooTTT

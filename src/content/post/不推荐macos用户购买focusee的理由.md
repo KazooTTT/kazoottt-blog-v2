@@ -21,7 +21,7 @@ rinId: 42
 toAstro: true
 astroType: "post"
 date_created: 2024-12-17T13:34:45+08:00
-date_modified: 2025-01-22T13:39:19+08:00
+date_modified: 2025-02-07T11:17:02+08:00
 ---
 
 # 不推荐 macos 用户购买 focusee 的理由

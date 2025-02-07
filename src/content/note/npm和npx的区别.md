@@ -18,7 +18,7 @@ tags:
   - package manager
 toAstro: true
 date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-01-22T13:39:19+08:00
+date_modified: 2025-02-07T11:25:34+08:00
 ---
 
 # Npm 和 npx 的区别
