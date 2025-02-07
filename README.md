@@ -66,12 +66,12 @@
  - [2025-01-20 win11如何下载chatgpt](https://blog.kazoottt.top/notes/win11chatgpt/)
  - [2025-01-15 how to make a hollow cylinder in blender](https://blog.kazoottt.top/notes/how-to-make-a-hollow-cylinder-in-blender/)
  - [2025-01-07 在浏览器中 opengl 的配置与检测](https://blog.kazoottt.top/notes/how-to-check-opengl-configuration-and-detection-in-browser/)
- - [2025-01-06 MUV家元旦24H限定食堂 - 汇总网站](https://blog.kazoottt.top/notes/milklovemuv/)
  - [2025-01-06 2025-01-06 星期一](https://blog.kazoottt.top/notes/diary-2025-01-06/)
+ - [2025-01-06 MUV家元旦24H限定食堂 - 汇总网站](https://blog.kazoottt.top/notes/milklovemuv/)
  - [2025-01-05 whisper ui 下载模型 镜像设置](https://blog.kazoottt.top/notes/whisper-ui-download-model-mirror-setting/)
  - [2024-12-23 2024-12-23 星期一 学习 unity day01](https://blog.kazoottt.top/notes/diary-2024-12-23/)
  - [2024-12-19 2024-12-19 星期四](https://blog.kazoottt.top/notes/diary-2024-12-19/)
  - [2024-12-19 使用cloudflare部署remix项目](https://blog.kazoottt.top/notes/deploy-remix-app-by-cloudflare/)
  - [2024-12-19 合并多个PDF](https://blog.kazoottt.top/notes/merge-pdfs/)
- - [2024-12-17 Share My Incorrect Usage Cases of Zustand](https://blog.kazoottt.top/notes/share-my-incorrect-usage-case-of-zustand/)
- - [2024-12-17 react-scan的用法](https://blog.kazoottt.top/notes/react-scan/)<!-- MEMO-POST-LIST:END -->
+ - [2024-12-17 react-scan的用法](https://blog.kazoottt.top/notes/react-scan/)
+ - [2024-12-17 win11恢复win10右键的样式](https://blog.kazoottt.top/notes/win11-right-menu/)<!-- MEMO-POST-LIST:END -->
