@@ -18,3 +18,17 @@ jobs:
           date_format: "yyyy-mm-dd"	
           feed_list: "https://blog.kazoottt.top/rss.xml,"
           max_post_count: 50
+  update-readme-with-memo:
+    name: Update this repo's README with latest memo posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Pull in dev.to posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          template: $newline - [$date $title]($url)
+          date_format: "yyyy-mm-dd"	
+          feed_list: "https://blog.kazoottt.top/notes/rss.xml"
+          max_post_count: 20
+          comment_tag_name: "MEMO-POST-LIST"
