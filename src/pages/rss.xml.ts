@@ -33,7 +33,7 @@ export const GET = async () => {
 						})
 					: "",
 				author: siteConfig.author,
-				category: post.data?.category,
+				categories: post.data?.category ? [post.data.category] : [],
 			};
 		}),
 	});
