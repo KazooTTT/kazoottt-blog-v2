@@ -19,7 +19,6 @@ export const GET = async () => {
 		description: siteConfig.description,
 		site: import.meta.env.SITE,
 		items: sortedPosts.map((post) => {
-			console.log(post.data);
 			return {
 				title: post.data.title,
 				description: post.data.description ?? "",
