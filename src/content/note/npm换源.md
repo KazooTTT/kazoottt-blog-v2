@@ -1,6 +1,6 @@
 ---
 title: npm换源
-date: 2024-02-07
+date: 2024-02-07T00:00:00.000Z
 author: KazooTTT
 tags:
   - npm
@@ -12,8 +12,8 @@ description: >-
   pnpm）的源地址，以及如何使用yrm工具快速切换不同的npm源。通过执行特定的命令，用户可以轻松地管理这些工具的源设置，从而优化包的下载速度和开发效率。
 category: 前端
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 # 查看源

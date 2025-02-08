@@ -1,6 +1,6 @@
 ---
 title: html | 浏览器滚动恢复属性History.scrollRestoration
-date: 2022-11-27
+date: 2022-11-27T00:00:00.000Z
 author: KazooTTT
 tags:
   - history
@@ -19,8 +19,8 @@ rinId: 21
 finished: true
 category: 前端
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 ## 后续 2024-05-23

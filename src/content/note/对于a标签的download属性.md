@@ -1,6 +1,6 @@
 ---
 title: 对于a标签的download属性
-date: 2024-10-15
+date: 2024-10-15T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -13,8 +13,8 @@ category: 前端
 slug: the-download-attribute-for-the-a-tag
 description: download属性是如何定义的以及注意事项。 不能设置为null，可以直接设置成空串或者null。
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 ## 对于 a 标签的 download 属性

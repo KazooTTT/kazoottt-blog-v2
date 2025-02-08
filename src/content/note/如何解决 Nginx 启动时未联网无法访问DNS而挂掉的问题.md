@@ -1,8 +1,8 @@
 ---
-date_created: 2025-02-07T15:04:05+08:00
-date_modified: 2025-02-08T11:43:19+08:00
+date_created: 2025-02-07T07:04:05.000Z
+date_modified: 2025-02-08T03:43:19.000Z
 title: 如何解决 Nginx 启动时未联网无法访问DNS而挂掉的问题
-date: 2025-02-08
+date: 2025-02-08T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -12,11 +12,11 @@ tags:
   - 计算机网络
 finished: true
 published: true
-category: 
+category: null
 slug: nginx-startup-fix-configure-local-hosts-file
-description: 
+description: null
 toAstro: true
-astroType:
+astroType: null
 ---
 
 假设我们在 Nginx 配置文件中设置了如下的反向代理配置：

@@ -1,6 +1,6 @@
 ---
 title: MessAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码
-date: 2023-09-24
+date: 2023-09-24T00:00:00.000Z
 author: KazooTTT
 tags:
   - 效率
@@ -25,8 +25,8 @@ finished: true
 rinId: 61
 category: 软件
 toAstro: true
-date_created: 2024-12-02T11:03:24+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2024-12-02T03:03:24.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 # messAuto + iMessage 实现 iPhone 和 mac 信息同步和自动复制验证码

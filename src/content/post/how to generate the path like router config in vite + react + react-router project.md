@@ -1,6 +1,8 @@
 ---
-title: how to generate the path like router config in vite + react + react-router project
-date: 2025-01-14
+title: >-
+  how to generate the path like router config in vite + react + react-router
+  project
+date: 2025-01-14T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -13,11 +15,11 @@ finished: true
 published: true
 category: frontend
 slug: how-to-generate-the-path-like-router-config-in-vite-react-react-router-project
-description:
+description: null
 toAstro: true
-astroType: "post"
-date_created: 2025-01-14T17:31:35+08:00
-date_modified: 2025-02-08T11:47:21+08:00
+astroType: post
+date_created: 2025-01-14T09:31:35.000Z
+date_modified: 2025-02-08T03:47:21.000Z
 ---
 
 when i use react-router and vite, i want to config my router in the router.config.ts file and also generate some config for the target path dir. (like the nextjs router which is automatically generated based on the file structure)

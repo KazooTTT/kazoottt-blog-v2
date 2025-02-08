@@ -1,6 +1,6 @@
 ---
 title: raycast + imessage 2fa，messauto的半平替
-date: 2024-12-11
+date: 2024-12-11T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -18,14 +18,14 @@ description: >-
   2fa插件来实现iPhone和mac信息同步和自动复制验证码。最近发现作者删库了，我现在找到了一种快速获取验证码的方法。使用方法是在获取到验证码之后访问iMessage
   2fa插件，然后可以看到当前接收到的验证码，敲回车复制验证码到粘贴板。但这种方法缺点是没有messAuto方便，多了额外的步骤。
 toAstro: true
-astroType: "post"
-date_created: 2024-12-11T20:27:36+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+astroType: post
+date_created: 2024-12-11T12:27:36.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 很久之前做过一个 messauto 的安利
 
-[[messAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码]]
+[messAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码](/notes/messauto-imessage-to-synchronize-iphone-and-mac-messages-and-automatically-copy-captchagraphic-bed-edition)
 
 但是最近收到评论才发现作者在前段时间删库了
 

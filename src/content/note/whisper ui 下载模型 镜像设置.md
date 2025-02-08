@@ -1,6 +1,6 @@
 ---
 title: whisper ui 下载模型 镜像设置
-date: 2025-01-05
+date: 2025-01-05T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -13,10 +13,12 @@ finished: true
 published: true
 category: 大模型
 slug: whisper-ui-download-model-mirror-setting
-description: 在使用 whisper ui 的时候，需要下载模型，如果不做配置默认是从 huggingface 下载的，但是 huggingface 在国内访问速度很慢，所以需要配置镜像。
+description: >-
+  在使用 whisper ui 的时候，需要下载模型，如果不做配置默认是从 huggingface 下载的，但是 huggingface
+  在国内访问速度很慢，所以需要配置镜像。
 toAstro: true
-date_created: 2025-01-05T14:44:38+08:00
-date_modified: 2025-02-07T11:17:03+08:00
+date_created: 2025-01-05T06:44:38.000Z
+date_modified: 2025-02-07T03:17:03.000Z
 ---
 
 在使用 [whisper ui](https://github.com/jhj0517/Whisper-WebUI) 的时候，需要下载模型，如果不做配置默认是从 huggingface 下载的，但是 huggingface 在国内访问速度很慢，所以需要配置镜像。

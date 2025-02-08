@@ -1,6 +1,6 @@
 ---
 title: ollama + excel处理器开发总结
-date: 2025-01-07
+date: 2025-01-07T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -15,9 +15,9 @@ category: 随笔
 slug: ollama-excel-processor-development-summary
 description: 最近帮朋友写了一个 ollama + excel 处理器，写完后发现类似于飞书多维表格的 ai 功能。在开发和沟通过程中有一些感受。
 toAstro: true
-astroType: "post"
-date_created: 2025-01-07T23:09:15+08:00
-date_modified: 2025-02-07T11:16:09+08:00
+astroType: post
+date_created: 2025-01-07T15:09:15.000Z
+date_modified: 2025-02-07T03:16:09.000Z
 ---
 
 最近帮朋友写了一个 ollama + excel 处理器，写完后发现类似于飞书多维表格的 ai 功能。在开发和沟通过程中有一些感受。

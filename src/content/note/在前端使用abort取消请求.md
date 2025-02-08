@@ -1,6 +1,6 @@
 ---
 title: 在前端使用abort取消请求
-date: 2024-04-17
+date: 2024-04-17T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Draft
@@ -13,13 +13,14 @@ tags:
 finished: true
 published: true
 slug: use-abort-on-the-frontend-to-cancel-the-request
-description: 本文介绍了在不同前端框架中如何取消HTTP请求的方法。在原生JavaScript中，使用AbortController接口来实现请求的取消。在React中，通过useState和useEffect钩子管理AbortController的状态，并在组件卸载时自动取消请求。在SolidJS中，利用createSignal和onCleanup来处理AbortController，确保在需要时可以中断请求。这些方法都通过创建AbortController实例，并在fetch请求中使用其signal属性来控制请求的取消。
+description: >-
+  本文介绍了在不同前端框架中如何取消HTTP请求的方法。在原生JavaScript中，使用AbortController接口来实现请求的取消。在React中，通过useState和useEffect钩子管理AbortController的状态，并在组件卸载时自动取消请求。在SolidJS中，利用createSignal和onCleanup来处理AbortController，确保在需要时可以中断请求。这些方法都通过创建AbortController实例，并在fetch请求中使用其signal属性来控制请求的取消。
 NotionID-notionnext: 801e2fa1-dfa9-4b4f-b579-ef7f6658b9d3
-link-notionnext: https://kazoottt.notion.site/abort-801e2fa1dfa94b4fb579ef7f6658b9d3
+link-notionnext: 'https://kazoottt.notion.site/abort-801e2fa1dfa94b4fb579ef7f6658b9d3'
 rinId: 53
 toAstro: true
-date_created: 2025-01-04T11:34:08+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:34:08.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 # 在前端使用 abort 取消请求

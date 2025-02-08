@@ -1,6 +1,6 @@
 ---
 title: 如何在 Cursor 中使用 DeepSeek-Coder
-date: 2024-07-25
+date: 2024-07-25T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Draft
@@ -17,8 +17,8 @@ NotionID-notionnext: f759bbe6-aa4b-4317-9695-44927430146b
 link-notionnext: >-
   https://kazoottt.notion.site/cursor-deepseek-coder-f759bbe6aa4b4317969544927430146b
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:03+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:03.000Z
 ---
 
 # 如何在 cursor 中使用 deepseek-coder

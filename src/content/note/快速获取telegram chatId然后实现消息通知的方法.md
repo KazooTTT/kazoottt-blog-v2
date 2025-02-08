@@ -1,6 +1,6 @@
 ---
 title: 快速获取telegram chatId然后实现消息通知的方法
-date: 2023-09-14
+date: 2023-09-14T00:00:00.000Z
 author: KazooTTT
 tags:
   - telegram
@@ -15,8 +15,8 @@ description: >-
 rinId: 20
 category: 前端
 toAstro: true
-date_created: 2024-12-17T13:34:45+08:00
-date_modified: 2025-01-22T13:39:19+08:00
+date_created: 2024-12-17T05:34:45.000Z
+date_modified: 2025-01-22T05:39:19.000Z
 ---
 
 # 快速获取 telegram chatId 然后实现消息通知的方法

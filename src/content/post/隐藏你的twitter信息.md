@@ -1,6 +1,6 @@
 ---
 title: 油猴脚本-隐藏你的twitter信息
-date: 2023-03-16
+date: 2023-03-16T00:00:00.000Z
 author: KazooTTT
 tags:
   - 油猴脚本
@@ -16,9 +16,9 @@ finished: true
 rinId: 125
 category: 项目
 toAstro: true
-astroType: "post"
-date_created: 2024-12-02T11:03:24+08:00
-date_modified: 2025-02-07T11:16:09+08:00
+astroType: post
+date_created: 2024-12-02T03:03:24.000Z
+date_modified: 2025-02-07T03:16:09.000Z
 ---
 
 # Hide-your-twitter-info

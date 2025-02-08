@@ -1,6 +1,8 @@
 ---
-title: Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback forcibly
-date: 2024-05-25
+title: >-
+  Possible Causes and Solutions for Focusee Switching System Audio to Speaker
+  Playback forcibly
+date: 2024-05-25T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Draft
@@ -11,15 +13,22 @@ tags:
   - BlackHole2ch
 finished: true
 published: true
-slug: possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly-en
-description: 如果你想使用Focusee录制系统音，首先需要安装Gemoo Speaker，安装后可以将输出设备更改为Gemoo Speaker，并用它录制系统音。但是，注意不要在安装Gemoo Speaker的过程中也安装BlackHole2ch，这可能会导致无法正确录制音频。解释安装BlackHole2ch的方法是删除与其相关的文件夹。 如果你需要录制系统音时，可以使用OBS。首先，添加屏幕捕获源，然后选择是否要录制桌面音或应用音。 如果你需要录制系统音时，可以使用OBS。首先，添加屏幕捕获源然后选择是否要录制桌面音或应用音。
+slug: >-
+  possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly-en
+description: >-
+  如果你想使用Focusee录制系统音，首先需要安装Gemoo Speaker，安装后可以将输出设备更改为Gemoo
+  Speaker，并用它录制系统音。但是，注意不要在安装Gemoo
+  Speaker的过程中也安装BlackHole2ch，这可能会导致无法正确录制音频。解释安装BlackHole2ch的方法是删除与其相关的文件夹。
+  如果你需要录制系统音时，可以使用OBS。首先，添加屏幕捕获源，然后选择是否要录制桌面音或应用音。
+  如果你需要录制系统音时，可以使用OBS。首先，添加屏幕捕获源然后选择是否要录制桌面音或应用音。
 NotionID-notionnext: 80f19b4c-d207-45a0-bbbb-39641a9dc330
-link-notionnext: https://kazoottt.notion.site/Possible-Causes-and-Solutions-for-Focusee-Switching-System-Audio-to-Speaker-Playback-forcibly-80f19b4cd20745a0bbbb39641a9dc330
+link-notionnext: >-
+  https://kazoottt.notion.site/Possible-Causes-and-Solutions-for-Focusee-Switching-System-Audio-to-Speaker-Playback-forcibly-80f19b4cd20745a0bbbb39641a9dc330
 rinId: 39
 category: 软件
 toAstro: true
-date_created: 2024-12-02T11:03:21+08:00
-date_modified: 2025-02-07T11:46:35+08:00
+date_created: 2024-12-02T03:03:21.000Z
+date_modified: 2025-02-07T03:46:35.000Z
 ---
 
 # Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback Forcibly

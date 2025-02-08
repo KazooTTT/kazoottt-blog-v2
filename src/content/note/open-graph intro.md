@@ -1,26 +1,34 @@
 ---
 title: open graph introduction
-date: 2024-04-09
+date: 2024-04-09T00:00:00.000Z
 author: KazooTTT
 tags: []
 finished: true
 published: true
 slug: open-graph-en
-description: Open Graph is a protocol introduced by Facebook in 2010, designed to enhance the display of preview cards when sharing links on social networks like Twitter. It allows websites to control how their content appears when shared, differentiating between links that show previews and those that do not. Twitter also has its own card system, which takes precedence over Open Graph if both are present. Tools like OpenGraph.xyz and opengraph.dev help in previewing and generating Open Graph meta tags for better social media sharing.
+description: >-
+  Open Graph is a protocol introduced by Facebook in 2010, designed to enhance
+  the display of preview cards when sharing links on social networks like
+  Twitter. It allows websites to control how their content appears when shared,
+  differentiating between links that show previews and those that do not.
+  Twitter also has its own card system, which takes precedence over Open Graph
+  if both are present. Tools like OpenGraph.xyz and opengraph.dev help in
+  previewing and generating Open Graph meta tags for better social media
+  sharing.
 NotionID-notionnext: 96e4d436-6fd9-4fec-865c-ac2d80b06be0
-link-notionnext: https://kazoottt.notion.site/open-graph-intro-96e4d4366fd94fec865cac2d80b06be0
+link-notionnext: 'https://kazoottt.notion.site/open-graph-intro-96e4d4366fd94fec865cac2d80b06be0'
 rinId: 17
 category: 前端
 toAstro: true
-date_created: 2024-12-02T11:03:21+08:00
-date_modified: 2025-02-07T11:47:25+08:00
+date_created: 2024-12-02T03:03:21.000Z
+date_modified: 2025-02-07T03:47:25.000Z
 ---
 
 ``
 
 # Open-graph Intro
 
-[[open graph 简述]]
+[open graph 简述](/notes/open-graph)
 
 ## Scenario
 

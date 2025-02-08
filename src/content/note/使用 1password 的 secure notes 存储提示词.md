@@ -1,8 +1,8 @@
 ---
-date_created: 2025-02-05T13:21:09+08:00
-date_modified: 2025-02-08T13:58:33+08:00
+date_created: 2025-02-05T05:21:09.000Z
+date_modified: 2025-02-08T05:58:33.000Z
 title: 使用 1password 的 secure notes 存储提示词
-date: 2025-02-05
+date: 2025-02-05T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -16,7 +16,7 @@ finished: false
 published: false
 category: 软件
 slug: use-1password-secure-notes-to-store-prompt-templates
-description:
+description: null
 toAstro: true
 ---
 

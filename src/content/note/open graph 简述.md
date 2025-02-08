@@ -1,6 +1,6 @@
 ---
 title: open graph简述
-date: 2024-04-09
+date: 2024-04-09T00:00:00.000Z
 author: KazooTTT
 tags: []
 finished: true
@@ -16,8 +16,8 @@ link-notionnext: 'https://kazoottt.notion.site/open-graph-76ed52a0ad58401c8a5dc5
 rinId: 16
 category: 前端
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 # Open Graph 简述

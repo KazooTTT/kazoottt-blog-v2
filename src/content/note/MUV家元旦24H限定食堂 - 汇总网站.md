@@ -1,6 +1,6 @@
 ---
 title: MUV家元旦24H限定食堂 - 汇总网站
-date: 2025-01-06
+date: 2025-01-06T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -14,10 +14,10 @@ finished: true
 published: true
 category: 项目
 slug: milklovemuv
-description: 
+description: null
 toAstro: true
-date_created: 2025-01-06T10:02:35+08:00
-date_modified: 2025-01-22T13:39:24+08:00
+date_created: 2025-01-06T02:02:35.000Z
+date_modified: 2025-01-22T05:39:24.000Z
 ---
 
 [MUV家元旦24H限定食堂 - 汇总](https://milklovemuv.com/)

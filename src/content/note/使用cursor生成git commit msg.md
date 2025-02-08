@@ -1,6 +1,6 @@
 ---
 title: 使用cursor生成git commit msg
-date: 2024-11-12
+date: 2024-11-12T00:00:00.000Z
 author: KazooTTT
 tags:
   - 笔记
@@ -13,8 +13,8 @@ description: |-
   然后，按下Command+K输入“git commit message”即可成功提交。
 slug: cursorgit-commit-msg
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:03+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:03.000Z
 ---
 
 原文参考：

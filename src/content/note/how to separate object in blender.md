@@ -1,15 +1,17 @@
 ---
-date_created: 2025-01-20T09:56:29+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2025-01-20T01:56:29.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 slug: how-to-separate-object-in-blender
 tags:
   - Blender
   - 3D Modeling
   - Mesh Editing
   - Shortcut Keys
-description: Step-by-step guide to separating objects in Blender using three different methods
+description: >-
+  Step-by-step guide to separating objects in Blender using three different
+  methods
 title: How to Separate Objects in Blender
-date: 2025-01-20
+date: 2025-01-20T00:00:00.000Z
 author: KazooTTT
 type: Tutorial
 status: Published

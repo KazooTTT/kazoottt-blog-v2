@@ -1,6 +1,6 @@
 ---
 title: 可以免费领取tokens的大模型服务
-date: 2024-06-20
+date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -18,8 +18,8 @@ NotionID-notionnext: 30a20483-ea28-4daf-b8be-155f0e690bc7
 link-notionnext: 'https://kazoottt.notion.site/tokens-30a20483ea284dafb8be155f0e690bc7'
 rinId: 43
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:03+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:03.000Z
 ---
 
 # 可以免费领取 tokens 的大模型服务

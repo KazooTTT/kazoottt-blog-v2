@@ -1,6 +1,6 @@
 ---
 title: 在vtk.js中stl和json的互相转化
-date: 2024-11-22
+date: 2024-11-22T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -23,8 +23,8 @@ create_time: '2024/11/22 13:35:36'
 update_time: '2024/11/22 14:40:08'
 publish_time: '2024/11/22 14:38:29'
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:03+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:03.000Z
 ---
 
 ## stl 如何转为 json

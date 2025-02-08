@@ -1,6 +1,6 @@
 ---
 title: 如何快速导出vercel project中的环境变量
-date: 2024-02-23
+date: 2024-02-23T00:00:00.000Z
 author: KazooTTT
 tags:
   - vercel
@@ -12,8 +12,8 @@ description: >-
 rinId: 3
 category: 前端
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 # 如何快速导出 vercel Project 中的环境变量

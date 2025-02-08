@@ -1,6 +1,6 @@
 ---
 title: 不推荐macOS用户购买focusee的理由
-date: 2024-06-20
+date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Draft
@@ -16,12 +16,12 @@ category: 软件
 slug: focusee-macos-review
 description: 分析了Focusee在macOS上的缺陷，包括色差严重、导出速度慢以及声卡配置冲突等问题，并分享了作者的退款经历。
 NotionID-notionnext: c6b6e2f5-9da1-43f9-b531-b07d974815ed
-link-notionnext: https://kazoottt.notion.site/macos-focusee-c6b6e2f59da143f9b531b07d974815ed
+link-notionnext: 'https://kazoottt.notion.site/macos-focusee-c6b6e2f59da143f9b531b07d974815ed'
 rinId: 42
 toAstro: true
-astroType: "post"
-date_created: 2024-12-17T13:34:45+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+astroType: post
+date_created: 2024-12-17T05:34:45.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 # 不推荐 macos 用户购买 focusee 的理由
@@ -67,7 +67,7 @@ date_modified: 2025-02-07T11:17:02+08:00
 
 Focusee 的声卡设置会与我系统中的其他虚拟声卡产生冲突，可能会导致声音输出的声音被强制切换为扬声器，无法切换回耳机。
 
-问题排查和解决方法：[[focusee录制系统声音被强制切换为扬声器播放的可能原因和解决方法]]
+问题排查和解决方法：[focusee录制系统声音被强制切换为扬声器播放的可能原因和解决方法](/notes/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly)
 
 [focusee录制系统声音被强制切换为扬声器播放的可能原因和解决方法](https://www.kazoottt.top/article/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly-zh)
 

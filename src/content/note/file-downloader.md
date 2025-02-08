@@ -1,6 +1,6 @@
 ---
 title: file-downloader
-date: 2024-02-18
+date: 2024-02-18T00:00:00.000Z
 author: KazooTTT
 tags:
   - file-downloader
@@ -18,8 +18,8 @@ description: >-
 rinId: 63
 category: 项目
 toAstro: true
-date_created: 2024-12-17T13:34:45+08:00
-date_modified: 2025-01-22T13:39:24+08:00
+date_created: 2024-12-17T05:34:45.000Z
+date_modified: 2025-01-22T05:39:24.000Z
 ---
 
 # File Download

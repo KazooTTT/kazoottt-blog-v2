@@ -1,6 +1,6 @@
 ---
 title: shot.so
-date: 2023-09-17
+date: 2023-09-17T00:00:00.000Z
 author: KazooTTT
 tags:
   - 软件推荐
@@ -10,12 +10,13 @@ tags:
 finished: true
 published: true
 slug: shotso-image-beautification-tool
-description: shot.so是一个图片美化工具，主要用于快速美化截图。它支持设备模拟，允许用户修改阴影、边框、比例等属性。该工具内置了大量免费模板，方便用户快速创建精美的图片效果。
+description: >-
+  shot.so是一个图片美化工具，主要用于快速美化截图。它支持设备模拟，允许用户修改阴影、边框、比例等属性。该工具内置了大量免费模板，方便用户快速创建精美的图片效果。
 rinId: 62
 category: 软件
 toAstro: true
-date_created: 2024-12-02T11:03:24+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2024-12-02T03:03:24.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 # shot.so - 图片美化工具

@@ -1,6 +1,6 @@
 ---
 title: 再次学习History.scrollRestoration
-date: 2024-05-23
+date: 2024-05-23T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -21,8 +21,8 @@ link-notionnext: >-
   https://kazoottt.notion.site/History-scrollRestoration-b5838d05d2234a6db92ce284c5e5a2ce
 rinId: 18
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 ---
 
 # 再次学习 History.scrollRestoration

@@ -1,6 +1,6 @@
 ---
 title: npm和npx的区别
-date: 2023-09-06
+date: 2023-09-06T00:00:00.000Z
 author: KazooTTT
 finished: false
 published: true
@@ -17,8 +17,8 @@ tags:
   - CLI
   - package manager
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 # Npm 和 npx 的区别

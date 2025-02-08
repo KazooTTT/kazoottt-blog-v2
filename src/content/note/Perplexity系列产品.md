@@ -1,6 +1,6 @@
 ---
 title: Perplexity系列产品
-date: 2024-09-04
+date: 2024-09-04T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -18,8 +18,8 @@ description: 概述Perplexity系列产品，包括搜索引擎、Playground和�
 NotionID-notionnext: ae2fba46-af30-4bd5-b6d0-fe751c162800
 link-notionnext: 'https://kazoottt.notion.site/01-Perplexity-ae2fba46af304bd5b6d0fe751c162800'
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:17:03+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:17:03.000Z
 ---
 
 # Perplexity 系列产品

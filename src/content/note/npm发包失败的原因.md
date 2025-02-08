@@ -1,6 +1,6 @@
 ---
 title: npm发包失败的原因
-date: 2024-02-18
+date: 2024-02-18T00:00:00.000Z
 author: KazooTTT
 tags:
   - npm
@@ -14,8 +14,8 @@ description: >-
 rinId: 73
 category: 前端
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 # Npm 发包失败的原因
@@ -24,7 +24,7 @@ date_modified: 2025-02-07T11:25:34+08:00
 
 1. 当前的账号没有发包权限。（比如没有某个包或者某个 scope 的权限）
 2. 当前的包名不符合规范。（需要 URL-safe characters）
-3. 当前的包名是屏蔽词。（例如 download [[npm发包失败的原因#npm包名屏蔽词]])
+3. 当前的包名是屏蔽词。（例如 download [npm发包失败的原因#npm包名屏蔽词](/notes/reasons-why-npm-fails-to-send-packages))
 4. 可能是当前的 npm 设置了镜像地址，而不是原始的 npm 地址，导致 login 的时候无法登录从而无法发布。解决方法就是在发布的时候先切换为原始的 npm 地址，再发布。
 5. 其他（后续遇到了再补充）
 

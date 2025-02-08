@@ -1,6 +1,6 @@
 ---
-date_created: 2025-01-31T21:07:18+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_created: 2025-01-31T13:07:18.000Z
+date_modified: 2025-02-07T03:17:02.000Z
 slug: blender-macos-steam-version-limitations
 tags:
   - Blender
@@ -8,9 +8,11 @@ tags:
   - macOS
   - Apple Silicon
   - Software Compatibility
-description: Important considerations when installing Blender via Steam on macOS for Apple Silicon devices
+description: >-
+  Important considerations when installing Blender via Steam on macOS for Apple
+  Silicon devices
 title: Blender on macOS - Steam Version Limitations for Apple Silicon Devices
-date: 2025-01-31
+date: 2025-01-31T00:00:00.000Z
 author: KazooTTT
 type: Technical Note
 status: Published

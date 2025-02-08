@@ -1,6 +1,6 @@
 ---
 title: 在react中不要滥用 &&
-date: 2024-10-16
+date: 2024-10-16T00:00:00.000Z
 author: KazooTTT
 tags:
   - bug
@@ -19,8 +19,8 @@ NotionID-notionnext: 12b55568-fd75-815c-ba9c-ff587a86a262
 link-notionnext: >-
   https://kazoottt.notion.site/react-short-circuit-12b55568fd75815cba9cff587a86a262
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 ## 错误现象

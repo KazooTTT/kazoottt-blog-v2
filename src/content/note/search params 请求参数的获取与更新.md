@@ -1,6 +1,6 @@
 ---
 title: search params 请求参数
-date: 2024-11-13
+date: 2024-11-13T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -15,17 +15,16 @@ category: 前端
 slug: search-params
 description: >-
   React Router 的 `useSearchParams` Hook 提供了一个内建的 API，允许直接获取查询参数的值，比如 `.get()`,
-  `.set()`, `.append()` 等。该 hook 可以帮助开发者轻松地处理 URL 中的 query parameters。
-  使用 `qs` 库和 `window.location.search` 的方法也是可以实现解析 query parameters
+  `.set()`, `.append()` 等。该 hook 可以帮助开发者轻松地处理 URL 中的 query parameters。 使用 `qs`
+  库和 `window.location.search` 的方法也是可以实现解析 query parameters
   的效果。但需要注意的是，`qs.parse(window.location.search)`
-  会将带有问号的字符串直接返回，而不对其进行处理。在正确的情况下，将需要手动去掉问号，以得到期望的结果。
-  React Router 的 `useSearchParams` Hook 和 `qs` 库结合使用，可以帮助开发者更容易地管理 URL 中的 query
-  parameters。
+  会将带有问号的字符串直接返回，而不对其进行处理。在正确的情况下，将需要手动去掉问号，以得到期望的结果。 React Router 的
+  `useSearchParams` Hook 和 `qs` 库结合使用，可以帮助开发者更容易地管理 URL 中的 query parameters。
 NotionID-notionnext: 13d55568-fd75-81f5-be1b-e0a4f8137355
 link-notionnext: 'https://kazoottt.notion.site/search-params-13d55568fd7581f5be1be0a4f8137355'
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 ## react router `useSearchParams`

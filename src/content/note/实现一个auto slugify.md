@@ -1,6 +1,6 @@
 ---
 title: 实现一个auto slugify
-date: 2024-02-20
+date: 2024-02-20T00:00:00.000Z
 author: KazooTTT
 tags:
   - slug
@@ -15,8 +15,8 @@ description: >-
 rinId: 65
 category: 项目
 toAstro: true
-date_created: 2024-12-02T11:03:24+08:00
-date_modified: 2025-01-22T13:39:24+08:00
+date_created: 2024-12-02T03:03:24.000Z
+date_modified: 2025-01-22T05:39:24.000Z
 ---
 
 # Auto Slugify Webapp

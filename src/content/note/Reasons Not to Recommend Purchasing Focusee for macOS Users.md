@@ -1,6 +1,6 @@
 ---
 title: Reasons Not to Recommend Purchasing Focusee for macOS Users
-date: 2024-06-20
+date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 type: Post
 status: Published
@@ -16,13 +16,17 @@ finished: true
 published: true
 category: 软件
 slug: focusee-macos-review-en
-description: An analysis of Focusee's shortcomings on macOS, including severe color discrepancies, slow export speed, and sound card configuration conflicts, along with the author's refund experience.
+description: >-
+  An analysis of Focusee's shortcomings on macOS, including severe color
+  discrepancies, slow export speed, and sound card configuration conflicts,
+  along with the author's refund experience.
 NotionID-notionnext: c692f30c-bcbc-48fd-9739-19e23a3e1e40
-link-notionnext: https://kazoottt.notion.site/Reasons-Not-to-Recommend-Purchasing-Focusee-for-macOS-Users-c692f30cbcbc48fd973919e23a3e1e40
+link-notionnext: >-
+  https://kazoottt.notion.site/Reasons-Not-to-Recommend-Purchasing-Focusee-for-macOS-Users-c692f30cbcbc48fd973919e23a3e1e40
 rinId: 40
 toAstro: true
-date_created: 2024-12-02T11:03:21+08:00
-date_modified: 2025-02-07T11:47:10+08:00
+date_created: 2024-12-02T03:03:21.000Z
+date_modified: 2025-02-07T03:47:10.000Z
 ---
 
 # Reasons Not to Recommend Purchasing Focusee for macOS Users
@@ -67,7 +71,7 @@ The slowness is quite noticeable. My configuration is a Mac Mini M2 Pro, and whe
 
 Focusee's sound card settings conflict with other virtual sound cards on my system, possibly causing the sound output to be forcibly switched to speakers, and I can't switch back to headphones.
 
-Issue troubleshooting and solutions: [[Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback forcibly]]
+Issue troubleshooting and solutions: [Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback forcibly](/notes/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly-en)
 
 [Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback forcibly](https://www.kazoottt.top/article/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly)
 

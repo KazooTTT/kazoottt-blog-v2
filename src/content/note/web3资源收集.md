@@ -8,15 +8,15 @@ description: >-
   v2的详细解析，为学习和研究Web3提供了丰富的资料。
 rinId: 13
 finished: true
-date: 2024-02-07
+date: 2024-02-07T00:00:00.000Z
 category: web3
 tags:
   - 比特币
   - 以太坊
   - 区块链
 toAstro: true
-date_created: 2025-01-04T11:44:53+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_created: 2025-01-04T03:44:53.000Z
+date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 # web3 资源收集
