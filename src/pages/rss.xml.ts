@@ -18,20 +18,24 @@ export const GET = async () => {
 		title: siteConfig.title,
 		description: siteConfig.description,
 		site: import.meta.env.SITE,
-		items: sortedPosts.map((post) => ({
-			title: post.data.title,
-			description: post.data.description ?? "",
-			pubDate: post.data.date,
-			link: `posts/${post.id}/`,
-			content: post.body
-				? sanitizeHtml(parser.render(post.body), {
-						allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
-						textFilter: function (text: string) {
-							return text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F\uFFF0-\uFFFF]/g, "");
-						},
-					})
-				: "",
-			author: siteConfig.author,
-		})),
+		items: sortedPosts.map((post) => {
+			console.log(post.data);
+			return {
+				title: post.data.title,
+				description: post.data.description ?? "",
+				pubDate: post.data.date,
+				link: `posts/${post.id}/`,
+				content: post.body
+					? sanitizeHtml(parser.render(post.body), {
+							allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+							textFilter: function (text: string) {
+								return text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F\uFFF0-\uFFFF]/g, "");
+							},
+						})
+					: "",
+				author: siteConfig.author,
+				category: post.data?.category,
+			};
+		}),
 	});
 };

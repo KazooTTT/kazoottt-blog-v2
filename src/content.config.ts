@@ -17,7 +17,6 @@ const post = defineCollection({
 			draft: z.boolean().default(false),
 			banner: z.string().optional(),
 			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
-			categories: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 			date: z.union([z.string(), z.date()]).transform((val) => new Date(val)),
 			date_modified: z.date().optional(),
 			data_created: z.date().optional(),
