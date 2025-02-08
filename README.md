@@ -26,32 +26,7 @@
  - [2024-07-08 端午去广州玩了](https://blog.kazoottt.top/posts/duanwu-guangzhou-trip/)
  - [2024-07-01 如何自动同步某个文件夹的图片到某个相册中](https://blog.kazoottt.top/posts/auto-sync-folder-to-album/)
  - [2024-06-26 2024-W03-推荐阅读篇](https://blog.kazoottt.top/posts/2024-W03-recommended-readings/)
- - [2024-06-26 2024-W03-设计篇](https://blog.kazoottt.top/posts/2024-W03-design/)
- - [2024-06-26 2024-W03-应用推荐篇](https://blog.kazoottt.top/posts/2024-W03-application-recommendations/)
- - [2024-06-26 2024-W03-AI专题](https://blog.kazoottt.top/posts/2024-W03-ai-topics/)
- - [2024-06-26 写一个油猴脚本，自动地选择最新微博](https://blog.kazoottt.top/posts/write-an-oil-monkey-script-that-automatically-selects-the-latest-tweets/)
- - [2024-06-20 不推荐macOS用户购买focusee的理由](https://blog.kazoottt.top/posts/focusee-macos-review/)
- - [2024-04-26 2024-W17](https://blog.kazoottt.top/posts/2024-W17/)
- - [2024-04-12 2024-W16](https://blog.kazoottt.top/posts/2024-W16/)
- - [2024-04-12 2024-W19](https://blog.kazoottt.top/posts/2024-W19/)
- - [2024-04-12 2024-W25](https://blog.kazoottt.top/posts/2024-W25/)
- - [2024-04-12 2024-W15](https://blog.kazoottt.top/posts/2024-W15/)
- - [2024-04-11 前端入门的项目](https://blog.kazoottt.top/posts/projects-to-get-started-on-the-front-end/)
- - [2024-04-01 如何实现在markdown中渲染iframe](https://blog.kazoottt.top/posts/how-to-render-iframes-in-markdown/)
- - [2024-03-23 一次很突然的香港之行](https://blog.kazoottt.top/posts/a-very-abrupt-trip-to-hong-kong/)
- - [2024-02-23 2024-W08 推荐一些软件](https://blog.kazoottt.top/posts/2024-W08/)
- - [2024-02-22 厦门探店合集](https://blog.kazoottt.top/posts/national-day-xiamen-and-hangzhou-travel-store-collection/)
- - [2024-01-23 一次受骗经历](https://blog.kazoottt.top/posts/an-experience-of-deception/)
- - [2024-01-11 2024-W02](https://blog.kazoottt.top/posts/2024-W02/)
- - [2024-01-07 2023跨年](https://blog.kazoottt.top/posts/2023-crossing/)
- - [2024-01-07 Y4-2023年度总结](https://blog.kazoottt.top/posts/summary-of-fy2023/)
- - [2023-11-19 2023-W46 开始接触理财和web3 2023-11-19](https://blog.kazoottt.top/posts/2023-W46/)
- - [2023-11-19 2023-W45 平淡的一周](https://blog.kazoottt.top/posts/2023-W45/)
- - [2023-11-14 2023-W11](https://blog.kazoottt.top/posts/2023-W11/)
- - [2023-10-08 国庆厦门和杭州之行](https://blog.kazoottt.top/posts/national-day-trip-to-xiamen-and-hangzhoupicture-bed-version/)
- - [2023-03-16 油猴脚本-隐藏你的twitter信息](https://blog.kazoottt.top/posts/hide-your-twitter-messages/)
- - [2023-03-06 2023-W10](https://blog.kazoottt.top/posts/2023-W10/)
- - [2023-01-03 Y2-2021年度总结](https://blog.kazoottt.top/posts/y2-2021-annual-summary/)<!-- BLOG-POST-LIST:END -->
+ - [2024-06-26 2024-W03-设计篇](https://blog.kazoottt.top/posts/2024-W03-design/)<!-- BLOG-POST-LIST:END -->
 
 ## Memos
 <!-- MEMO-POST-LIST:START -->
