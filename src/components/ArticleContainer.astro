@@ -8,7 +8,7 @@ export interface Props {
 const { className = "", dataPagefindBody = true } = Astro.props;
 ---
 
-<article class={`${className}`} data-pagefind-body={dataPagefindBody}>
+<article class={`${className} w-full`} data-pagefind-body={dataPagefindBody}>
 	<slot />
 
 	<div id="myModal" class="modal">

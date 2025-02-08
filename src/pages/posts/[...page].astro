@@ -85,12 +85,14 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 			<Pagination {...paginationProps} />
 		</div>
 
-		<aside class="flex flex-col gap-2">
+		<aside class="flex flex-col gap-8">
 			{
 				!!uniqueTags.length && (
 					<div>
 						<h2 class="title mb-4 flex items-center gap-2 text-lg">
-							Tags
+							<a href="/tags/" class="hover:text-link cactus-link">
+								Tags
+							</a>
 							<svg
 								aria-hidden="true"
 								class="h-6 w-6"
@@ -119,12 +121,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 								</li>
 							))}
 						</ul>
-						<span class="mt-4 block sm:text-end">
-							<a class="hover:text-link" href="/tags/">
-								View all <span aria-hidden="true">→</span>
-								<span class="sr-only">blog tags</span>
-							</a>
-						</span>
 					</div>
 				)
 			}
@@ -133,7 +129,9 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 				!!uniqueCategories.length && (
 					<div>
 						<h2 class="title mb-4 flex items-center gap-2 text-lg">
-							Categories
+							<a href="/categories/" class="hover:text-link cactus-link">
+								Categories
+							</a>
 							<svg
 								aria-hidden="true"
 								class="h-6 w-6"
@@ -165,12 +163,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 								</li>
 							))}
 						</ul>
-						<span class="mt-4 block sm:text-end">
-							<a class="hover:text-link" href="/categories/">
-								View all <span aria-hidden="true">→</span>
-								<span class="sr-only">blog categories</span>
-							</a>
-						</span>
 					</div>
 				)
 			}
