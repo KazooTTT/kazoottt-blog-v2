@@ -51,7 +51,7 @@
  - [2023-10-08 国庆厦门和杭州之行](https://blog.kazoottt.top/posts/national-day-trip-to-xiamen-and-hangzhoupicture-bed-version/)
  - [2023-03-16 油猴脚本-隐藏你的twitter信息](https://blog.kazoottt.top/posts/hide-your-twitter-messages/)
  - [2023-03-06 2023-W10](https://blog.kazoottt.top/posts/2023-W10/)
- - [2023-01-03 Y2-2021年度总结](https://blog.kazoottt.top/posts/y2-2021-annual-summary/)<!-- BLOG-POST-LIST:END -->
+ - [2023-01-03 Y3-2022年度总结](https://blog.kazoottt.top/posts/y3-2022-annual-summary/)<!-- BLOG-POST-LIST:END -->
 
 ## Memos
 <!-- MEMO-POST-LIST:START -->
