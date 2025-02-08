@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import Note from "@/components/note/Note.astro";
 import PageLayout from "@/layouts/Base.astro";
 import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+import { siteConfig } from "@/site.config";
 
 // if you're using an adaptor in SSR mode, getStaticPaths wont work -> https://docs.astro.build/en/guides/routing/#modifying-the-slug-example-for-ssr
 export const getStaticPaths = (async () => {
@@ -20,7 +21,8 @@ const { note } = Astro.props;
 
 const meta = {
 	description:
-		note.data.description || `Read about my note posted on: ${note.data.date.toLocaleDateString()}`,
+		note.data.description ||
+		`Read about my note posted on ${siteConfig.title} (${siteConfig.description}) at ${note.data.date.toLocaleDateString()} by ${siteConfig.author}`,
 	title: note.data.title,
 	tags: note.data.tags.join(", "),
 };

@@ -89,6 +89,18 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 
 <meta name="baidu-site-verification" content="codeva-ZWUil8ENc0" />
 <meta name="google-adsense-account" content="ca-pub-6184816340945344" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F4KLD4XCDB"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("js", new Date());
+
+	gtag("config", "G-F4KLD4XCDB");
+</script>
+
 <script
 	async
 	src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6184816340945344"
@@ -107,17 +119,6 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 		y = l.getElementsByTagName(r)[0];
 		y.parentNode.insertBefore(t, y);
 	})(window, document, "clarity", "script", "kvbyuhu6d2");
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F4KLD4XCDB"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag("js", new Date());
-
-	gtag("config", "G-F4KLD4XCDB");
 </script>
 
 <meta content={Astro.generator} name="generator" />
