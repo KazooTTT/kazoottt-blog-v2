@@ -22,12 +22,14 @@ rinId: 50
 category: 软件
 toAstro: true
 date_created: 2024-12-02T11:03:24+08:00
-date_modified: 2025-02-07T11:17:02+08:00
+date_modified: 2025-02-08T13:54:45+08:00
 ---
 
 # Tweet to Image 输入推特链接生成对应的图片
 
 [Perfect Twitter Screenshots - TweetPik](https://tweethunter.io/tweetpik)
+
+（不太好用）
 
 ![Pasted image 20240626165118](https://pictures.kazoottt.top/2024/06/20240626-107e2d31780d2e0e825f4f83caff1e21.png)
 

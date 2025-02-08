@@ -17,7 +17,7 @@ description:
 toAstro: true
 astroType: "post"
 date_created: 2025-01-14T17:31:35+08:00
-date_modified: 2025-02-07T11:25:34+08:00
+date_modified: 2025-02-08T11:47:21+08:00
 ---
 
 when i use react-router and vite, i want to config my router in the router.config.ts file and also generate some config for the target path dir. (like the nextjs router which is automatically generated based on the file structure)
@@ -175,5 +175,7 @@ function App() {
 ## summary
 
 this is a simple way to generate the path like router config for the target path dir in the vite + react + react-router project.
+
+if you want to see a demo, you can see the [demo repo](https://github.com/KazooTTT/vtkjs-react-demos).
 
 if you want to know more about the `vite-plugin-pages` plugin, you can see the [github repo](https://github.com/hannoeru/vite-plugin-pages).
