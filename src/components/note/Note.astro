@@ -5,6 +5,7 @@ import type { HTMLTag, Polymorphic } from "astro/types";
 import GiscusComment from "@/components/componentsBefore/GiscusComment";
 import ArticleContainer from "../ArticleContainer.astro";
 import ShareButtons from "../ShareButtons.astro";
+import ContentFooter from "../ContentFooter.astro";
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
 	note: CollectionEntry<"note">;
 	isPreview?: boolean | undefined;
@@ -78,4 +79,12 @@ if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 			</div>
 		)
 	}
+	{
+		!isPreview && (
+			<div class="mt-8 border-t pt-4">
+				<ShareButtons />
+			</div>
+		)
+	}
+	{!isPreview && <ContentFooter />}
 </ArticleContainer>

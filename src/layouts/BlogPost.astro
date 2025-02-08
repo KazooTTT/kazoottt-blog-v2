@@ -8,6 +8,7 @@ import GiscusComment from "@/components/componentsBefore/GiscusComment";
 import BaseLayout from "./Base.astro";
 import ArticleContainer from "@/components/ArticleContainer.astro";
 import ShareButtons from "@/components/ShareButtons.astro";
+import ContentFooter from "@/components/ContentFooter.astro";
 
 interface Props {
 	post: CollectionEntry<"post">;
@@ -51,6 +52,7 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 				>
 					<slot />
 					<WebMentions />
+					<ContentFooter />
 					<GiscusComment client:load />
 					<div class="mt-8 border-t pt-4">
 						<ShareButtons />
@@ -73,6 +75,7 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 				<WebMentions />
 			</div>
 		</div>
+		<ContentFooter />
 		<GiscusComment client:load />
 		<div class="mt-8 border-t pt-4">
 			<ShareButtons />

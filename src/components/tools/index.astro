@@ -1,6 +1,12 @@
 ---
 import CategorySection from "@/components/componentsBefore/CategorySection.astro";
 
+type Props = {
+	enableCollapse?: boolean;
+	defaultOpen?: boolean;
+};
+const { enableCollapse = false, defaultOpen = false } = Astro.props;
+
 const SOFTWARE_TOOLS = {
 	development: {
 		title: "Development",
@@ -372,21 +378,38 @@ const DEVICES = {
 ---
 
 <div class="w-full">
-	<div class="mt-5 flex w-full flex-col gap-y-10">
+	<div class="mt-5 flex w-full flex-col gap-y-4">
 		<div>
 			<h1 class="mb-1 text-2xl font-bold">Tools & Devices</h1>
-			<p>Tools, software, and devices I use daily</p>
-			<p>
-				more details in <a
-					class="cactus-link inline-block"
-					href="/posts/personal-tools-and-equipment-inventory-202502"
-					rel="noreferrer"
-					target="_blank">个人工具与设备清单</a
-				>
-			</p>
+			<div class="prose prose-base prose-cactus max-w-none">
+				<p>
+					Tools, software, and devices I use daily. more details in <a
+						class="cactus-link inline-block"
+						href="/posts/personal-tools-and-equipment-inventory-202502"
+						rel="noreferrer"
+						target="_blank">个人工具与设备清单</a
+					>
+				</p>
+			</div>
 		</div>
 
-		<CategorySection title="Software Tools" categories={Object.values(SOFTWARE_TOOLS)} />
-		<CategorySection title="Hardware Devices" categories={Object.values(DEVICES)} />
+		{
+			enableCollapse ? (
+				<details open={defaultOpen}>
+					<summary class="cursor-pointer">
+						<span class="">查看详细列表</span>
+					</summary>
+					<div class="mt-4">
+						<CategorySection title="Software Tools" categories={Object.values(SOFTWARE_TOOLS)} />
+						<CategorySection title="Hardware Devices" categories={Object.values(DEVICES)} />
+					</div>
+				</details>
+			) : (
+				<>
+					<CategorySection title="Software Tools" categories={Object.values(SOFTWARE_TOOLS)} />
+					<CategorySection title="Hardware Devices" categories={Object.values(DEVICES)} />
+				</>
+			)
+		}
 	</div>
 </div>
