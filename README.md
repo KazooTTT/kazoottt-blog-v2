@@ -1,6 +1,6 @@
 # KazooTTT | 声控烤箱 博客
 
-## Blog
+## [Blog](https://blog.kazoottt.top/posts/)
 <!-- BLOG-POST-LIST:START -->
  - [2025-02-06 |  | Obsidian Web Clipper 离线阅读同人作品](https://blog.kazoottt.top/posts/obsidian-web-clipper-offline-reading-fanfics/)
  - [2025-02-01 |  | 封面生成器推荐](https://blog.kazoottt.top/posts/cover-generator/)
@@ -28,7 +28,7 @@
  - [2024-06-26 |  | 2024-W03-推荐阅读篇](https://blog.kazoottt.top/posts/2024-W03-recommended-readings/)
  - [2024-06-26 |  | 2024-W03-设计篇](https://blog.kazoottt.top/posts/2024-W03-design/)<!-- BLOG-POST-LIST:END -->
 
-## Memos
+## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
  - [2025-02-06 小红书长文切图笔记？其实 craft 就可以实现。](https://blog.kazoottt.top/notes/use-craft-to-cut-the-long-text-note-of-xiaohongshu/)
  - [2025-02-06 试试action5 pro推流到本地rtmp和有线连接的效果](https://blog.kazoottt.top/notes/action5-pro-obs-rtmp/)
