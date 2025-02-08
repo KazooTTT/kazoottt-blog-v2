@@ -23,7 +23,7 @@
 		"@giscus/react": "^3.1.0",
 		"@tailwindcss/vite": "4.0.3",
 		"astro": "5.1.5",
-		"astro-expressive-code": "^0.39.0",
+		"astro-expressive-code": "^0.40.1",
 		"astro-icon": "^1.1.5",
 		"astro-robots-txt": "^1.0.0",
 		"astro-webmanifest": "^1.0.0",
