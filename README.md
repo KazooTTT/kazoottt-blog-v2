@@ -33,8 +33,8 @@
  - [2024-06-20 不推荐macOS用户购买focusee的理由](https://blog.kazoottt.top/posts/focusee-macos-review/)
  - [2024-04-26 2024-W17](https://blog.kazoottt.top/posts/2024-W17/)
  - [2024-04-12 2024-W16](https://blog.kazoottt.top/posts/2024-W16/)
- - [2024-04-12 2024-W25](https://blog.kazoottt.top/posts/2024-W25/)
  - [2024-04-12 2024-W19](https://blog.kazoottt.top/posts/2024-W19/)
+ - [2024-04-12 2024-W25](https://blog.kazoottt.top/posts/2024-W25/)
  - [2024-04-12 2024-W15](https://blog.kazoottt.top/posts/2024-W15/)
  - [2024-04-11 前端入门的项目](https://blog.kazoottt.top/posts/projects-to-get-started-on-the-front-end/)
  - [2024-04-01 如何实现在markdown中渲染iframe](https://blog.kazoottt.top/posts/how-to-render-iframes-in-markdown/)
@@ -51,7 +51,7 @@
  - [2023-10-08 国庆厦门和杭州之行](https://blog.kazoottt.top/posts/national-day-trip-to-xiamen-and-hangzhoupicture-bed-version/)
  - [2023-03-16 油猴脚本-隐藏你的twitter信息](https://blog.kazoottt.top/posts/hide-your-twitter-messages/)
  - [2023-03-06 2023-W10](https://blog.kazoottt.top/posts/2023-W10/)
- - [2023-01-03 Y3-2022年度总结](https://blog.kazoottt.top/posts/y3-2022-annual-summary/)<!-- BLOG-POST-LIST:END -->
+ - [2023-01-03 Y2-2021年度总结](https://blog.kazoottt.top/posts/y2-2021-annual-summary/)<!-- BLOG-POST-LIST:END -->
 
 ## Memos
 <!-- MEMO-POST-LIST:START -->
