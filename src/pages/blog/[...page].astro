@@ -5,7 +5,7 @@ import { collectionDateSort } from "@/utils/date";
 import type { GetStaticPaths, Page } from "astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
-	const MAX_POSTS_PER_PAGE = 10;
+	const MAX_POSTS_PER_PAGE = 20;
 	const MAX_TAGS = 7;
 	const MAX_CATEGORIES = 7;
 	const allPosts = await getAllPosts();
