@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: latest blogs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,10 +16,10 @@ jobs:
         with:
           template: $newline - [$date $title]($url)
           date_format: "yyyy-mm-dd"	
-          feed_list: "https://blog.kazoottt.top/rss.xml,"
-          max_post_count: 50
+          feed_list: "https://blog.kazoottt.top/rss.xml"
+          max_post_count: 25
   update-readme-with-memo:
-    name: Update this repo's README with latest memo posts
+    name: latest memos
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
