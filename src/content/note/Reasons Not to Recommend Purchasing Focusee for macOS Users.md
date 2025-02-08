@@ -26,7 +26,7 @@ link-notionnext: >-
 rinId: 40
 toAstro: true
 date_created: 2024-12-02T03:03:21.000Z
-date_modified: 2025-02-07T03:47:10.000Z
+date_modified: 2025-02-08T11:09:45.000Z
 ---
 
 # Reasons Not to Recommend Purchasing Focusee for macOS Users
@@ -72,8 +72,6 @@ The slowness is quite noticeable. My configuration is a Mac Mini M2 Pro, and whe
 Focusee's sound card settings conflict with other virtual sound cards on my system, possibly causing the sound output to be forcibly switched to speakers, and I can't switch back to headphones.
 
 Issue troubleshooting and solutions: [Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback forcibly](/notes/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly-en)
-
-[Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback forcibly](https://www.kazoottt.top/article/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly)
 
 Moreover, it doesn't support single application sound recording. Competing products like Screen Studio (paid), QuickRecorder (open-source and free), and OBS all support single application sound recording.
 

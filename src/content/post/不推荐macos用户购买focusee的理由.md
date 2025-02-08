@@ -21,7 +21,7 @@ rinId: 42
 toAstro: true
 astroType: post
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-08T11:09:34.000Z
 ---
 
 # 不推荐 macos 用户购买 focusee 的理由
@@ -68,8 +68,6 @@ date_modified: 2025-02-07T03:17:02.000Z
 Focusee 的声卡设置会与我系统中的其他虚拟声卡产生冲突，可能会导致声音输出的声音被强制切换为扬声器，无法切换回耳机。
 
 问题排查和解决方法：[focusee录制系统声音被强制切换为扬声器播放的可能原因和解决方法](/notes/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly)
-
-[focusee录制系统声音被强制切换为扬声器播放的可能原因和解决方法](https://www.kazoottt.top/article/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly-zh)
 
 而且它不支持单应用声音录制，无论是同类产品的 screen studio(需付费)，QuickRecorder（开源免费），还是 obs 都已支持单应用声音录制了。
 
