@@ -2,6 +2,7 @@
 
 ## [Blog](https://blog.kazoottt.top/posts/)
 <!-- BLOG-POST-LIST:START -->
+ - [2025-02-09 【qianduan】 不引入astro wiki plugin实现链接跳转的思路](https://blog.kazoottt.top/posts/redirect-links-without-astro-wiki-plugin/)
  - [2025-02-06 【软件】 Obsidian Web Clipper 离线阅读同人作品](https://blog.kazoottt.top/posts/obsidian-web-clipper-offline-reading-fanfics/)
  - [2025-02-01 【软件】 封面生成器推荐](https://blog.kazoottt.top/posts/cover-generator/)
  - [2025-01-30 【年报】 Y5-2024年度总结](https://blog.kazoottt.top/posts/2024-annual-summary/)
@@ -25,8 +26,7 @@
  - [2024-07-11 【周报】 2023-W48 转岗了](https://blog.kazoottt.top/posts/2023-W48/)
  - [2024-07-08 【旅行】 端午去广州玩了](https://blog.kazoottt.top/posts/duanwu-guangzhou-trip/)
  - [2024-07-01 【软件】 如何自动同步某个文件夹的图片到某个相册中](https://blog.kazoottt.top/posts/auto-sync-folder-to-album/)
- - [2024-06-26 【周报】 2024-W03-推荐阅读篇](https://blog.kazoottt.top/posts/2024-W03-recommended-readings/)
- - [2024-06-26 【周报】 2024-W03-设计篇](https://blog.kazoottt.top/posts/2024-W03-design/)<!-- BLOG-POST-LIST:END -->
+ - [2024-06-26 【周报】 2024-W03-推荐阅读篇](https://blog.kazoottt.top/posts/2024-W03-recommended-readings/)<!-- BLOG-POST-LIST:END -->
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
