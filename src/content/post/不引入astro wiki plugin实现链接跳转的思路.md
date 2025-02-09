@@ -69,4 +69,4 @@ obsidian 是我的进行笔记编辑的主力软件，并且通过 wiki 语法�
 
 在 astro 中的效果
 
-![[IMG-6B67FFDA95C7E30D1A1139F5E390F6F3.gif]]
+![IMG-6B67FFDA95C7E30D1A1139F5E390F6F3](https://pictures.kazoottt.top/2025/02/2025029-6b67ffda95c7e30d1a1139f5e390f6f3.gif)
