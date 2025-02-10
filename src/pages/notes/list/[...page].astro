@@ -1,0 +1,142 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import Pagination from "@/components/Paginator.astro";
+import PostPreview from "@/components/blog/PostPreview.astro";
+import PageLayout from "@/layouts/Base.astro";
+import { collectionDateSort } from "@/utils/date";
+import type { GetStaticPaths, Page } from "astro";
+import { Icon } from "astro-icon/components";
+
+// 添加新的类型定义
+type NoteEntry = CollectionEntry<"note">;
+
+// 创建一个新的groupNotesByYear函数
+function groupNotesByYear(notes: NoteEntry[]) {
+	return notes.reduce(
+		(acc, note) => {
+			const year = note.data.date.getFullYear().toString();
+			acc[year] = acc[year] || [];
+			acc[year].push(note);
+			return acc;
+		},
+		{} as Record<string, NoteEntry[]>
+	);
+}
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const MAX_POSTS_PER_PAGE = 10;
+	const allNotes = await getCollection("note");
+	const postsCount = allNotes.length;
+	return paginate(allNotes.sort(collectionDateSort), {
+		pageSize: MAX_POSTS_PER_PAGE,
+		props: { postsCount },
+	});
+}) satisfies GetStaticPaths;
+
+interface Props {
+	page: Page<CollectionEntry<"note">>;
+	uniqueTags: string[];
+	uniqueCategories: string[];
+	postsCount: number;
+}
+
+const { page, postsCount } = Astro.props;
+
+// 添加默认布局状态
+const defaultLayout = "list"; // 或 "grid"
+
+const meta = {
+	description: "Read my collection of posts and the things that interest me",
+	title: "Posts",
+};
+
+const paginationProps = {
+	...(page.url.prev && {
+		prevUrl: {
+			text: "← Previous Page",
+			url: page.url.prev,
+		},
+	}),
+	...(page.url.next && {
+		nextUrl: {
+			text: "Next Page →",
+			url: page.url.next,
+		},
+	}),
+};
+
+// 使用新的groupNotesByYear函数替换原来的groupPostsByYear
+const groupedByYear = groupNotesByYear(page.data);
+const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
+---
+
+<PageLayout meta={meta}>
+	<div class="mb-6 flex items-center gap-3">
+		<h1 class="title">Notes({postsCount})</h1>
+		<a class="text-accent" href="/notes/rss.xml" target="_blank">
+			<span class="sr-only">RSS feed</span>
+			<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name="mdi:rss" />
+		</a>
+		<div class="flex-1"></div>
+		<a href={"/notes/" + page.currentPage} class="cactus-link">see the preview</a>
+	</div>
+	<div class="grid sm:grid-cols-[3fr_1fr] sm:gap-x-8 sm:gap-y-16">
+		<div>
+			{
+				descYearKeys.map((yearKey) => (
+					<section aria-labelledby={`year-${yearKey}`}>
+						<h2 id={`year-${yearKey}`} class="title text-lg">
+							<span class="sr-only">Posts in</span>
+							{yearKey}
+						</h2>
+						<ul
+							id="posts-container"
+							class="mt-5 mb-16 space-y-4 text-start"
+							data-layout={defaultLayout}
+						>
+							{groupedByYear[yearKey]?.map((p) => (
+								<li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
+									<PostPreview post={p} />
+								</li>
+							))}
+						</ul>
+					</section>
+				))
+			}
+			<Pagination {...paginationProps} />
+		</div>
+	</div>
+</PageLayout>
+
+<script>
+	const layoutToggle = document.getElementById("layout-toggle");
+	const postsContainer = document.getElementById("posts-container");
+	const listIcon = document.getElementById("list-icon");
+	const gridIcon = document.getElementById("grid-icon");
+
+	// 从 localStorage 获取保存的布局偏好
+	const savedLayout = localStorage.getItem("notesLayout") || "list";
+	postsContainer?.setAttribute("data-layout", savedLayout);
+
+	// 根据当前布局更新图标显示
+	function updateIcons(layout: string) {
+		if (layout === "grid") {
+			listIcon?.classList.remove("hidden");
+			gridIcon?.classList.add("hidden");
+		} else {
+			listIcon?.classList.add("hidden");
+			gridIcon?.classList.remove("hidden");
+		}
+	}
+
+	updateIcons(savedLayout);
+
+	layoutToggle?.addEventListener("click", () => {
+		const currentLayout = postsContainer?.getAttribute("data-layout");
+		const newLayout = currentLayout === "list" ? "grid" : "list";
+
+		postsContainer?.setAttribute("data-layout", newLayout);
+		localStorage.setItem("notesLayout", newLayout);
+		updateIcons(newLayout);
+	});
+</script>
