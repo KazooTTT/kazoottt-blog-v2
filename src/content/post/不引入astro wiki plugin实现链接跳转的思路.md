@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-09T08:34:48.000Z
-date_modified: 2025-02-09T10:20:46.000Z
+date_modified: 2025-02-09T11:11:09.000Z
 title: 不引入astro wiki plugin实现链接跳转的思路
 date: 2025-02-09T00:00:00.000Z
 author: KazooTTT
@@ -15,7 +15,10 @@ finished: true
 published: true
 category: qianduan
 slug: redirect-links-without-astro-wiki-plugin
-description: null
+description: >-
+  在 Obsidian 中，Wiki 语法 ([[某个笔记]]) 使用频率较高，但 Astro 默认不支持。由于现有 remark
+  插件无法满足需求，我选择在导出到 Astro 时预处理 Wiki 链接，将其转换为标准 Markdown 语法，并使用 slug
+  作为唯一标识，从而实现正确的链接跳转。
 toAstro: true
 astroType: post
 ---
@@ -53,7 +56,7 @@ obsidian 是我的进行笔记编辑的主力软件，并且通过 wiki 语法�
 
 对于预处理 link，具体操作是：
 
-![alt text](https://pictures.kazoottt.top/2025/02/2025029-48c819626fb5ab42793929474f507c51.png)
+![Pasted image 20250209190633](https://pictures.kazoottt.top/2025/02/2025029-6657f231d26772962812e8370b4a6bc4.png)
 
 这样在输出的到 astro 的笔记中，wiki 语法就变成了普通的 md 语法，同时也保留了 title。
 
