@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-09T08:34:48.000Z
-date_modified: 2025-02-09T11:11:09.000Z
+date_modified: 2025-02-10T03:08:27.000Z
 title: 不引入astro wiki plugin实现链接跳转的思路
 date: 2025-02-09T00:00:00.000Z
 author: KazooTTT
@@ -13,7 +13,7 @@ tags:
   - remark
 finished: true
 published: true
-category: qianduan
+category: 前端
 slug: redirect-links-without-astro-wiki-plugin
 description: >-
   在 Obsidian 中，Wiki 语法 ([[某个笔记]]) 使用频率较高，但 Astro 默认不支持。由于现有 remark
