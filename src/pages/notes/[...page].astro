@@ -59,17 +59,24 @@ function calculateIndex(index: number, page: Page<CollectionEntry<"note">>) {
 				<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name="mdi:rss" />
 			</a>
 			<div class="flex-1"></div>
-			<a href={`/notes/list/${page.currentPage}`} class="cactus-link text-sm">list</a>
+			<a
+				href={`/notes/list/${page.currentPage === 1 ? "" : page.currentPage}`}
+				class="cactus-link text-sm">flow</a
+			>
 		</h1>
-		<ul class="mt-6 space-y-8 text-start">
+		<div class="columns-1 gap-4 md:columns-2">
 			{
 				page.data.map((note, index) => (
-					<li class="">
-						<Note note={note} as="h2" isPreview index={calculateIndex(index, page)} />
-					</li>
+					<Note
+						note={note}
+						as="h2"
+						isPreview
+						index={calculateIndex(index, page)}
+						enableLineClamp={true}
+					/>
 				))
 			}
-		</ul>
+		</div>
 		<Pagination {...paginationProps} />
 	</section>
 </PageLayout>

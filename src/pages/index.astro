@@ -15,7 +15,7 @@ const allPostsByDate = allPosts
 	.slice(0, MAX_POSTS) as CollectionEntry<"post">[];
 
 // Notes
-const MAX_NOTES = 5;
+const MAX_NOTES = 6;
 const allNotes = await getCollection("note");
 const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 ---
@@ -44,10 +44,10 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 				<h2 class="title text-accent mb-6 text-xl">
 					<a href="/notes/">Notes</a>
 				</h2>
-				<ul class="space-y-4" role="list">
+				<ul class="columns-1 gap-4 md:columns-2" role="list">
 					{latestNotes.map((note) => (
 						<li>
-							<Note note={note} as="h3" isPreview />
+							<Note note={note} as="h3" isPreview enableLineClamp />
 						</li>
 					))}
 				</ul>
