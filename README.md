@@ -2,7 +2,7 @@
 
 ## [Blog](https://blog.kazoottt.top/posts/)
 <!-- BLOG-POST-LIST:START -->
- - [2025-02-09 【qianduan】 不引入astro wiki plugin实现链接跳转的思路](https://blog.kazoottt.top/posts/redirect-links-without-astro-wiki-plugin/)
+ - [2025-02-09 【前端】 不引入astro wiki plugin实现链接跳转的思路](https://blog.kazoottt.top/posts/redirect-links-without-astro-wiki-plugin/)
  - [2025-02-06 【软件】 Obsidian Web Clipper 离线阅读同人作品](https://blog.kazoottt.top/posts/obsidian-web-clipper-offline-reading-fanfics/)
  - [2025-02-01 【软件】 封面生成器推荐](https://blog.kazoottt.top/posts/cover-generator/)
  - [2025-01-30 【年报】 Y5-2024年度总结](https://blog.kazoottt.top/posts/2024-annual-summary/)
