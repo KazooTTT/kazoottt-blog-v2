@@ -30,6 +30,7 @@
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
+ - [2025-02-11 碎片-2025-02-11 12时32分](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-11-12-32-42/)
  - [2025-02-08 如何解决 Nginx 启动时未联网无法访问DNS而挂掉的问题](https://blog.kazoottt.top/notes/nginx-startup-fix-configure-local-hosts-file/)
  - [2025-02-06 小红书长文切图笔记？其实 craft 就可以实现。](https://blog.kazoottt.top/notes/use-craft-to-cut-the-long-text-note-of-xiaohongshu/)
  - [2025-02-06 试试action5 pro推流到本地rtmp和有线连接的效果](https://blog.kazoottt.top/notes/action5-pro-obs-rtmp/)
@@ -48,5 +49,4 @@
  - [2024-12-23 2024-12-23 星期一 学习 unity day01](https://blog.kazoottt.top/notes/diary-2024-12-23/)
  - [2024-12-19 2024-12-19 星期四](https://blog.kazoottt.top/notes/diary-2024-12-19/)
  - [2024-12-19 使用cloudflare部署remix项目](https://blog.kazoottt.top/notes/deploy-remix-app-by-cloudflare/)
- - [2024-12-19 合并多个PDF](https://blog.kazoottt.top/notes/merge-pdfs/)
- - [2024-12-17 react-scan的用法](https://blog.kazoottt.top/notes/react-scan/)<!-- MEMO-POST-LIST:END -->
+ - [2024-12-19 合并多个PDF](https://blog.kazoottt.top/notes/merge-pdfs/)<!-- MEMO-POST-LIST:END -->
