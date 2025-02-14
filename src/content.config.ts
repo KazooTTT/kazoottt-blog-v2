@@ -21,6 +21,7 @@ const post = defineCollection({
 			date_modified: z.date().optional(),
 			data_created: z.date().optional(),
 			category: z.string().optional().nullable(),
+			fixedToTop: z.boolean().optional().default(false),
 		}),
 });
 

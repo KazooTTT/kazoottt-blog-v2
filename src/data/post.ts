@@ -8,6 +8,12 @@ export async function getAllPosts(): Promise<CollectionEntry<"post">[]> {
 	});
 }
 
+export async function getAllFixedToTopPosts(): Promise<CollectionEntry<"post">[]> {
+	return await getCollection("post", ({ data }) => {
+		return import.meta.env.PROD ? data.fixedToTop : false;
+	});
+}
+
 export async function getAllCollectionPosts() {
 	const posts = await getAllPosts();
 	const notes = await getCollection("note");
