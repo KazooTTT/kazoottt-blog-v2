@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-09T08:34:48.000Z
-date_modified: 2025-02-10T03:08:27.000Z
+date_modified: 2025-02-13T10:39:35.000Z
 title: 不引入astro wiki plugin实现链接跳转的思路
 date: 2025-02-09T00:00:00.000Z
 author: KazooTTT
@@ -21,6 +21,7 @@ description: >-
   作为唯一标识，从而实现正确的链接跳转。
 toAstro: true
 astroType: post
+excalidrawFile: '[[不引入astro wiki plugin实现链接跳转的思路.excalidraw]]'
 ---
 
 ## 背景
