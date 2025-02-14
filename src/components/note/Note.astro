@@ -79,7 +79,7 @@ if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 			)}
 		>
 		{
-			isPreview && note.data.description && note.data.description.trim().length > 0 && (
+			!isPreview && note.data.description && note.data.description.trim().length > 0 && (
 				<Card heading="摘要（由llm生成）" altText="摘要" class="my-4 w-full">
 					<div class="text-muted-foreground ml-4">{note.data.description}</div>
 				</Card>
