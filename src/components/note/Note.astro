@@ -88,6 +88,8 @@ if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 			<Content />
 		</div>
 	</div>
+	
+	{!isPreview && <ContentFooter />}
 
 	{!isPreview && <GiscusComment client:load />}
 	{
@@ -98,5 +100,4 @@ if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 		)
 	}
 
-	{!isPreview && <ContentFooter />}
 </ArticleContainer>
