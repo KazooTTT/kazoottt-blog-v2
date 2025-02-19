@@ -26,4 +26,4 @@ date_modified: 2025-02-19T03:44:14.000Z
 
 使用：[Windows 11 Classic Context Menu v1.2](<https://www.sordum.org/14479/windows-11-classic-context-menu-v1-2/>)
 
-![IMG-20250104114722956](../../assets/images/IMG-20250104114722956.png)
+![IMG-20250104114722956](/mdImages/IMG-20250104114722956.png)
