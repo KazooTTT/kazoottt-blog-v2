@@ -2,8 +2,6 @@
 title: 使用google sheet + api定时获取油管播放量
 date: 2024-12-15T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - milklove
   - YouTube
@@ -13,8 +11,6 @@ tags:
   - Script
   - 脚本
   - 自动更新播放量
-finished: true
-published: true
 category: null
 slug: use-google-sheet-api-to-get-youtube-playbacks-on-a-regular-basis
 description: >-

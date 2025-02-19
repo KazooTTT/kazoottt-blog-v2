@@ -2,14 +2,10 @@
 title: 如何在 cursor 中使用 deepseek-coder
 date: 2024-07-25T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Draft
 tags:
   - deepseek-coder
   - OpenAI
   - API
-finished: true
-published: true
 category: AI
 slug: using-deepseek-coder-in-cursor
 description: 本文介绍了如何在 Cursor 中添加和使用 DeepSeek-Coder 模型，以及配置相关的 OpenAI API Key 和 Base URL。
@@ -18,7 +14,7 @@ link-notionnext: >-
   https://kazoottt.notion.site/cursor-deepseek-coder-f759bbe6aa4b4317969544927430146b
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:16.000Z
+date_modified: 2025-02-19T17:22:52.000Z
 ---
 
 # 如何在 cursor 中使用 deepseek-coder

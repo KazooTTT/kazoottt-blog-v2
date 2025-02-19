@@ -12,7 +12,6 @@ tags:
   - 苹果
   - 验证码
   - 短信同步
-published: true
 slug: >-
   messauto-imessage-to-synchronize-iphone-and-mac-messages-and-automatically-copy-captchagraphic-bed-edition
 description: >-
@@ -21,8 +20,6 @@ noteId_x: 8
 create_time: '2023/10/20 13:49:09'
 update_time: '2023/10/20 13:55:39'
 publish_time: '2023/10/20 13:50:45'
-finished: true
-rinId: 61
 category: 软件
 toAstro: true
 date_created: 2024-12-02T03:03:24.000Z

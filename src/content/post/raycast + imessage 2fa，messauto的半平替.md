@@ -2,15 +2,11 @@
 title: raycast + imessage 2fa，messauto的半平替
 date: 2024-12-11T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - raycast
   - macOS
   - 验证码
   - messauto
-finished: true
-published: true
 category: null
 slug: raycast-imessage-2fa
 description: >-

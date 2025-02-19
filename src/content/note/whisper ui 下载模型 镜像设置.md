@@ -2,15 +2,11 @@
 title: whisper ui 下载模型 镜像设置
 date: 2025-01-05T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - whisper-ui
   - huggingface
   - 镜像
   - 大模型
-finished: true
-published: true
 category: 大模型
 slug: whisper-ui-download-model-mirror-setting
 description: >-

@@ -3,8 +3,6 @@ title: open graph 简述
 date: 2024-04-09T00:00:00.000Z
 author: KazooTTT
 tags: []
-finished: true
-published: true
 slug: open-graph
 description: >-
   在使用Twitter时，我们可能会注意到有些链接会显示预览卡片，而有些则不会。这主要是因为一些网站设置了Open Graph协议，而有些则没有。Open
@@ -13,7 +11,6 @@ description: >-
   Graph设置的工具，以及提供Open Graph示例的网站。
 NotionID-notionnext: 76ed52a0-ad58-401c-8a5d-c5719f67b673
 link-notionnext: 'https://kazoottt.notion.site/open-graph-76ed52a0ad58401c8a5dc5719f67b673'
-rinId: 16
 category: 前端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z

@@ -4,15 +4,11 @@ title: >-
   project
 date: 2025-01-14T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - react
   - vite
   - react-router
   - vite-plugin-pages
-finished: true
-published: true
 category: frontend
 slug: how-to-generate-the-path-like-router-config-in-vite-react-react-router-project
 description: null

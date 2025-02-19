@@ -2,13 +2,10 @@
 title: 我自己常用的ffmpeg批处理
 date: 2024-10-14T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - 视频处理
   - ffmpeg
 finished: false
-published: true
 category: 软件
 slug: >-
   01-my-own-commonly-used-ffmpeg-batch-processingmy-own-commonly-used-ffmpeg-batching

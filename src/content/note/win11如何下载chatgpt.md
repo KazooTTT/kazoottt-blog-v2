@@ -9,14 +9,10 @@ description: null
 title: win11如何下载chatgpt
 date: 2025-01-20T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
-finished: false
-published: false
 category: 软件
 toAstro: true
 date_created: 2025-01-04T03:34:08.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:22:51.000Z
 ---
 
 打开设置 - 时间和语言 - 选择国家和地区为美国

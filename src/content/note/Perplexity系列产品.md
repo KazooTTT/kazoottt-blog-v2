@@ -2,16 +2,12 @@
 title: Perplexity系列产品
 date: 2024-09-04T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - AI
   - 搜索引擎
   - Perplexity
   - Playground
   - 播客
-finished: true
-published: true
 category: 软件
 slug: perplexity-productions-intro
 description: 概述Perplexity系列产品，包括搜索引擎、Playground和播客，重点介绍其功能和区别。

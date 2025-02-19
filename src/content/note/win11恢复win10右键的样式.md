@@ -12,10 +12,6 @@ description: >-
 title: win11恢复win10右键的样式
 date: 2024-12-17T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
-finished: true
-published: true
 category: 软件
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z

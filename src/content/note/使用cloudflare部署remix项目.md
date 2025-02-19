@@ -2,11 +2,7 @@
 title: 使用cloudflare部署remix项目
 date: 2024-12-19T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags: []
-finished: true
-published: true
 category: null
 slug: deploy-remix-app-by-cloudflare
 description: null

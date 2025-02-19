@@ -3,8 +3,6 @@ title: open-graph intro
 date: 2024-04-09T00:00:00.000Z
 author: KazooTTT
 tags: []
-finished: true
-published: true
 slug: open-graph-en
 description: >-
   Open Graph is a protocol introduced by Facebook in 2010, designed to enhance
@@ -17,7 +15,6 @@ description: >-
   sharing.
 NotionID-notionnext: 96e4d436-6fd9-4fec-865c-ac2d80b06be0
 link-notionnext: 'https://kazoottt.notion.site/open-graph-intro-96e4d4366fd94fec865cac2d80b06be0'
-rinId: 17
 category: 前端
 toAstro: true
 date_created: 2024-12-02T03:03:21.000Z

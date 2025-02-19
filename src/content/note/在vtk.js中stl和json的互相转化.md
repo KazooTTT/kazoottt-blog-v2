@@ -2,16 +2,12 @@
 title: 在vtk.js中stl和json的互相转化
 date: 2024-11-22T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - stl
   - json
   - vtkjs
   - 3D模型
   - 数据转换
-finished: true
-published: true
 category: 前端
 slug: in-vtkjs-stl-and-json-are-converted-to-each-other
 description: >-

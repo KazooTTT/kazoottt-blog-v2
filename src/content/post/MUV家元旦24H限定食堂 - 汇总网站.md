@@ -2,23 +2,19 @@
 title: MUV家元旦24H限定食堂 - 汇总网站
 date: 2025-01-06T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - 项目
   - milklove
   - 同人
   - milkpansa
   - loverrukk
-finished: true
-published: true
 category: 项目
 slug: milklovemuv
 description: null
 toAstro: true
 astroType: post
 date_created: 2025-01-06T02:02:35.000Z
-date_modified: 2025-02-19T03:43:53.000Z
+date_modified: 2025-02-19T17:22:55.000Z
 ---
 
 [MUV家元旦24H限定食堂 - 汇总](<https://milklovemuv.com/>)

@@ -1,6 +1,6 @@
 ---
 date_created: 2025-01-31T12:24:09.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:22:51.000Z
 slug: split-window-in-blender
 tags:
   - Blender
@@ -11,10 +11,6 @@ description: Guide to splitting editor windows in Blender for improved workflow
 title: how to split window in blender
 date: 2025-01-31T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
-finished: true
-published: true
 category: blender
 toAstro: true
 ---

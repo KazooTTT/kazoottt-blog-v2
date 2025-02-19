@@ -11,7 +11,6 @@ date_modified: 2025-02-19T13:09:10.000Z
 title: 2024-10-25 13分02秒 Vintage Camera Lab
 date: 2025-02-16T00:00:00.000Z
 author: KazooTTT
-published: true
 toAstro: true
 astroType: null
 category: 碎片

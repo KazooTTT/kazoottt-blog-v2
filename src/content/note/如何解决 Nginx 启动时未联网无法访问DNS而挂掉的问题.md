@@ -4,14 +4,10 @@ date_modified: 2025-02-19T03:44:14.000Z
 title: 如何解决 Nginx 启动时未联网无法访问DNS而挂掉的问题
 date: 2025-02-08T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - nginx
   - dns
   - 计算机网络
-finished: true
-published: true
 category: null
 slug: nginx-startup-fix-configure-local-hosts-file
 description: null

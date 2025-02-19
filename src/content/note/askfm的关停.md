@@ -2,19 +2,15 @@
 title: askfm的关停
 date: 2025-02-05T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - askfm
   - 爬虫
-finished: false
-published: false
 category: 软件
 slug: askfm-shutdown
 description: null
 toAstro: true
 date_created: 2025-02-04T16:48:47.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:22:51.000Z
 ---
 
 今天翻了一下 todo list, 发现其中有一个是：写 askfm 爬虫

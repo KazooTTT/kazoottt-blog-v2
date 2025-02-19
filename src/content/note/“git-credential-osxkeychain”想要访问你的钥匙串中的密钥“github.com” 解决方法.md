@@ -2,14 +2,10 @@
 title: “git-credential-osxkeychain”想要访问你的钥匙串中的密钥“github.com” 解决方法
 date: 2024-09-01T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - Git
   - macOS
   - 解决方案
-finished: true
-published: true
 category: 软件
 slug: git-credential-osxkeychain-solve-method
 description: 解决 macOS 弹出 'git-credential-osxkeychain' 访问 GitHub 密钥的问题

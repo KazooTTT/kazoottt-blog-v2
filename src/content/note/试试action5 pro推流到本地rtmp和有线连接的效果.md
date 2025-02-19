@@ -8,13 +8,9 @@ tags:
   - dji
   - action5pro
 date_created: 2025-02-06T04:04:03.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:22:51.000Z
 date: 2025-02-06T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
-finished: false
-published: false
 category: 软件
 description: null
 toAstro: true
@@ -28,4 +24,3 @@ b 站：
 youtube:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S0y06TkFC_A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-

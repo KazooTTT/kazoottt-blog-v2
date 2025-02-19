@@ -7,12 +7,9 @@ tags:
   - 图片处理
   - 设计
   - 图片美化工具
-finished: true
-published: true
 slug: shotso-image-beautification-tool
 description: >-
   shot.so是一个图片美化工具，主要用于快速美化截图。它支持设备模拟，允许用户修改阴影、边框、比例等属性。该工具内置了大量免费模板，方便用户快速创建精美的图片效果。
-rinId: 62
 category: 软件
 toAstro: true
 date_created: 2024-12-02T03:03:24.000Z

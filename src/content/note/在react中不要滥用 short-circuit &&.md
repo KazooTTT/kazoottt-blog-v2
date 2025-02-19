@@ -8,8 +8,6 @@ tags:
   - jsx
   - short-circuit
   - 前端
-finished: true
-published: true
 description: >-
   在React中使用短路运算符（&&）时，0 会被错误地渲染为内容。通过避免使用 && 判断数字，特别是可能为 0 的值，可以确保正确的内容显示，例如显示
   0号相机 而非仅仅显示 0。

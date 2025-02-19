@@ -2,8 +2,6 @@
 title: tweet to image 输入推特链接生成对应的图片
 date: 2024-06-26T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - Tweet-to-Image
   - Twitter-Tools
@@ -12,8 +10,6 @@ tags:
   - Image-Conversion
   - Shareable-Content
   - Digital-Marketing
-finished: true
-published: true
 slug: tweet-to-image
 description: >-
   This post introduces three online tools that allow users to convert tweets
@@ -22,7 +18,6 @@ description: >-
   screenshots of tweets for sharing on various platforms.
 NotionID-notionnext: 1203f3c5-7438-44af-a655-d509a4dff4ec
 link-notionnext: 'https://kazoottt.notion.site/tweet-to-image-1203f3c5743844afa655d509a4dff4ec'
-rinId: 50
 category: 软件
 toAstro: true
 date_created: 2024-12-02T03:03:24.000Z

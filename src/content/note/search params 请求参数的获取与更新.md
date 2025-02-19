@@ -2,15 +2,11 @@
 title: search params 请求参数的获取与更新
 date: 2024-11-13T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - useSearchParams
   - React Router
   - qs
   - window.location.search
-finished: true
-published: true
 category: 前端
 slug: search-params
 description: >-

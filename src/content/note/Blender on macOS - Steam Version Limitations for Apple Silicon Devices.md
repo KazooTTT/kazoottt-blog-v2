@@ -1,6 +1,6 @@
 ---
 date_created: 2025-01-31T13:07:18.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:22:51.000Z
 slug: blender-macos-steam-version-limitations
 tags:
   - Blender
@@ -15,9 +15,6 @@ title: Blender on macOS - Steam Version Limitations for Apple Silicon Devices
 date: 2025-01-31T00:00:00.000Z
 author: KazooTTT
 type: Technical Note
-status: Published
-finished: true
-published: true
 category: 3D Modeling
 toAstro: true
 ---

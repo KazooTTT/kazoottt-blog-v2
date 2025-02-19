@@ -5,7 +5,6 @@ author: KazooTTT
 tags:
   - npm
   - node
-published: true
 slug: npm-registry
 description: >-
   本文介绍了如何查看、更换和取消Node.js包管理工具（npm, yarn,

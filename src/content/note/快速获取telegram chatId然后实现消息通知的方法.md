@@ -6,13 +6,10 @@ tags:
   - telegram
   - bot
   - 工具
-finished: true
-published: true
 slug: quick-way-to-get-telegram-chatid-and-then-implement-message-notification
 description: >-
   本文介绍了如何快速获取Telegram的chatId并实现消息通知的方法。首先，设置Telegram账户的username，然后向@RawDataBot发送消息以获取chatId。最后，结合Telegram
   bot和apprise工具来实现消息通知功能。
-rinId: 20
 category: 前端
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z

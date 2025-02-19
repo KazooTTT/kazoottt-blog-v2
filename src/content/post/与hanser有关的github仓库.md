@@ -2,22 +2,18 @@
 title: 与hanser有关的github仓库
 date: 2024-12-18T00:00:00.000Z
 author: KazooTTT
-type: Post
-status: Published
 tags:
   - hanser
   - unity
   - shader
   - github
-finished: false
-published: true
 category: null
 slug: hanser-repository
 description: 收集与hanser相关的开源项目
 toAstro: true
 astroType: post
 date_created: 2024-12-18T05:20:01.000Z
-date_modified: 2025-02-19T03:44:22.000Z
+date_modified: 2025-02-19T17:22:54.000Z
 ---
 
 ## UnityURPToonLitShader

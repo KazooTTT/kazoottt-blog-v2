@@ -1,6 +1,6 @@
 ---
 date_created: 2025-01-20T01:56:29.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:22:51.000Z
 slug: how-to-separate-object-in-blender
 tags:
   - Blender
@@ -14,9 +14,6 @@ title: how to separate object in blender
 date: 2025-01-20T00:00:00.000Z
 author: KazooTTT
 type: Tutorial
-status: Published
-finished: true
-published: true
 category: blender
 toAstro: true
 ---
