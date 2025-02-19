@@ -26,15 +26,15 @@ description: >-
   `handleSave` method.
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T10:00:15.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 astroType: post
 ---
 
 ## What is Zustand?
 
-[Zustand](https://github.com/pmndrs/zustand) is a simple and easy-to-use state management library.
+[Zustand](<https://github.com/pmndrs/zustand>) is a simple and easy-to-use state management library.
 
-While using [react-scan](https://react-scan.com/), I noticed that when I updated a state in the store in component A, it caused a re-render of component B, leading to significant performance issues.
+While using [react-scan](<https://react-scan.com/>), I noticed that when I updated a state in the store in component A, it caused a re-render of component B, leading to significant performance issues.
 
 So, I revisited the documentation and realized that my previous usage of Zustand was incorrect.
 
@@ -121,7 +121,7 @@ const CurrentCamera: React.FC = () => {
 
 ## Mistake 3: Using multiple stores to manage different states, instead of using slices to group states
 
-In the official documentation [Flux-inspired practice - Zustand](https://zustand.docs.pmnd.rs/guides/flux-inspired-practice), it is mentioned that you should use a single store, not multiple stores for different states.
+In the official documentation [Flux-inspired practice - Zustand](<https://zustand.docs.pmnd.rs/guides/flux-inspired-practice>), it is mentioned that you should use a single store, not multiple stores for different states.
 
 > **Recommended patterns**
 > 
@@ -171,8 +171,8 @@ const ComponentA = () => {
 
 ## References
 
-[Zustand](https://zustand-demo.pmnd.rs/)
+[Zustand](<https://zustand-demo.pmnd.rs/>)
 
-[master branch notes/zustand learning notes](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+[master branch notes/zustand learning notes](<https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md>)
 
-[How to efficiently manage React local state? This time I chose Zustand! | Bosh's Technical Exploration Notes](https://notes.boshkuo.com/docs/React/zustand#%E7%82%BA%E4%BD%95%E9%81%B8%E6%93%87%E4%BD%BF%E7%94%A8-zustand-)
+[How to efficiently manage React local state? This time I chose Zustand! | Bosh's Technical Exploration Notes](<https://notes.boshkuo.com/docs/React/zustand#%E7%82%BA%E4%BD%95%E9%81%B8%E6%93%87%E4%BD%BF%E7%94%A8-zustand->)

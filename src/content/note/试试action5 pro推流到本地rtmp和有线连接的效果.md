@@ -8,7 +8,7 @@ tags:
   - dji
   - action5pro
 date_created: 2025-02-06T04:04:03.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 date: 2025-02-06T00:00:00.000Z
 author: KazooTTT
 type: Post
@@ -23,7 +23,7 @@ astroType: null
 
 b 站：
 
-[试试action5 pro推流到本地rtmp和有线连接的效果](https://www.bilibili.com/video/BV13L17YdE9f/)
+[试试action5 pro推流到本地rtmp和有线连接的效果](<https://www.bilibili.com/video/BV13L17YdE9f/>)
 
 youtube:
 

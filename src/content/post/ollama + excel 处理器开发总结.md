@@ -1,5 +1,5 @@
 ---
-title: ollama + excel处理器开发总结
+title: ollama + excel 处理器开发总结
 date: 2025-01-07T00:00:00.000Z
 author: KazooTTT
 type: Post
@@ -17,7 +17,7 @@ description: 最近帮朋友写了一个 ollama + excel 处理器，写完后发
 toAstro: true
 astroType: post
 date_created: 2025-01-07T15:09:15.000Z
-date_modified: 2025-02-07T03:16:09.000Z
+date_modified: 2025-02-19T03:43:53.000Z
 ---
 
 最近帮朋友写了一个 ollama + excel 处理器，写完后发现类似于飞书多维表格的 ai 功能。在开发和沟通过程中有一些感受。
@@ -34,7 +34,7 @@ date_modified: 2025-02-07T03:16:09.000Z
 
 下图是飞书多维表格的界面截图：
 
-![IMG-AB32ADD047445DF08A90ECA3417190E2](https://pictures.kazoottt.top/2025/20250107-ab32add047445df08a90eca3417190e2.png)
+![IMG-AB32ADD047445DF08A90ECA3417190E2](<https://pictures.kazoottt.top/2025/20250107-ab32add047445df08a90eca3417190e2.png>)
 
 用这种方法把提示词的 few shots 写法实现了，所以它的操作逻辑简化了很多的。
 

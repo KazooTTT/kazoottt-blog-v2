@@ -1,6 +1,6 @@
 ---
 date_created: 2025-01-31T13:07:18.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 slug: blender-macos-steam-version-limitations
 tags:
   - Blender
@@ -31,7 +31,7 @@ Key advantages of using Steam version:
 
 ## 2. macOS Version Considerations
 
-![IMG-F705691552F356BAFA7C7FEB418ED0B4](https://pictures.kazoottt.top/2025/01/20250131-IMG-F705691552F356BAFA7C7FEB418ED0B4.png)
+![IMG-F705691552F356BAFA7C7FEB418ED0B4](<https://pictures.kazoottt.top/2025/01/20250131-IMG-F705691552F356BAFA7C7FEB418ED0B4.png>)
 
 - Steam provides **Intel-chip compatible version** only
 - If you are Apple Silicon user, the performance may be affected

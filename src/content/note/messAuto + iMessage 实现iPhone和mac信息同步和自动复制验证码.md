@@ -1,5 +1,5 @@
 ---
-title: MessAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码
+title: messAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码
 date: 2023-09-24T00:00:00.000Z
 author: KazooTTT
 tags:
@@ -26,12 +26,12 @@ rinId: 61
 category: 软件
 toAstro: true
 date_created: 2024-12-02T03:03:24.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 # messAuto + iMessage 实现 iPhone 和 mac 信息同步和自动复制验证码
 
-![miulm](https://pictures.kazoottt.top/2024/01/20240119-4bb8c89272c9863bfb0aa6e2030850f5.webp)
+![miulm](<https://pictures.kazoottt.top/2024/01/20240119-4bb8c89272c9863bfb0aa6e2030850f5.webp>)
 
 很多时候我们需要手机接收验证码，然后在电脑上使用验证码来登录，如果纯手动操作还是有些繁琐。
 
@@ -40,16 +40,16 @@ date_modified: 2025-02-07T03:17:02.000Z
 一、iphone 和 mac 信息同步  
 在 iphone 的设置 - 信息 - 短信转发中，勾选你要转发信息的 mac 设备。
 
-![budk7](https://pictures.kazoottt.top/2024/01/20240119-bfea1be1a394860ac21d1ec20a879065.webp)  
+![budk7](<https://pictures.kazoottt.top/2024/01/20240119-bfea1be1a394860ac21d1ec20a879065.webp>)  
 然后在对应的 mac 的信息中设置 -iCloud 信息设置中启用 iCloud 云端“信息”，需要注意的是你登录 iphone 和 mac 的 icloud 账号是需要相同的。设置完成，就已经实现了信息的同步，在 mac 的信息里可以看到 iphone 的短信。
 
-![0p16x](https://pictures.kazoottt.top/2024/01/20240119-a64ff82a345fab5bf64da2c34f925158.webp)  
-![pj0l1](https://pictures.kazoottt.top/2024/01/20240119-7e26031c5ed3b0ca8f1b26ab170e1207.webp)
+![0p16x](<https://pictures.kazoottt.top/2024/01/20240119-a64ff82a345fab5bf64da2c34f925158.webp>)  
+![pj0l1](<https://pictures.kazoottt.top/2024/01/20240119-7e26031c5ed3b0ca8f1b26ab170e1207.webp>)
 
 二、安装 messauto，并设置。
 
-然后我们需要安装 [messauto](https://github.com/LeeeSe/MessAuto),地址是 [https://github.com/LeeeSe/MessAuto](https://github.com/LeeeSe/MessAuto/releases/tag/v0.5.0)  
-![djoq7](https://pictures.kazoottt.top/2024/01/20240119-721babc141ee23a2300868bbd701179c.webp)  
+然后我们需要安装 [messauto](<https://github.com/LeeeSe/MessAuto>),地址是 [https://github.com/LeeeSe/MessAuto](<https://github.com/LeeeSe/MessAuto/releases/tag/v0.5.0>)  
+![djoq7](<https://pictures.kazoottt.top/2024/01/20240119-721babc141ee23a2300868bbd701179c.webp>)  
 版本：
 
 MessAuto_aarch64 - 苹果芯片  
@@ -57,10 +57,10 @@ MessAuto_x86_64 - Intel 芯片
 
 下载解压后拖到应用程序里，点击运行顶部的状态栏就会出现 messauto 的图标。我个人比较推荐的设置是勾选【自动粘贴】和【登录时启动】，如果勾选【自动粘贴】会提醒需要辅助功能的授权，根据指引跳转过去开启即可。
 
-![1ucpz](https://pictures.kazoottt.top/2024/01/20240119-9c5f093d1e3b8cf22ceaf76a571934cf.webp)
+![1ucpz](<https://pictures.kazoottt.top/2024/01/20240119-9c5f093d1e3b8cf22ceaf76a571934cf.webp>)
 
-![5lv1n](https://pictures.kazoottt.top/2024/01/20240119-4cee2f123c685983258b5a8e3a77e1d4.webp)
+![5lv1n](<https://pictures.kazoottt.top/2024/01/20240119-4cee2f123c685983258b5a8e3a77e1d4.webp>)
 
-![i7u9s](https://pictures.kazoottt.top/2024/01/20240119-600df9cf2f1f2e83fac30b3b6ea4dc98.webp)
+![i7u9s](<https://pictures.kazoottt.top/2024/01/20240119-600df9cf2f1f2e83fac30b3b6ea4dc98.webp>)
 
 然后就实现了同步和自动复制验证码了。

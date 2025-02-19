@@ -28,7 +28,7 @@ rinId: 39
 category: 软件
 toAstro: true
 date_created: 2024-12-02T03:03:21.000Z
-date_modified: 2025-02-07T03:46:35.000Z
+date_modified: 2025-02-19T03:44:22.000Z
 ---
 
 # Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback Forcibly
@@ -43,7 +43,7 @@ Uninstallation method:
 
 Navigate to the folder `/Library/Audio/Plug-Ins/HAL` and delete the corresponding BlackHole2ch folder.
 
-![image.png](https://pictures.kazoottt.top/2024/05/20240525-26e60249b527dc5dc46c78eb123769bf.png)
+![image.png](<https://pictures.kazoottt.top/2024/05/20240525-26e60249b527dc5dc46c78eb123769bf.png>)
 
 ---
 
@@ -52,7 +52,7 @@ By the way, the reason I installed BlackHole2ch was to record system audio durin
 Here's how to do it:
 
 1. Click the add button below the sources and select macOS Screen Capture.
-   ![SCR-20240525-qcob-2.png](https://pictures.kazoottt.top/2024/05/20240525-862b985a72997075bf72d8dd84efa46c.png)
+   ![SCR-20240525-qcob-2.png](<https://pictures.kazoottt.top/2024/05/20240525-862b985a72997075bf72d8dd84efa46c.png>)
 
 2. Choose whether to capture desktop audio or application audio based on your needs.
-   ![image.png](https://pictures.kazoottt.top/2024/05/20240525-b1ea5d3a03406f26588601ed66067a05.png)
+   ![image.png](<https://pictures.kazoottt.top/2024/05/20240525-b1ea5d3a03406f26588601ed66067a05.png>)

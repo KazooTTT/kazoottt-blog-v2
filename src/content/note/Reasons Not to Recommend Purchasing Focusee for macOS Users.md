@@ -26,7 +26,7 @@ link-notionnext: >-
 rinId: 40
 toAstro: true
 date_created: 2024-12-02T03:03:21.000Z
-date_modified: 2025-02-08T11:09:45.000Z
+date_modified: 2025-02-19T03:44:22.000Z
 ---
 
 # Reasons Not to Recommend Purchasing Focusee for macOS Users
@@ -47,13 +47,13 @@ This is the most serious issue.
 
 The recorded videos on macOS have significant color discrepancies compared to the actual screen, to the extent that I find it almost unusable. Here's a specific comparison:
 
-![8c214f3f-65f7-49d6-8abd-7011886b3392-spark-clipboard](https://pictures.kazoottt.top/2024/06/20240620-f8632859027aa520b2acfe05f8010997.jpg)
+![8c214f3f-65f7-49d6-8abd-7011886b3392-spark-clipboard](<https://pictures.kazoottt.top/2024/06/20240620-f8632859027aa520b2acfe05f8010997.jpg>)
 
 After discovering this issue, I contacted their team:
 
 On May 27th, I reported the issue for the first time. They responded that macOS 12.3 and below didn't have this problem, but versions above 12.3 did, and they were looking for a solution.
 
-![CleanShot 2024-06-20 at 14.48.02](https://pictures.kazoottt.top/2024/06/20240620-7c6bb9ad347fed77aba7ee6ec6316dd0.png)
+![CleanShot 2024-06-20 at 14.48.02](<https://pictures.kazoottt.top/2024/06/20240620-7c6bb9ad347fed77aba7ee6ec6316dd0.png>)
 
 By June 18th, there was still no reply, so I sent another email asking for progress. They replied:
 
@@ -61,7 +61,7 @@ By June 18th, there was still no reply, so I sent another email asking for progr
 2. Fixing this specific issue might sacrifice other color gamuts in the software.
 3. The current software configuration provides the best solution for balancing various colors (meaning this issue will not be resolved).
 
-![CleanShot 2024-06-20 at 14.55.42](https://pictures.kazoottt.top/2024/06/20240620-0edca0a2dee7d10c1877c25a3aa1fbd3.png)
+![CleanShot 2024-06-20 at 14.55.42](<https://pictures.kazoottt.top/2024/06/20240620-0edca0a2dee7d10c1877c25a3aa1fbd3.png>)
 
 ### Very Slow Export Speed
 
@@ -79,4 +79,4 @@ Moreover, it doesn't support single application sound recording. Competing produ
 
 Since they informed me that the color discrepancy issue would not be resolved, and this was a crucial functional defect for me, I decided to request a refund.
 
-I purchased Focusee from [数码荔枝 x 软件商店 - 专注于分享最新鲜优秀的正版软件](https://lizhi.shop/) Taobao store. After contacting customer service to ask if I could get a refund, they processed it quickly and agreed to it without any issues. This was quite a pleasant surprise. I will consider Litchi Digital for similar purchases in the future.
+I purchased Focusee from [数码荔枝 x 软件商店 - 专注于分享最新鲜优秀的正版软件](<https://lizhi.shop/>) Taobao store. After contacting customer service to ask if I could get a refund, they processed it quickly and agreed to it without any issues. This was quite a pleasant surprise. I will consider Litchi Digital for similar purchases in the future.

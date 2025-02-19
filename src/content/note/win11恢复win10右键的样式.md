@@ -19,11 +19,11 @@ published: true
 category: 软件
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-11T09:59:32.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 # win11 恢复 win10 右键的样式
 
-使用：[Windows 11 Classic Context Menu v1.2](https://www.sordum.org/14479/windows-11-classic-context-menu-v1-2/)
+使用：[Windows 11 Classic Context Menu v1.2](<https://www.sordum.org/14479/windows-11-classic-context-menu-v1-2/>)
 
 ![IMG-20250104114722956](../../assets/images/IMG-20250104114722956.png)

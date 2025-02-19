@@ -1,5 +1,5 @@
 ---
-title: shot.so
+title: shot.so - 图片美化工具
 date: 2023-09-17T00:00:00.000Z
 author: KazooTTT
 tags:
@@ -16,7 +16,7 @@ rinId: 62
 category: 软件
 toAstro: true
 date_created: 2024-12-02T03:03:24.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 # shot.so - 图片美化工具
@@ -25,6 +25,6 @@ date_modified: 2025-02-07T03:17:02.000Z
 
 可快速美化图片（主要是截图），支持设备 mock，支持修改 shadow,border,scale 等。内置模板很多，且均免费。
 
-![Shots - Create Amazing Mockups](https://pictures.kazoottt.top/2024/10/20241017-766f28bad432778d346657bc238dfb73.png)
+![Shots - Create Amazing Mockups](<https://pictures.kazoottt.top/2024/10/20241017-766f28bad432778d346657bc238dfb73.png>)
 
-![954shots_so](https://pictures.kazoottt.top/2024/10/20241017-d72ee84203b24856d4dac28d1427c368.png)
+![954shots_so](<https://pictures.kazoottt.top/2024/10/20241017-d72ee84203b24856d4dac28d1427c368.png>)

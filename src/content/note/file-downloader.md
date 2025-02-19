@@ -19,7 +19,7 @@ rinId: 63
 category: 项目
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-01-22T05:39:24.000Z
+date_modified: 2025-02-19T03:43:53.000Z
 ---
 
 # File Download
@@ -46,12 +46,12 @@ blob 是一个 blob 对象，一般从后端获取，filename 不是必填，如
 
 npm 地址：
 
-[@kzttools/file-downloader - npm](https://www.npmjs.com/package/@kzttools/file-downloader)
+[@kzttools/file-downloader - npm](<https://www.npmjs.com/package/@kzttools/file-downloader>)
 
 github 地址：
 
-[GitHub - kzttools/file-downloader](https://github.com/kzttools/file-downloader)
+[GitHub - kzttools/file-downloader](<https://github.com/kzttools/file-downloader>)
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [kazoottt](https://github.com/kazoottt)
+[MIT](<./LICENSE>) License © 2023-PRESENT [kazoottt](<https://github.com/kazoottt>)

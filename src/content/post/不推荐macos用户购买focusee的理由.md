@@ -1,5 +1,5 @@
 ---
-title: 不推荐macOS用户购买focusee的理由
+title: 不推荐macos用户购买focusee的理由
 date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 type: Post
@@ -21,7 +21,7 @@ rinId: 42
 toAstro: true
 astroType: post
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-08T11:09:34.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 # 不推荐 macos 用户购买 focusee 的理由
@@ -43,13 +43,13 @@ date_modified: 2025-02-08T11:09:34.000Z
 
 在 macos 上录制出来的视频色差明显，与实际画面相差很大，大到我认为几乎不能使用，具体的对比如下:
 
-![8c214f3f-65f7-49d6-8abd-7011886b3392-spark-clipboard](https://pictures.kazoottt.top/2024/06/20240620-f8632859027aa520b2acfe05f8010997.jpg)
+![8c214f3f-65f7-49d6-8abd-7011886b3392-spark-clipboard](<https://pictures.kazoottt.top/2024/06/20240620-f8632859027aa520b2acfe05f8010997.jpg>)
 
 发现这个问题之后，我开始与对方团队沟通：
 
 5 月 27 日第一次反馈，对方回复说 macOS 12.3 以下没有这个问题，12.3 以上有问题，目前正在寻找解决方案。
 
-![CleanShot 2024-06-20 at 14.48.02](https://pictures.kazoottt.top/2024/06/20240620-7c6bb9ad347fed77aba7ee6ec6316dd0.png)
+![CleanShot 2024-06-20 at 14.48.02](<https://pictures.kazoottt.top/2024/06/20240620-7c6bb9ad347fed77aba7ee6ec6316dd0.png>)
 
 然后一直到 6 月 18 日还没有回复，所以我又发了一次邮件询问进度。结果对方告知：
 
@@ -57,7 +57,7 @@ date_modified: 2025-02-08T11:09:34.000Z
 2. 解决这个具体问题可能会导致软件中其他色域的牺牲。
 3. 当前的软件配置在平衡各种颜色方面提供了最佳解决方案（也就是说这个问题不予解决）
 
-![CleanShot 2024-06-20 at 14.55.42](https://pictures.kazoottt.top/2024/06/20240620-0edca0a2dee7d10c1877c25a3aa1fbd3.png)
+![CleanShot 2024-06-20 at 14.55.42](<https://pictures.kazoottt.top/2024/06/20240620-0edca0a2dee7d10c1877c25a3aa1fbd3.png>)
 
 ### 导出速度非常慢
 
@@ -75,4 +75,4 @@ Focusee 的声卡设置会与我系统中的其他虚拟声卡产生冲突，可
 
 由于对方邮件告知色差问题暂时不予解决，而这恰好是我最在意的一个功能缺陷，所以我决定了退款。
 
-我是在 [荔枝数码](https://lizhi.shop/) 的淘宝店购买的 Focusee。联系了客服询问能不能退款之后，他们处理速度很快，迅速同意并完成了退款流程。这一点让我挺意外的，以后还有类似的购买需求的话，还是会考虑荔枝数码。
+我是在 [荔枝数码](<https://lizhi.shop/>) 的淘宝店购买的 Focusee。联系了客服询问能不能退款之后，他们处理速度很快，迅速同意并完成了退款流程。这一点让我挺意外的，以后还有类似的购买需求的话，还是会考虑荔枝数码。

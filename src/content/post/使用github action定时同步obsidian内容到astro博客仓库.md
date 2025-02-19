@@ -1,6 +1,6 @@
 ---
 slug: synchronize-profiles-to-remote-and-local-on-a-regular-basis
-title: 使用github action定时同步obsidian内容到博客仓库
+title: 使用github action定时同步obsidian内容到astro博客仓库
 date: 2024-11-29T00:00:00.000Z
 author: KazooTTT
 type: Post
@@ -23,7 +23,7 @@ description: >-
 toAstro: true
 astroType: post
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 ## github action
@@ -107,11 +107,11 @@ jobs:
 ```
 
 PAT_TOKEN 申请  
-[Sign in to GitHub · GitHub](https://github.com/settings/tokens)
+[Sign in to GitHub · GitHub](<https://github.com/settings/tokens>)
 
 需要权限：repo, workflow
 
-![image.png](https://pictures.kazoottt.top/2024/11/20241129-d27ae43fa5ad1344d66dff2e9d79c70e.png)
+![image.png](<https://pictures.kazoottt.top/2024/11/20241129-d27ae43fa5ad1344d66dff2e9d79c70e.png>)
 
 ## obsidian 模板
 

@@ -17,7 +17,7 @@ status: Published
 category: null
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-01-22T05:40:14.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 # 配置 nginx 以成功代理 websocket
@@ -28,11 +28,11 @@ date_modified: 2025-01-22T05:40:14.000Z
 
 相关的类似的问题：
 
-[https://github.com/websockets/ws/issues/979](https://github.com/websockets/ws/issues/979)
+[https://github.com/websockets/ws/issues/979](<https://github.com/websockets/ws/issues/979>)
 
 nginx 官方文档提到的解决方法：
 
-[WebSocket proxying](https://nginx.org/en/docs/http/websocket.html)
+[WebSocket proxying](<https://nginx.org/en/docs/http/websocket.html>)
 
 需要注意的是：
 

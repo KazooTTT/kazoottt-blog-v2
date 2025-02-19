@@ -20,7 +20,7 @@ rinId: 41
 category: 软件
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-07T03:46:54.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 # Focusee 录制系统声音被强制切换为扬声器播放的可能原因和解决方法
@@ -37,7 +37,7 @@ date_modified: 2025-02-07T03:46:54.000Z
 
 在这个文件夹中删除 BlackHole2ch 对应的文件夹即可
 
-![image.png](https://pictures.kazoottt.top/2024/05/20240525-26e60249b527dc5dc46c78eb123769bf.png)
+![image.png](<https://pictures.kazoottt.top/2024/05/20240525-26e60249b527dc5dc46c78eb123769bf.png>)
 
 ---
 
@@ -46,7 +46,7 @@ date_modified: 2025-02-07T03:46:54.000Z
 具体的操作是：
 
 1. 点击来源下方的添加按钮，选择 macOS 音频采集
-![SCR-20240525-qcob-2.png](https://pictures.kazoottt.top/2024/05/20240525-862b985a72997075bf72d8dd84efa46c.png)
+![SCR-20240525-qcob-2.png](<https://pictures.kazoottt.top/2024/05/20240525-862b985a72997075bf72d8dd84efa46c.png>)
 
 2. 根据你的需求选择是采集桌面音频还是应用音频。
-![image.png](https://pictures.kazoottt.top/2024/05/20240525-b1ea5d3a03406f26588601ed66067a05.png)
+![image.png](<https://pictures.kazoottt.top/2024/05/20240525-b1ea5d3a03406f26588601ed66067a05.png>)

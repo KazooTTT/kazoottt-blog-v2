@@ -29,24 +29,24 @@ link-notionnext: 'https://kazoottt.notion.site/ChainForge-40ec4f8d20304ce1b8c7c1
 rinId: 8
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:03.000Z
+date_modified: 2025-02-19T03:44:16.000Z
 ---
 
 # ChainForge 简单介绍
 
-![Pasted image 20240417222811](https://pictures.kazoottt.top/2024/05/20240522-c31876b89dcb822e411af1ef7992eb49.png)
+![Pasted image 20240417222811](<https://pictures.kazoottt.top/2024/05/20240522-c31876b89dcb822e411af1ef7992eb49.png>)
 
 官网：
 
-[ChainForge: A visual programming environment for prompt engineering](https://chainforge.ai/)
+[ChainForge: A visual programming environment for prompt engineering](<https://chainforge.ai/>)
 
 github 地址：
 
-[GitHub - ianarawjo/ChainForge: An open-source visual programming environment for battle-testing prompts to LLMs.](https://github.com/ianarawjo/ChainForge)
+[GitHub - ianarawjo/ChainForge: An open-source visual programming environment for battle-testing prompts to LLMs.](<https://github.com/ianarawjo/ChainForge>)
 
 ## 简介
 
-![Pasted image 20240417223400](https://pictures.kazoottt.top/2024/05/20240522-a9e96bff073602718c11943e61bcf758.png)
+![Pasted image 20240417223400](<https://pictures.kazoottt.top/2024/05/20240522-a9e96bff073602718c11943e61bcf758.png>)
 
 ## 使用场景
 
@@ -60,7 +60,7 @@ github 地址：
 
 ## 实践
 
-![Pasted image 20240417231517](https://pictures.kazoottt.top/2024/05/20240522-5fea389ac9bca4a43c076dc442d374e6.png)
+![Pasted image 20240417231517](<https://pictures.kazoottt.top/2024/05/20240522-5fea389ac9bca4a43c076dc442d374e6.png>)
 
 这两个例子单独拿出来讲
 
@@ -73,14 +73,14 @@ github 地址：
 
 使用案例：
 
-[X](https://twitter.com/9hills/status/1772467763165958602)
+[X](<https://twitter.com/9hills/status/1772467763165958602>)
 
 自动化 Prompts
 
-[\[2402.10949\] The Unreasonable Effectiveness of Eccentric Automatic Prompts](https://arxiv.org/abs/2402.10949)
+[\[2402.10949\] The Unreasonable Effectiveness of Eccentric Automatic Prompts](<https://arxiv.org/abs/2402.10949>)
 
 相关的视频
 
-[LLM Prompt Injection Attacks & Testing Vulnerabilities With ChainForge - YouTube](https://www.youtube.com/watch?v=x1_uEnoxvNs)
+[LLM Prompt Injection Attacks & Testing Vulnerabilities With ChainForge - YouTube](<https://www.youtube.com/watch?v=x1_uEnoxvNs>)
 
 使用 ChainForge 进行 LLM 提示注入攻击和漏洞测试

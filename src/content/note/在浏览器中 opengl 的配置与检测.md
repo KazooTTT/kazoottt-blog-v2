@@ -18,20 +18,20 @@ slug: how-to-check-opengl-configuration-and-detection-in-browser
 description: 本文介绍了如何在浏览器中配置和检测 OpenGL，包括硬件加速的设置和检测方法，帮助用户优化浏览器性能。
 toAstro: true
 date_created: 2025-01-07T03:03:25.000Z
-date_modified: 2025-02-07T03:16:07.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # 在 google 浏览器中硬件加速、OpenGL 的配置与检测
 
 ## 如何配置硬件加速与 OpenGL
 
-[优化浏览器设置以提升性能和使用体验 - MasterGo 帮助中心](https://mastergo.com/help/common-problem/configure-webgl)
+[优化浏览器设置以提升性能和使用体验 - MasterGo 帮助中心](<https://mastergo.com/help/common-problem/configure-webgl>)
 
 在这篇文章中，我们可以看到具体的配置流程。
 
 ## 如何检测用户是否开启 OpenGL
 
-在 mdn 的这篇文章中 [WEBGL_debug_renderer_info extension - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info) 有提到：我们可以通过获取 canvas 的 webgl 上下文，然后对是否开启硬件加速和设置为 opengl 进行检测。
+在 mdn 的这篇文章中 [WEBGL_debug_renderer_info extension - Web APIs | MDN](<https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info>) 有提到：我们可以通过获取 canvas 的 webgl 上下文，然后对是否开启硬件加速和设置为 opengl 进行检测。
 
 是否开启硬件加速
 

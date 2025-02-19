@@ -15,7 +15,7 @@ rinId: 73
 category: 前端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # Npm 发包失败的原因
@@ -36,4 +36,4 @@ date_modified: 2025-02-07T03:25:34.000Z
 
 ## 参考
 
-[\[BUG\] npm publish get 400 Bad Request without any useful information · Issue #6090 · npm/cli · GitHub](https://github.com/npm/cli/issues/6090)
+[\[BUG\] npm publish get 400 Bad Request without any useful information · Issue #6090 · npm/cli · GitHub](<https://github.com/npm/cli/issues/6090>)

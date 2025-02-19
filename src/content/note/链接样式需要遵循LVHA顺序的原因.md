@@ -1,5 +1,5 @@
 ---
-title: CSS | 链接样式需要遵循LVHA顺序的原因
+title: 链接样式需要遵循LVHA顺序的原因
 date: 2021-07-23T00:00:00.000Z
 author: KazooTTT
 tags:
@@ -16,7 +16,7 @@ NotionID-notionnext: 'https://kazoottt.notion.site/d4aa37afdc8147d89869d67ebb5b4
 category: 前端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # 链接样式需要遵循 LVHA 顺序的原因

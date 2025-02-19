@@ -18,7 +18,7 @@ tags:
   - package manager
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # Npm 和 npx 的区别
@@ -31,7 +31,7 @@ date_modified: 2025-02-07T03:25:34.000Z
 npm install antd
 ```
 
-[Create Next App | Next.js (nextjs.org)](https://nextjs.org/docs/api-reference/create-next-app) 中运行使用 npx 来创建 nextjs 项目
+[Create Next App | Next.js (nextjs.org)](<https://nextjs.org/docs/api-reference/create-next-app>) 中运行使用 npx 来创建 nextjs 项目
 
 ```shell
 npx create-next-app@latest
@@ -54,13 +54,13 @@ pnpm create next-app
 > npm，即 Node 包管理器（Node Package Manager），是 Node.js 运行时默认的包管理器。在 npm 仓库中发布的第三方包可以指定为项目依赖，并通过命令行本地安装。npm 仓库包含服务端和客户端 JavaScript 库。
 > npm 是为在服务器上使用而设计的，服务器对依赖大小并不敏感。在安装包时，npm 使用嵌套依赖树解析所有项目依赖，每个项目依赖都会安装自己的依赖。这意味着如果项目依赖三个包 A、B 和 C，而这三个包又都依赖不同版本的 D，则 npm 会安装包 D 的三个版本。
 
-在 freecodecamp 的技术分享博客（[什么是 npm —— 写给初学者的编程教程 (freecodecamp.org)](https://www.freecodecamp.org/chinese/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/)）中，作者对 npm 的定义如下：
+在 freecodecamp 的技术分享博客（[什么是 npm —— 写给初学者的编程教程 (freecodecamp.org)](<https://www.freecodecamp.org/chinese/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/>)）中，作者对 npm 的定义如下：
 
 > npm（“Node 包管理器”）是 JavaScript 运行时 Node.js 的默认程序包管理器。
 > npm 由两个主要部分组成:
 > 
 > 1. 用于发布和下载程序包的 CLI（命令行界面）工具
-> 2. 托管 JavaScript 程序包的  [在线存储库](https://www.npmjs.com/)
+> 2. 托管 JavaScript 程序包的  [在线存储库](<https://www.npmjs.com/>)
 
 ---
 
@@ -80,13 +80,13 @@ npm 存储库 <=== 他人使用 CLI 进行将包发布到存储库中
 
 ### Npx 的定义
 
-在 [什么是 npm —— 写给初学者的编程教程 (freecodecamp.org)](https://www.freecodecamp.org/chinese/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/) 中提到
+在 [什么是 npm —— 写给初学者的编程教程 (freecodecamp.org)](<https://www.freecodecamp.org/chinese/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/>) 中提到
 
-> 最新引入的  [npx](https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/)   使我们可以像在全局安装程序一样运行这些  `node_modules`   项目作用域命令，方法是在其前面加上  `npx ...`（即 `npx prettier --write ** / *。ts`）。
+> 最新引入的  [npx](<https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/>)   使我们可以像在全局安装程序一样运行这些  `node_modules`   项目作用域命令，方法是在其前面加上  `npx ...`（即 `npx prettier --write ** / *。ts`）。
 
 ## 用法
 
-[npx 使用教程 - 阮一峰的网络日志 (ruanyifeng.com)](https://www.ruanyifeng.com/blog/2019/02/npx.html)
+[npx 使用教程 - 阮一峰的网络日志 (ruanyifeng.com)](<https://www.ruanyifeng.com/blog/2019/02/npx.html>)
 
 如果要运行项目中的某些二进制文件，以前只能使用 路径/bin 文件 来执行  
 但是使用 npx 就可以直接运行了

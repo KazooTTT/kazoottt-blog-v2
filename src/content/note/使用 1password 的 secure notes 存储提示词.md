@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-05T05:21:09.000Z
-date_modified: 2025-02-08T05:58:33.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 title: 使用 1password 的 secure notes 存储提示词
 date: 2025-02-05T00:00:00.000Z
 author: KazooTTT
@@ -24,13 +24,13 @@ toAstro: true
 
 作为一个能用键盘就不用鼠标，期望减少操作步骤的懒人，我把提示词存到了 1password 的 secure notes 中
 
-![alt text](https://pictures.kazoottt.top/2025/02/20250205-IMG-0206ECC45CDD254EB4459701C4E4BBEB.png)
+![alt text](<https://pictures.kazoottt.top/2025/02/20250205-IMG-0206ECC45CDD254EB4459701C4E4BBEB.png>)
 
 如图所示，提示词的标题以 `[提示词-标题]` 的形式命名。
 
 然后通过快捷键唤起搜索框，输入 `提示词` 关键词，就可以搜索到所有的提示词。然后通过 `cmd + c` 复制内容即可。
 
-![alt text](https://pictures.kazoottt.top/2025/02/20250205-IMG-604CC2FCEB905F96DFD11F7F9FCB5704.png)
+![alt text](<https://pictures.kazoottt.top/2025/02/20250205-IMG-604CC2FCEB905F96DFD11F7F9FCB5704.png>)
 
 这样的好处是:
 

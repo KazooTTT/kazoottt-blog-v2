@@ -19,7 +19,7 @@ description: null
 toAstro: true
 astroType: post
 date_created: 2025-01-14T09:31:35.000Z
-date_modified: 2025-02-08T03:47:21.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 when i use react-router and vite, i want to config my router in the router.config.ts file and also generate some config for the target path dir. (like the nextjs router which is automatically generated based on the file structure)
@@ -34,7 +34,7 @@ we can split the problem into these parts:
 
 ## 1. generate the path like router config for the target path dir
 
-there is one package called [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages), which can help us generate the path like router config for the target path dir.
+there is one package called [`vite-plugin-pages`](<https://github.com/hannoeru/vite-plugin-pages>), which can help us generate the path like router config for the target path dir.
 
 how to use it?
 
@@ -66,9 +66,9 @@ the default dirs of the `vite-plugin-pages` plugin is `src/pages`, you can chang
 
 we set it to `src/views` in the example.
 
-![api docs](https://pictures.kazoottt.top/2025/01/20250114-58239a4616583a9f4659dcfb8dd5dba8.png)
+![api docs](<https://pictures.kazoottt.top/2025/01/20250114-58239a4616583a9f4659dcfb8dd5dba8.png>)
 
-it has some other options, you can see the [official docs](https://github.com/hannoeru/vite-plugin-pages).
+it has some other options, you can see the [official docs](<https://github.com/hannoeru/vite-plugin-pages>).
 
 step 3. get the path like router config for the target path dir.
 
@@ -178,6 +178,6 @@ function App() {
 
 this is a simple way to generate the path like router config for the target path dir in the vite + react + react-router project.
 
-if you want to see a demo, you can see the [demo repo](https://github.com/KazooTTT/vtkjs-react-demos).
+if you want to see a demo, you can see the [demo repo](<https://github.com/KazooTTT/vtkjs-react-demos>).
 
-if you want to know more about the `vite-plugin-pages` plugin, you can see the [github repo](https://github.com/hannoeru/vite-plugin-pages).
+if you want to know more about the `vite-plugin-pages` plugin, you can see the [github repo](<https://github.com/hannoeru/vite-plugin-pages>).

@@ -1,6 +1,6 @@
 ---
 date_created: 2025-01-20T01:56:29.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 slug: how-to-separate-object-in-blender
 tags:
   - Blender
@@ -10,7 +10,7 @@ tags:
 description: >-
   Step-by-step guide to separating objects in Blender using three different
   methods
-title: How to Separate Objects in Blender
+title: how to separate object in blender
 date: 2025-01-20T00:00:00.000Z
 author: KazooTTT
 type: Tutorial
@@ -27,7 +27,7 @@ how to separate object in blender
 2. select the object you want to separate
 3. click right mouse button or press the p directly to separate the object
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250120-302a1f29e54896d6be02c74a2afadfa7.png)
+![alt text](<https://pictures.kazoottt.top/2025/01/20250120-302a1f29e54896d6be02c74a2afadfa7.png>)
 
 there are three kinds of separation:
 

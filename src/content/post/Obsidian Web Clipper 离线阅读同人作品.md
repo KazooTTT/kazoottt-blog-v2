@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-06T03:59:39.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 title: Obsidian Web Clipper 离线阅读同人作品
 date: 2025-02-06T00:00:00.000Z
 author: KazooTTT
@@ -30,7 +30,7 @@ astroType: post
 
 具体的 dataview 的写法如下:
 
-![Pasted image 20250206130152](https://pictures.kazoottt.top/2025/02/20250206-Pasted%20image%2020250206130152.png)
+![Pasted image 20250206130152](<https://pictures.kazoottt.top/2025/02/20250206-Pasted%20image%2020250206130152.png>)
 
 阅读列表生成效果如下：
 
@@ -41,7 +41,7 @@ where contains(tags, "替换为你要筛选的标签")
 sort published desc    
 ```
 
-![Pasted image 20250206130132](https://pictures.kazoottt.top/2025/02/20250206-Pasted%20image%2020250206130132.png)
+![Pasted image 20250206130132](<https://pictures.kazoottt.top/2025/02/20250206-Pasted%20image%2020250206130132.png>)
 
 这样就可以很方便的进行后续回顾了。
 

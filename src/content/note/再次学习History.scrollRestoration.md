@@ -22,12 +22,12 @@ link-notionnext: >-
 rinId: 18
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # 再次学习 History.scrollRestoration
 
-![2024-05-23-23-52-40](https://pictures.kazoottt.top/2024/05/20240523-96faf635fa38b9f54a7567a75d91e46c.jpeg)
+![2024-05-23-23-52-40](<https://pictures.kazoottt.top/2024/05/20240523-96faf635fa38b9f54a7567a75d91e46c.jpeg>)
 
 之前在 react.dev 的源代码中了解到了这个 HIstory 的属性，当时写了一篇笔记来记录我对它的理解，现在看来还是一知半解。所以今天打算重新学习一下这个属性，主要从属性以及所属对象的介绍、使用方法，是否开启标准这几个方面来简单展开。
 
@@ -37,7 +37,7 @@ scrollRestoration 是一个属性，它所属的实例是浏览器的 History。
 
 这个属性是做什么的？它用来控制我们在切换历史页面的时候，滚动条的位置会不会恢复到之前的位置。
 
-![屏幕录制2024-05-23 10.48.05](https://pictures.kazoottt.top/2024/05/20240523-247544493f4d8292bbac76db53881606.gif)
+![屏幕录制2024-05-23 10.48.05](<https://pictures.kazoottt.top/2024/05/20240523-247544493f4d8292bbac76db53881606.gif>)
 
 如图所示，我们切换历史页面，又切换回最之前的页面，发现滚动条的位置依然保持底部，也就是之前的位置。
 
@@ -55,7 +55,7 @@ history.go(page) // page大于0，表示往后面翻对应的页数，反之则�
 
 scrollRestoration 可选的值为 auto 和 manual (如果浏览器支持这个属性，那么它默认是 auto)
 
-> scroll restoration mode, a scroll restoration mode, initially "auto". [HTML Standard](https://html.spec.whatwg.org/multipage/browsing-the-web.html#she-scroll-restoration-mode)
+> scroll restoration mode, a scroll restoration mode, initially "auto". [HTML Standard](<https://html.spec.whatwg.org/multipage/browsing-the-web.html#she-scroll-restoration-mode>)
 
 如果是 auto：那么在切换历史页面的时候，滚动条会自动地恢复到切换之前的位置。
 
@@ -67,7 +67,7 @@ scrollRestoration 可选的值为 auto 和 manual (如果浏览器支持这个�
 
 我之前觉得这个特性很好，但是为什么要单独地设置一个属性来控制是否要恢复到之前的滚动条位置呢？
 
-在 [History API - 滚动恢复  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/history-api-scroll-restoration) 这篇文章中提到：
+在 [History API - 滚动恢复  |  Blog  |  Chrome for Developers](<https://developer.chrome.com/blog/history-api-scroll-restoration>) 这篇文章中提到：
 
 > This often means unsightly jumps as the scroll position changes automatically, and especially so if your app does transitions, or changes the contents of the page in any way. Ultimately this leads to an horrible user experience.
 > To make matters even worse there's very little you can do about it: Chrome triggers a `popState` event before the `scroll` event, which means you can read the current scroll position in `popState` and then reverse it in the `scroll` event handler with `window.scrollTo` (Ewww, but at least it works!). Firefox, however, triggers the `scroll` event *before* `popState`, so you have no idea what the old scroll value was in order to restore it. Bah!
@@ -91,6 +91,6 @@ scrollRestoration 可选的值为 auto 和 manual (如果浏览器支持这个�
 
 ## 参考的资料
 
-[History: scrollRestoration property - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/History/scrollRestoration)
+[History: scrollRestoration property - Web APIs | MDN](<https://developer.mozilla.org/en-US/docs/Web/API/History/scrollRestoration>)
 
-[HTML Standard](https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-scroll-restoration)
+[HTML Standard](<https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-scroll-restoration>)

@@ -15,20 +15,20 @@ category: 前端
 toAstro: true
 astroType: post
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # 1 如何实现在 markdown 中渲染 iframe
 
-demo 展示地址：[Create Next App](https://markdown-preview-eosin.vercel.app/demo)
+demo 展示地址：[Create Next App](<https://markdown-preview-eosin.vercel.app/demo>)
 
-项目源代码：[https://github.com/KazooTTT/markdown-iframe-preview/](https://github.com/KazooTTT/markdown-iframe-preview/)
+项目源代码：[https://github.com/KazooTTT/markdown-iframe-preview/](<https://github.com/KazooTTT/markdown-iframe-preview/>)
 
-[https://github.com/KazooTTT/markdown-iframe-preview/](https://github.com/KazooTTT/markdown-iframe-preview/)
+[https://github.com/KazooTTT/markdown-iframe-preview/](<https://github.com/KazooTTT/markdown-iframe-preview/>)
 
-使用的 markdown 渲染器是：[GitHub - remarkjs/react-markdown: Markdown component for React](https://github.com/remarkjs/react-markdown)
+使用的 markdown 渲染器是：[GitHub - remarkjs/react-markdown: Markdown component for React](<https://github.com/remarkjs/react-markdown>)
 
-![https://pictures.kazoottt.top/2024/04/20240401-99bfb1d8434e94e5b66182ed42bc09b7.png](https://pictures.kazoottt.top/2024/04/20240401-99bfb1d8434e94e5b66182ed42bc09b7.png)
+![https://pictures.kazoottt.top/2024/04/20240401-99bfb1d8434e94e5b66182ed42bc09b7.png](<https://pictures.kazoottt.top/2024/04/20240401-99bfb1d8434e94e5b66182ed42bc09b7.png>)
 
 有两种方案，第一种是 iframe 以 html 的语法嵌入（1），第二种是重写 a 标签把它转化为 iframe（3）。
 
@@ -42,9 +42,9 @@ demo 展示地址：[Create Next App](https://markdown-preview-eosin.vercel.app/
 
 参考：
 
-[iFrame Not Rendering · Issue #661 · remarkjs/react-markdown · GitHub](https://github.com/remarkjs/react-markdown/issues/661)
+[iFrame Not Rendering · Issue #661 · remarkjs/react-markdown · GitHub](<https://github.com/remarkjs/react-markdown/issues/661>)
 
-[GitHub - remarkjs/react-markdown: Markdown component for React](https://github.com/remarkjs/react-markdown?tab=readme-ov-file#appendix-a-html-in-markdown)
+[GitHub - remarkjs/react-markdown: Markdown component for React](<https://github.com/remarkjs/react-markdown?tab=readme-ov-file#appendix-a-html-in-markdown>)
 
 也就是引入 rehypeRaw 这个 rehypePlugin，实现在 markdown 中嵌入 html。
 

@@ -1,5 +1,5 @@
 ---
-title: search params 请求参数
+title: search params 请求参数的获取与更新
 date: 2024-11-13T00:00:00.000Z
 author: KazooTTT
 type: Post
@@ -24,12 +24,12 @@ NotionID-notionnext: 13d55568-fd75-81f5-be1b-e0a4f8137355
 link-notionnext: 'https://kazoottt.notion.site/search-params-13d55568fd7581f5be1be0a4f8137355'
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 ## react router `useSearchParams`
 
-[useSearchParams  | React Router](https://reactrouter.com/en/main/hooks/use-search-params#usesearchparams)
+[useSearchParams  | React Router](<https://reactrouter.com/en/main/hooks/use-search-params#usesearchparams>)
 
 ``` ts
 interface URLSearchParams {
@@ -62,9 +62,9 @@ interface URLSearchParams {
 
 ## qs + window.location
 
-[GitHub - ljharb/qs: A querystring parser with nesting support](https://github.com/ljharb/qs)
+[GitHub - ljharb/qs: A querystring parser with nesting support](<https://github.com/ljharb/qs>)
 
-![image.png](https://pictures.kazoottt.top/2024/11/20241113-9c3c37d82dd684dc8ca2b75cfb16784e.png)
+![image.png](<https://pictures.kazoottt.top/2024/11/20241113-9c3c37d82dd684dc8ca2b75cfb16784e.png>)
 
 使用 window.location.search 获取到请求参数对应的字符串（需要注意的是：字符串是带有?的）
 
@@ -82,7 +82,7 @@ const getQueryParam = (): QueryParams => {
 };
 ```
 
-![](https://pictures.kazoottt.top/2024/11/20241113-157c9570908a6b1f584ae28db3eebf1d.png)
+![](<https://pictures.kazoottt.top/2024/11/20241113-157c9570908a6b1f584ae28db3eebf1d.png>)
 
 正确使用：
 
@@ -94,4 +94,4 @@ const getQueryParam = (): QueryParams => {
 };
 ```
 
-![image.png](https://pictures.kazoottt.top/2024/11/20241113-48ad512e7639c8027216269380b7cacf.png)
+![image.png](<https://pictures.kazoottt.top/2024/11/20241113-48ad512e7639c8027216269380b7cacf.png>)

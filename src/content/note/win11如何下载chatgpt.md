@@ -16,13 +16,13 @@ published: false
 category: 软件
 toAstro: true
 date_created: 2025-01-04T03:34:08.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 打开设置 - 时间和语言 - 选择国家和地区为美国
 
-![IMG-20250104114646389](https://pictures.kazoottt.top/2025/01/20250130-IMG-20250104114646389.png)
+![IMG-20250104114646389](<https://pictures.kazoottt.top/2025/01/20250130-IMG-20250104114646389.png>)
 
 在 microsoft store 中搜索 chatgpt 下载即可
 
-![IMG-20250104114647117](https://pictures.kazoottt.top/2025/01/20250130-IMG-20250104114647117.png)
+![IMG-20250104114647117](<https://pictures.kazoottt.top/2025/01/20250130-IMG-20250104114647117.png>)

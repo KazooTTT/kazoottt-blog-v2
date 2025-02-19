@@ -28,7 +28,7 @@ description: >-
   = path.dirname(__filename) ``` 这种方法推荐使用，避免了相对路径的问题。
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # __dirname Is not Defined in ES Module Scope
@@ -39,7 +39,7 @@ date_modified: 2025-02-07T03:25:34.000Z
 
 首先是第一种改为 module 的写法，那就是把 import 改为 require，然后由于我们这里是 module 的项目，所以需要修改一下 ts 文件的后缀 ts 改为 cts。
 
-一个供参考的例子：[GitHub - shawnsparks/typescript-esm: Explore different usage patterns of ES modules with Typescript](https://github.com/shawnsparks/typescript-esm)
+一个供参考的例子：[GitHub - shawnsparks/typescript-esm: Explore different usage patterns of ES modules with Typescript](<https://github.com/shawnsparks/typescript-esm>)
 
 然后是第二种，文件、路径相关的改为 esm 的写法。
 

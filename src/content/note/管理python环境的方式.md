@@ -15,7 +15,7 @@ description: >-
 category: 后端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:16:07.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 # 管理 python 环境的方式
@@ -30,13 +30,13 @@ date_modified: 2025-02-07T03:16:07.000Z
 
 对于不同的项目，它们会用到不同的 python 版本，以及不同的依赖库和版本。如果只使用全局解释器，那么切换和维护起来会非常的麻烦且容易出错。面对这样的场景，虚拟环境是更优的选择。
 
-在官方文档中提到：[venv --- 创建虚拟环境 — Python 3.12.0 文档](https://docs.python.org/zh-cn/3/library/venv.html)
+在官方文档中提到：[venv --- 创建虚拟环境 — Python 3.12.0 文档](<https://docs.python.org/zh-cn/3/library/venv.html>)
 
-> `venv`  模块支持创建轻量的“虚拟环境”，每个虚拟环境将拥有它们自己独立的安装在其  [`site`](https://docs.python.org/zh-cn/3/library/site.html#module-site "site: Module responsible for site-specific configuration.")  目录中的 Python 软件包集合。虚拟环境是在现有的 Python 安装版基础之上创建的，这被称为虚拟环境的“基础”Python，并且还可选择与基础环境中的软件包隔离开来，这样只有在虚拟环境中显式安装的软件包才是可用的。
+> `venv`  模块支持创建轻量的“虚拟环境”，每个虚拟环境将拥有它们自己独立的安装在其  [`site`](<https://docs.python.org/zh-cn/3/library/site.html#module-site "site: Module responsible for site-specific configuration.">)  目录中的 Python 软件包集合。虚拟环境是在现有的 Python 安装版基础之上创建的，这被称为虚拟环境的“基础”Python，并且还可选择与基础环境中的软件包隔离开来，这样只有在虚拟环境中显式安装的软件包才是可用的。
 
 那么虚拟环境的管理具体有哪些呢？
 
-![IMG-20240904002804460](https://pictures.kazoottt.top/2024/10/20241017-c3e24ad6634626388f1bd3614efcbc2e.png)  
+![IMG-20240904002804460](<https://pictures.kazoottt.top/2024/10/20241017-c3e24ad6634626388f1bd3614efcbc2e.png>)  
 我们从 pycharm 提供的解释器选项中能看出一二，pycharm 这里提供的都是比较主流的虚拟环境管理了。
 
 1. venv（官方内置的模块）
@@ -52,7 +52,7 @@ date_modified: 2025-02-07T03:16:07.000Z
 ## 对于 Python 版本管理
 
 使用 pyenv  
-[GitHub - pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)  
+[GitHub - pyenv/pyenv: Simple Python version management](<https://github.com/pyenv/pyenv>)  
 用来安装和切换 python 的版本
 
 ## 对于依赖管理
@@ -63,7 +63,7 @@ date_modified: 2025-02-07T03:16:07.000Z
 
 ### Poetry
 
-[Basic usage | Documentation | Poetry - Python dependency management and packaging made easy](https://python-poetry.org/docs/basic-usage/)
+[Basic usage | Documentation | Poetry - Python dependency management and packaging made easy](<https://python-poetry.org/docs/basic-usage/>)
 
 如果是一个新的项目
 
@@ -78,14 +78,14 @@ poetry init
 ```
 
 然后使用 `poetry add 包名` 安装依赖  
-也可以指定版本，[Dependency specification | Documentation | Poetry - Python dependency management and packaging made easy](https://python-poetry.org/docs/dependency-specification/)
+也可以指定版本，[Dependency specification | Documentation | Poetry - Python dependency management and packaging made easy](<https://python-poetry.org/docs/dependency-specification/>)
 
 如果要导出 requirements 方便别人安装可以运行  
 `poetry export -o requirements.txt`
 
 ### Virtualenv
 
-[virtualenv](https://virtualenv.pypa.io/en/latest/)
+[virtualenv](<https://virtualenv.pypa.io/en/latest/>)
 
 创建虚拟环境  
 ``virtualenv env_name
@@ -102,7 +102,7 @@ poetry init
 
 ### Conda
 
-[请问大神们，pip install 和 conda install 有什么区别吗？ - 知乎](https://www.zhihu.com/question/395145313/answer/2449421755)  
+[请问大神们，pip install 和 conda install 有什么区别吗？ - 知乎](<https://www.zhihu.com/question/395145313/answer/2449421755>)  
 conda 用来作为虚拟环境管理的话，不建议 pip 和 conda 混用，需要了解一下 import 优先级。
 
 如果都安装了某一个包，那么优先 import 的是 conda 安装的

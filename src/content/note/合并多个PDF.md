@@ -12,12 +12,12 @@ slug: merge-pdfs
 description: null
 toAstro: true
 date_created: 2024-12-19T02:15:23.000Z
-date_modified: 2025-02-07T03:16:09.000Z
+date_modified: 2025-02-19T03:43:53.000Z
 ---
 
 地址：
 
-[PDF文件合并工具 - 在线免费合并PDF文档](https://pdf.kazoottt.top/)
+[PDF文件合并工具 - 在线免费合并PDF文档](<https://pdf.kazoottt.top/>)
 
 ## 背景
 
@@ -25,9 +25,9 @@ date_modified: 2025-02-07T03:16:09.000Z
 
 昨天在超话看到了杂货铺的小说的翻译
 
-[中字自翻《Whale... - @Co_Shean01的微博 - 微博](https://weibo.com/6515676456/P4RZHdySF#comment)
+[中字自翻《Whale... - @Co_Shean01的微博 - 微博](<https://weibo.com/6515676456/P4RZHdySF#comment>)
 
-![image.png](https://pictures.kazoottt.top/2024/12/20241219-e086ea78a460bd093313ad11e4c223ba.png)
+![image.png](<https://pictures.kazoottt.top/2024/12/20241219-e086ea78a460bd093313ad11e4c223ba.png>)
 
 然后由于是分章节每个章节有对应的 pdf，而我比较喜欢使用微信读书来进行阅读，所以产生了想要把所有的 pdf 合并为一个的需求。
 
@@ -35,4 +35,4 @@ date_modified: 2025-02-07T03:16:09.000Z
 
 ## 鸣谢
 
-使用了 [GitHub - nbesli/pdf-merger-js](https://github.com/nbesli/pdf-merger-js) 这个库来进行 pdf 的合并
+使用了 [GitHub - nbesli/pdf-merger-js](<https://github.com/nbesli/pdf-merger-js>) 这个库来进行 pdf 的合并

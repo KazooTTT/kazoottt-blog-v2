@@ -18,10 +18,10 @@ description: >-
   在国内访问速度很慢，所以需要配置镜像。
 toAstro: true
 date_created: 2025-01-05T06:44:38.000Z
-date_modified: 2025-02-07T03:17:03.000Z
+date_modified: 2025-02-19T03:44:16.000Z
 ---
 
-在使用 [whisper ui](https://github.com/jhj0517/Whisper-WebUI) 的时候，需要下载模型，如果不做配置默认是从 huggingface 下载的，但是 huggingface 在国内访问速度很慢，所以需要配置镜像。
+在使用 [whisper ui](<https://github.com/jhj0517/Whisper-WebUI>) 的时候，需要下载模型，如果不做配置默认是从 huggingface 下载的，但是 huggingface 在国内访问速度很慢，所以需要配置镜像。
 
 配置方法如下：
 
@@ -37,4 +37,4 @@ HF_ENDPOINT=https://hf-mirror.com
 
 ## 参考
 
-[如何快速下载huggingface大模型 – padeoe的小站](https://padeoe.com/huggingface-large-models-downloader/)
+[如何快速下载huggingface大模型 – padeoe的小站](<https://padeoe.com/huggingface-large-models-downloader/>)

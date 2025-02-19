@@ -13,7 +13,7 @@ description: >-
 category: 前端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # 查看源
@@ -60,7 +60,7 @@ pnpm config delete registry
 
 # 工具
 
-[GitHub - i5ting/yrm: YARN registry manager, fast switch between different registries: npm, cnpm, nj, taobao](https://github.com/i5ting/yrm)
+[GitHub - i5ting/yrm: YARN registry manager, fast switch between different registries: npm, cnpm, nj, taobao](<https://github.com/i5ting/yrm>)
 
 ```shell
 npm install -g yrm

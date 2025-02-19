@@ -18,20 +18,20 @@ link-notionnext: >-
   https://kazoottt.notion.site/cursor-deepseek-coder-f759bbe6aa4b4317969544927430146b
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-12T02:52:44.000Z
+date_modified: 2025-02-19T03:44:16.000Z
 ---
 
 # 如何在 cursor 中使用 deepseek-coder
 
-[Cursor](https://www.cursor.com/) 是一款智能代码编辑器，可以帮助用户生成代码、修改 Bug、生成测试等，提高编程效率。
+[Cursor](<https://www.cursor.com/>) 是一款智能代码编辑器，可以帮助用户生成代码、修改 Bug、生成测试等，提高编程效率。
 
 可以免费使用，但是具有一定的额度。
 
-![Pasted image 20240725133801](https://pictures.kazoottt.top/2024/07/20240725-Pasted%20image%2020240725133801.png)
+![Pasted image 20240725133801](<https://pictures.kazoottt.top/2024/07/20240725-Pasted%20image%2020240725133801.png>)
 
 但是它也可以使用自己的 key 和模型具体的操作如下。
 
-![Pasted image 20240725133037](https://pictures.kazoottt.top/2024/07/20240725-Pasted%20image%2020240725133037.png)
+![Pasted image 20240725133037](<https://pictures.kazoottt.top/2024/07/20240725-Pasted%20image%2020240725133037.png>)
 
 ## 1. 添加模型：DeepSeek-Coder
 
@@ -51,6 +51,6 @@ https://api.deepseek.com/v1
 
 ## 4. 在侧边栏中选择 deepseek-coder
 
-![Pasted image 20240725134803](https://pictures.kazoottt.top/2024/07/20240725-Pasted%20image%2020240725134803.png)
+![Pasted image 20240725134803](<https://pictures.kazoottt.top/2024/07/20240725-Pasted%20image%2020240725134803.png>)
 
 这样配置就完成了

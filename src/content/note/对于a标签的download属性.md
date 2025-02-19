@@ -14,14 +14,14 @@ slug: the-download-attribute-for-the-a-tag
 description: download属性是如何定义的以及注意事项。 不能设置为null，可以直接设置成空串或者null。
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 ## 对于 a 标签的 download 属性
 
-![image.png](https://pictures.kazoottt.top/2024/10/20241012-b044604cec83cd5e0b281b9e63562f11.png)
+![image.png](<https://pictures.kazoottt.top/2024/10/20241012-b044604cec83cd5e0b281b9e63562f11.png>)
 
-[\<a\>: The Anchor element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+[\<a\>: The Anchor element - HTML: HyperText Markup Language | MDN](<https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a>)
 
 ---
 
@@ -44,7 +44,7 @@ console.log(temp1.download); // 输出 undefined
 
 但是如果先设置了 download = '', 再设置 download = null, 就会被转化为 'null'
 
-![image.png](https://pictures.kazoottt.top/2024/10/20241012-1e0e4270de68707c51966174e2f2a063.png)
+![image.png](<https://pictures.kazoottt.top/2024/10/20241012-1e0e4270de68707c51966174e2f2a063.png>)
 
 所以要么直接设置 download = null，要么直接设置 download = ''
 

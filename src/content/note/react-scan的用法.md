@@ -20,18 +20,18 @@ description: >-
   props、context 和 state，以及是否发生了 re-render，并且会标记出可能存在性能优化问题的 bad render。
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
-在本地运行 follow 的源代码的时候是我第一次接触到 react-scan, 后来又在 x 的首页山上面刷到了原作者以及其他人对于 [react-scan](https://react-scan.com/) 的推荐。
+在本地运行 follow 的源代码的时候是我第一次接触到 react-scan, 后来又在 x 的首页山上面刷到了原作者以及其他人对于 [react-scan](<https://react-scan.com/>) 的推荐。
 
 下面来介绍一下它的用法，以及我个人认为它好用的原因。
 
 ## 安装
 
-安装方式可以分为两种，开发环境安装，使用浏览器插件。[官方文档](https://github.com/aidenybai/react-scan?tab=readme-ov-file#install) 有比较详细的教程，这里不做赘述。
+安装方式可以分为两种，开发环境安装，使用浏览器插件。[官方文档](<https://github.com/aidenybai/react-scan?tab=readme-ov-file#install>) 有比较详细的教程，这里不做赘述。
 
-如果通过 npm 安装，可以自定义更多的配置，可以参考这里的 [API Reference](https://github.com/aidenybai/react-scan?tab=readme-ov-file#api-reference-1)
+如果通过 npm 安装，可以自定义更多的配置，可以参考这里的 [API Reference](<https://github.com/aidenybai/react-scan?tab=readme-ov-file#api-reference-1>)
 
 ## 使用
 
@@ -74,8 +74,8 @@ const isBadRender =
 
 并且 react-scan 自带面板，不需要像 devtool 一样首先需要打开 devtool 再勾选上 re-render 的画面闪烁监听。
 
-![image.png](https://pictures.kazoottt.top/2024/12/20241217-1db17bd2dcccf168976cdc833df6f6a3.png)
+![image.png](<https://pictures.kazoottt.top/2024/12/20241217-1db17bd2dcccf168976cdc833df6f6a3.png>)
 
 ## 参考
 
-[还有这种前端技巧？REACT-SCAN 代码鉴赏｜精简版\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1JrzvYgERi/)
+[还有这种前端技巧？REACT-SCAN 代码鉴赏｜精简版\_哔哩哔哩\_bilibili](<https://www.bilibili.com/video/BV1JrzvYgERi/>)

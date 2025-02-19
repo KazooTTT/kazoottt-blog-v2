@@ -16,15 +16,15 @@ rinId: 65
 category: 项目
 toAstro: true
 date_created: 2024-12-02T03:03:24.000Z
-date_modified: 2025-01-22T05:39:24.000Z
+date_modified: 2025-02-19T03:43:53.000Z
 ---
 
 # Auto Slugify Webapp
 
-[demo](https://slugify.kazoottt.top/)
+[demo](<https://slugify.kazoottt.top/>)
 
-![image](https://github.com/KazooTTT/auto-slugify-webapp/assets/31075337/e391b919-a2e8-411b-b466-c53ce79b16fc)
+![image](<https://github.com/KazooTTT/auto-slugify-webapp/assets/31075337/e391b919-a2e8-411b-b466-c53ce79b16fc>)
 
 based on
 
-[auto-slugify](https://github.com/kzttools/auto-slugify)
+[auto-slugify](<https://github.com/kzttools/auto-slugify>)

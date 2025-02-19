@@ -15,7 +15,7 @@ slug: how-to-make-a-hollow-cylinder-in-blender
 description: null
 toAstro: true
 date_created: 2025-01-14T16:38:23.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 this is a blender note is to record how to make a hollow cylinder in blender.
@@ -29,11 +29,11 @@ we can split the problem into these parts:
 
 method 1: in the object mode, press `shift + a` and select `mesh - cylinder`, we can create a cylinder in the scene.
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250115-cf0f5589dff49f5bd74887545528245b.png)
+![alt text](<https://pictures.kazoottt.top/2025/01/20250115-cf0f5589dff49f5bd74887545528245b.png>)
 
 method 2: at the left top of the screen, click `add - mesh - cylinder`, we can create a cylinder in the scene, too.
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250115-3a42f7aaeffe74d9161f35d1fa18068f.png)
+![alt text](<https://pictures.kazoottt.top/2025/01/20250115-3a42f7aaeffe74d9161f35d1fa18068f.png>)
 
 ## (optional) 2. edit the cylinder when adding it
 
@@ -41,7 +41,7 @@ after we add a cylinder, we can see there has a `add cylinder` panel in the bott
 
 and if we click the `add cylinder` panel, we can edit the props of the cylinder, such as the vertex count, radius, depth, etc.
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250115-c15b02c04a8415e7f8188effa98f6bed.png)  
+![alt text](<https://pictures.kazoottt.top/2025/01/20250115-c15b02c04a8415e7f8188effa98f6bed.png>)  
 
 because i am a new user of blender,  so i will try to figure out the meaning of the props of panels one by one. (if you do not care about the meaning of the props, you can skip this part)
 
@@ -76,20 +76,20 @@ press the number key `3` to enable the `face selection` mode, then press `s` to 
 
 press the button shift and left click the fases at the top and bottom of the cylinder, like this:
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250115-94ed6520719664ee3dfebab331d0adda.png)
+![alt text](<https://pictures.kazoottt.top/2025/01/20250115-94ed6520719664ee3dfebab331d0adda.png>)
 
 attention: you should click the faces at the top and bottom both, not the vertices, not the single face or other faces.
 
 then we press the `i` button to inset the faces, move the mouse and we can see the faces are inseted, like this:
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250115-2eeef440bbc377405873689b4560b32b.png)  
+![alt text](<https://pictures.kazoottt.top/2025/01/20250115-2eeef440bbc377405873689b4560b32b.png>)  
 
 then if then size is ok ,release the mouse
 
 then press the `delete` button to delete the faces. (you should select the fases which you nested before)
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250115-6439ce14f7229427723f0694cfcae425.png)
+![alt text](<https://pictures.kazoottt.top/2025/01/20250115-6439ce14f7229427723f0694cfcae425.png>)
 
 now we can see the cylinder is hollow.
 
-![alt text](https://pictures.kazoottt.top/2025/01/20250115-89fe97d1445513d78f54e6b99fbf45c3.png)
+![alt text](<https://pictures.kazoottt.top/2025/01/20250115-89fe97d1445513d78f54e6b99fbf45c3.png>)

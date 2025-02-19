@@ -22,15 +22,15 @@ description: >-
 toAstro: true
 astroType: post
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 banner: 'https://pictures.kazoottt.top/2025/02/20250201-og-1738417688145.png'
 ---
 
 ## 什么是 zustand？
 
-[zustand](https://github.com/pmndrs/zustand) 是一个状态管理库，简单易用。
+[zustand](<https://github.com/pmndrs/zustand>) 是一个状态管理库，简单易用。
 
-在使用 [react-scan](https://react-scan.com/) 的时候，我发现我在 A 组件中对于 store 的某个 state 的更新，导致了 B 组件的重新渲染，有比较严重的性能问题。
+在使用 [react-scan](<https://react-scan.com/>) 的时候，我发现我在 A 组件中对于 store 的某个 state 的更新，导致了 B 组件的重新渲染，有比较严重的性能问题。
 
 于是我又重新阅读了文档，发现我之前对于 zustand 的使用是错误的。
 
@@ -123,7 +123,7 @@ const CurrentCamera: React.FC = () => {
 
 ## 错误用法 3 使用了多个 store 去存储不同的 state，而不是使用 slice 把不同的 state 分组
 
-在官方的文档中 [Flux inspired practice - Zustand](https://zustand.docs.pmnd.rs/guides/flux-inspired-practice) 提到，应该使用单一存储，而不是使用多个 store 去存储不同的 state。
+在官方的文档中 [Flux inspired practice - Zustand](<https://zustand.docs.pmnd.rs/guides/flux-inspired-practice>) 提到，应该使用单一存储，而不是使用多个 store 去存储不同的 state。
 
 > [!quote]
 > Recommended patterns 推荐模式
@@ -180,8 +180,8 @@ const ComponentA = () => {
 
 ## 参考
 
-[Zustand](https://zustand-demo.pmnd.rs/)
+[Zustand](<https://zustand-demo.pmnd.rs/>)
 
-[master 分支下的 notes/zustand 学习笔记.md --- notes/zustand学习笔记.md at master · puxiao/notes](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+[master 分支下的 notes/zustand 学习笔记.md --- notes/zustand学习笔记.md at master · puxiao/notes](<https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md>)
 
-[如何有效率地管理 React 局部狀態？ 這次我選擇了 Zustand! | Bosh 的技術探索筆記](https://notes.boshkuo.com/docs/React/zustand#%E7%82%BA%E4%BD%95%E9%81%B8%E6%93%87%E4%BD%BF%E7%94%A8-zustand-)
+[如何有效率地管理 React 局部狀態？ 這次我選擇了 Zustand! | Bosh 的技術探索筆記](<https://notes.boshkuo.com/docs/React/zustand#%E7%82%BA%E4%BD%95%E9%81%B8%E6%93%87%E4%BD%BF%E7%94%A8-zustand->)

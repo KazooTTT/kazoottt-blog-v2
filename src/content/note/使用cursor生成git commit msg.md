@@ -14,12 +14,12 @@ description: |-
 slug: cursorgit-commit-msg
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:03.000Z
+date_modified: 2025-02-19T03:44:16.000Z
 ---
 
 原文参考：
 
-[x.com](https://x.com/0xinhua_zh/status/1855650777110630471)
+[x.com](<https://x.com/0xinhua_zh/status/1855650777110630471>)
 
 ```
 
@@ -35,13 +35,13 @@ date_modified: 2025-02-07T03:17:03.000Z
 
 ```
 
-![IMG-20241112141124094](https://pictures.kazoottt.top/2024/11/20241112-5ddd01234e9ab24764328e01034144e8.png)
+![IMG-20241112141124094](<https://pictures.kazoottt.top/2024/11/20241112-5ddd01234e9ab24764328e01034144e8.png>)
 
 ---
 
 我是这样，在暂存前使用 command
 
-[x.com](https://x.com/FaiChou_zh/status/1855775123271459192)
+[x.com](<https://x.com/FaiChou_zh/status/1855775123271459192>)
 
 ```
 
@@ -59,4 +59,4 @@ Please generate a commit message with CN. Below is the commit message template: 
 
 ```
 
-![Pasted image 20241112141218](https://pictures.kazoottt.top/2024/11/20241112-906ab65b44b91d7ef7b240ddd76167f9.png)
+![Pasted image 20241112141218](<https://pictures.kazoottt.top/2024/11/20241112-906ab65b44b91d7ef7b240ddd76167f9.png>)

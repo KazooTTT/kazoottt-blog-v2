@@ -1,5 +1,5 @@
 ---
-title: open graph简述
+title: open graph 简述
 date: 2024-04-09T00:00:00.000Z
 author: KazooTTT
 tags: []
@@ -17,7 +17,7 @@ rinId: 16
 category: 前端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # Open Graph 简述
@@ -26,44 +26,44 @@ date_modified: 2025-02-07T03:25:34.000Z
 
 在我们使用 twitter 的时候，会发现有的链接会显示预览卡片，有的不会。
 
-![Pasted image 20240409203435](https://pictures.kazoottt.top/2024/04/2024049-bc909874e20bb629c839253d3943d659.png)
+![Pasted image 20240409203435](<https://pictures.kazoottt.top/2024/04/2024049-bc909874e20bb629c839253d3943d659.png>)
 
-![Pasted image 20240409204440](https://pictures.kazoottt.top/2024/04/2024049-4a9e81697a9703fe745e3052d4cbd1cd.png)
+![Pasted image 20240409204440](<https://pictures.kazoottt.top/2024/04/2024049-4a9e81697a9703fe745e3052d4cbd1cd.png>)
 
 这是因为有的网站设置了 open graph，有的没有。
 
-![Pasted image 20240409103122](https://pictures.kazoottt.top/2024/04/2024049-087f0fbb7b7c5f497748c7fb9a12cdda.png)
+![Pasted image 20240409103122](<https://pictures.kazoottt.top/2024/04/2024049-087f0fbb7b7c5f497748c7fb9a12cdda.png>)
 
 ## 那么什么是 open graph？
 
 open graph 是一个由 facebook 在 2010 年发布的协议，用于在社交网络上分享链接时，显示预览卡片。
 
-![Pasted image 20240409204654](https://pictures.kazoottt.top/2024/04/2024049-3dd20b82e78f86d49d9b7994a75ecb5c.png)
+![Pasted image 20240409204654](<https://pictures.kazoottt.top/2024/04/2024049-3dd20b82e78f86d49d9b7994a75ecb5c.png>)
 
 我觉得无论是它的名称还是意图，都能看出 facebook 以及其他支持这种协议的社交平台的开放性, 特别是在某些平台会屏蔽外链或者限流带有外链的衬托下。
 
-![Pasted image 20240409205145](https://pictures.kazoottt.top/2024/04/2024049-df5e5b3488dffbd26760c4e44ee0914a.png)
+![Pasted image 20240409205145](<https://pictures.kazoottt.top/2024/04/2024049-df5e5b3488dffbd26760c4e44ee0914a.png>)
 
 和 open graph 类似还有 twitter 自己的 card，如果 twitter card 和 open graph 同时存在的话，会先显示在 twitter card。如果 twitter card 没有定义，才会显示 open graph。
 
-![Pasted image 20240409213244](https://pictures.kazoottt.top/2024/04/2024049-4621b20b74ec8f5aed0a133d5f38d28e.png)
+![Pasted image 20240409213244](<https://pictures.kazoottt.top/2024/04/2024049-4621b20b74ec8f5aed0a133d5f38d28e.png>)
 
-![Pasted image 20240408163056](https://pictures.kazoottt.top/2024/04/2024049-ab3a3a2fdeb0b839edc4ad6b2b226515.png)
+![Pasted image 20240408163056](<https://pictures.kazoottt.top/2024/04/2024049-ab3a3a2fdeb0b839edc4ad6b2b226515.png>)
 
 ## 预览和检查工具
 
-[OpenGraph - Preview Social Media Share and Generate Metatags - OpenGraph](https://www.opengraph.xyz/)
+[OpenGraph - Preview Social Media Share and Generate Metatags - OpenGraph](<https://www.opengraph.xyz/>)
 
-![Pasted image 20240409201933](https://pictures.kazoottt.top/2024/04/2024049-ef4f78169782a186e08463a76ff65f1f.png)
+![Pasted image 20240409201933](<https://pictures.kazoottt.top/2024/04/2024049-ef4f78169782a186e08463a76ff65f1f.png>)
 
-[OpenGraph - Preview Images and Generate Open Graph Meta Tags](https://opengraph.dev/)
+[OpenGraph - Preview Images and Generate Open Graph Meta Tags](<https://opengraph.dev/>)
 
-![Pasted image 20240409195616](https://pictures.kazoottt.top/2024/04/2024049-6901afe74ffbf8affe03e69a0ffecfa4.png)
+![Pasted image 20240409195616](<https://pictures.kazoottt.top/2024/04/2024049-6901afe74ffbf8affe03e69a0ffecfa4.png>)
 
-![Pasted image 20240409131420](https://pictures.kazoottt.top/2024/04/2024049-c92de25d68dbdfbd37639c11df5bb091.png)
+![Pasted image 20240409131420](<https://pictures.kazoottt.top/2024/04/2024049-c92de25d68dbdfbd37639c11df5bb091.png>)
 
 ## 一些例子
 
-[Open Graph Examples](https://opengraphexamples.com/)
+[Open Graph Examples](<https://opengraphexamples.com/>)
 
-![Pasted image 20240409131603](https://pictures.kazoottt.top/2024/04/2024049-188a013e0965f2e4b004de4a915b07b7.png)
+![Pasted image 20240409131603](<https://pictures.kazoottt.top/2024/04/2024049-188a013e0965f2e4b004de4a915b07b7.png>)

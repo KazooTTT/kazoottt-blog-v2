@@ -16,7 +16,7 @@ tags:
   - 区块链
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # web3 资源收集
@@ -61,13 +61,13 @@ date_modified: 2025-02-07T03:25:34.000Z
 ---
 
 youtube 教程  
-[Site Unreachable](https://www.youtube.com/watch?v=q9UzRyWRPcY&ab_channel=CyfrinAudits)
+[Site Unreachable](<https://www.youtube.com/watch?v=q9UzRyWRPcY&ab_channel=CyfrinAudits>)
 
 这个可以看看 Foundry 开发框架  
-[Foundry 开发框架 | Decert.me](https://decert.me/tutorial/solidity/tools/foundry/)
+[Foundry 开发框架 | Decert.me](<https://decert.me/tutorial/solidity/tools/foundry/>)
 
-[The Architecture of a Web 3.0 application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) 这篇是讲 web3 应用的架构
+[The Architecture of a Web 3.0 application](<https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application>) 这篇是讲 web3 应用的架构
 
 对了，有一个 uniswap v2 详细讲解材料，非常不错，我发出来  
 大家有需要可以好好看一下，讲得非常详细  
-[X 上的 RareSkills：“It's 100% free -- no login required. Bookmark (no pun intended) and come back as needed. Book link: https://t.co/8BcWQH8jH0” / X](https://twitter.com/RareSkills_io/status/1724741635995799607?t=ItDMIKngRqH7yQ4Zf1gIxQ&s=19)
+[X 上的 RareSkills：“It's 100% free -- no login required. Bookmark (no pun intended) and come back as needed. Book link: https://t.co/8BcWQH8jH0” / X](<https://twitter.com/RareSkills_io/status/1724741635995799607?t=ItDMIKngRqH7yQ4Zf1gIxQ&s=19>)

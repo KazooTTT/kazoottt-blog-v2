@@ -26,18 +26,18 @@ description: >-
   YouTube 视频的播放量并存入 Google Sheets 表格。
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
-起因是想要记录一下 milklove 的二搭剧 Whale Store xoxo 在油管上的预告片的播放量的 [คุณวาฬร้านชำ (Whale Store xoxo) \| GMMTV 2025 - YouTube](https://www.youtube.com/watch?v=Eia_Sh_ZTyQ)
+起因是想要记录一下 milklove 的二搭剧 Whale Store xoxo 在油管上的预告片的播放量的 [คุณวาฬร้านชำ (Whale Store xoxo) \| GMMTV 2025 - YouTube](<https://www.youtube.com/watch?v=Eia_Sh_ZTyQ>)
 
-于是先搜了一下有没有可以直接使用的开源项目或者接口，然后在 [批量统计YouTube视频播放量方法 - 杨哥的出海营销笔记](https://marketingyang.com/%E6%89%B9%E9%87%8F%E7%BB%9F%E8%AE%A1youtube%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%87%8F%E6%96%B9%E6%B3%95/) 这篇文章中了解到了可以使用 google sheet 的 apps 脚本 直接获取油管的播放量。
+于是先搜了一下有没有可以直接使用的开源项目或者接口，然后在 [批量统计YouTube视频播放量方法 - 杨哥的出海营销笔记](<https://marketingyang.com/%E6%89%B9%E9%87%8F%E7%BB%9F%E8%AE%A1youtube%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%87%8F%E6%96%B9%E6%B3%95/>) 这篇文章中了解到了可以使用 google sheet 的 apps 脚本 直接获取油管的播放量。
 
 不过这篇文章中的脚本更多的获取当前的播放量，而不是定时获取，因此我在这个脚本的基础上进行了一些修改，来实现定时获取播放量，然后把时间和对应的播放量的信息存到 sheet 中。
 
-最终的效果如图所示。[杂货铺播放量记录 - Google 表格](https://docs.google.com/spreadsheets/d/12l5v7V-lyHFXw1KkgGAFtnvbVejrKshOLGsulLf8P1A/edit?usp=sharing)
+最终的效果如图所示。[杂货铺播放量记录 - Google 表格](<https://docs.google.com/spreadsheets/d/12l5v7V-lyHFXw1KkgGAFtnvbVejrKshOLGsulLf8P1A/edit?usp=sharing>)
 
-![CleanShot 2024-12-15 at 21.38.06@2x.png](https://pictures.kazoottt.top/2024/12/20241215-1d48251e5fc8c4b10db40df0be42ec44.png)
+![CleanShot 2024-12-15 at 21.38.06@2x.png](<https://pictures.kazoottt.top/2024/12/20241215-1d48251e5fc8c4b10db40df0be42ec44.png>)
 
 ## 操作教程
 
@@ -45,17 +45,17 @@ date_modified: 2025-02-07T03:25:34.000Z
 
 | 链接                                                                                       | 视频 id                                                    | 时间 | 播放量 |
 | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ---- | ------ |
-| [https://www.youtube.com/watch?v=Eia_Sh_ZTyQ](https://www.youtube.com/watch?v=Eia_Sh_ZTyQ) | =MID(A2, FIND("v=", A2) + 2, LEN(A2) - FIND("v=", A2) - 1) |      |        |
+| [https://www.youtube.com/watch?v=Eia_Sh_ZTyQ](<https://www.youtube.com/watch?v=Eia_Sh_ZTyQ>) | =MID(A2, FIND("v=", A2) + 2, LEN(A2) - FIND("v=", A2) - 1) |      |        |
 
 在第一列写上要监听的油管的链接，然后视频的 id 通过公式直接计算出来。
 
 第二步，点击 extentions - apps script 这里,跳转到脚本配置界面。
 
-![CleanShot 2024-12-15 at 21.40.14@2x.png](https://pictures.kazoottt.top/2024/12/20241215-67500f88d9213bc751ab385fabc8ba4d.png)
+![CleanShot 2024-12-15 at 21.40.14@2x.png](<https://pictures.kazoottt.top/2024/12/20241215-67500f88d9213bc751ab385fabc8ba4d.png>)
 
 点击左侧的 services 的加号，添加 YouTube Data API v3，标识符、版本直接默认就可以了。
 
-![CleanShot 2024-12-15 at 21.44.17@2x.png](https://pictures.kazoottt.top/2024/12/20241215-910db7890a903b9cd74b173ad34fa0ad.png)
+![CleanShot 2024-12-15 at 21.44.17@2x.png](<https://pictures.kazoottt.top/2024/12/20241215-910db7890a903b9cd74b173ad34fa0ad.png>)
 
 第三步，把代码复制到 Code.gs 中，效果如图：
 
@@ -130,19 +130,19 @@ function recordYouTubeViewCount() {
 }
 ```
 
-![CleanShot 2024-12-15 at 21.41.33@2x.png](https://pictures.kazoottt.top/2024/12/20241215-bc187c06a7f8ff245814034294da6035.png)
+![CleanShot 2024-12-15 at 21.41.33@2x.png](<https://pictures.kazoottt.top/2024/12/20241215-bc187c06a7f8ff245814034294da6035.png>)
 
 然后如果要验证是否正确，选择 recordYouTubeViewCount，然后点击 run 按钮。不出意外的话会在 sheet 中新增一行记录。
 
-![CleanShot 2024-12-15 at 21.42.08@2x.png](https://pictures.kazoottt.top/2024/12/20241215-9e27a00e167349a672a56770393fb680.png)
+![CleanShot 2024-12-15 at 21.42.08@2x.png](<https://pictures.kazoottt.top/2024/12/20241215-9e27a00e167349a672a56770393fb680.png>)
 
 第四步，也是最后一步，我们要设置一下 trigger,来实现定时地查询播放量并且写入到 sheet 中。点击左边侧边栏的 trigger 菜单，再点击右下角的 add trigger.
 
-![CleanShot 2024-12-15 at 21.47.04@2x.png](https://pictures.kazoottt.top/2024/12/20241215-9cc933a553b36a5f35cb1310ee5f455f.png)
+![CleanShot 2024-12-15 at 21.47.04@2x.png](<https://pictures.kazoottt.top/2024/12/20241215-9cc933a553b36a5f35cb1310ee5f455f.png>)
 
 设置如下，配置完成后点击 save 按钮。
 
-![image.png](https://pictures.kazoottt.top/2024/12/20241215-2158ed0c440adc3d3bae20f2bfdc5355.png)
+![image.png](<https://pictures.kazoottt.top/2024/12/20241215-2158ed0c440adc3d3bae20f2bfdc5355.png>)
 
 点击完之后，可能出现一个验证弹窗，需要你选择自己的 google 账号，然后点击 go to xxx project (unsave), 点击 allow 进行授权。（这里没有保留截图，但或许大概应该能直接看懂？）
 
@@ -150,6 +150,6 @@ function recordYouTubeViewCount() {
 
 ## 参考和鸣谢
 
-这个脚本是在 [批量统计YouTube视频播放量方法 - 杨哥的出海营销笔记](https://marketingyang.com/%E6%89%B9%E9%87%8F%E7%BB%9F%E8%AE%A1youtube%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%87%8F%E6%96%B9%E6%B3%95/) 的脚本的基础上改的，感谢作者提供了很详细的教程和代码。
+这个脚本是在 [批量统计YouTube视频播放量方法 - 杨哥的出海营销笔记](<https://marketingyang.com/%E6%89%B9%E9%87%8F%E7%BB%9F%E8%AE%A1youtube%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%87%8F%E6%96%B9%E6%B3%95/>) 的脚本的基础上改的，感谢作者提供了很详细的教程和代码。
 
 同时也要感谢 google 提供的 api.

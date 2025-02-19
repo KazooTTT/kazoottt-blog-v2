@@ -15,7 +15,7 @@ slug: >-
 description: 转换FLV格式的视频成HDDP，用于弹幕压制。使用FFmpeg来实现该功能，支持多个操作系统，如Windows和macOS。
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-01-22T05:39:19.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 ---
 
 ## 720x1080 批量转 1920x1080（两边黑屏）
@@ -57,7 +57,7 @@ Get-ChildItem -Path $input_folder -Filter *.flv | ForEach-Object {
 
 效果
 
-![image.png](https://pictures.kazoottt.top/2024/10/20241014-20241014224347.png)
+![image.png](<https://pictures.kazoottt.top/2024/10/20241014-20241014224347.png>)
 
 ## 弹幕压制
 

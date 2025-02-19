@@ -1,5 +1,5 @@
 ---
-title: html | 浏览器滚动恢复属性History.scrollRestoration
+title: 浏览器滚动恢复属性History.scrollRestoration
 date: 2022-11-27T00:00:00.000Z
 author: KazooTTT
 tags:
@@ -20,7 +20,7 @@ finished: true
 category: 前端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:02.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 ## 后续 2024-05-23
@@ -46,15 +46,15 @@ useEffect(() => {
 }, [])
 ```
 
-![Pasted image 20240523112741](https://pictures.kazoottt.top/2024/05/20240523-fada302d05227c093278498fd1a41b16.png)![Pasted image 20240523112936](https://pictures.kazoottt.top/2024/05/20240523-e452f6186dff475a25570f749111141e.png)
+![Pasted image 20240523112741](<https://pictures.kazoottt.top/2024/05/20240523-fada302d05227c093278498fd1a41b16.png>)![Pasted image 20240523112936](<https://pictures.kazoottt.top/2024/05/20240523-e452f6186dff475a25570f749111141e.png>)
 
-[Re-enable scroll restoration behind flag (#14046) · vercel/next.js@38bd1a0 · GitHub](https://github.com/vercel/next.js/commit/38bd1a024cb25923d8ea15f269a7294d073684d8)
+[Re-enable scroll restoration behind flag (#14046) · vercel/next.js@38bd1a0 · GitHub](<https://github.com/vercel/next.js/commit/38bd1a024cb25923d8ea15f269a7294d073684d8>)
 
 # 浏览器滚动恢复属性 History.scrollRestoration
 
-[GitHub - reactjs/react.dev: The React documentation website](https://github.com/reactjs/react.dev)
+[GitHub - reactjs/react.dev: The React documentation website](<https://github.com/reactjs/react.dev>)
 
-最近在阅读 React 新版官网的代码时，发现在 [\_app.tsx](https://github.com/reactjs/reactjs.org/blob/main/beta/src/pages/_app.tsx) 中有这样一段代码。
+最近在阅读 React 新版官网的代码时，发现在 [\_app.tsx](<https://github.com/reactjs/reactjs.org/blob/main/beta/src/pages/_app.tsx>) 中有这样一段代码。
 
 ```typescript
 useEffect(() => {
@@ -75,14 +75,14 @@ useEffect(() => {
 
 这里用到了我没有接触过的一个属性 History.scrollRestoration，发现这个属性是用来控制页面刷新或者返回后是否滚动到原来的位置。
 
-[MDN 文档](https://developer.mozilla.org/zh-CN/docs/Web/API/History/scrollRestoration)
+[MDN 文档](<https://developer.mozilla.org/zh-CN/docs/Web/API/History/scrollRestoration>)
 
 属性的值：
 
 1. auto 将恢复用户已滚动到的页面上的位置。
 2. manual 未还原页上的位置。用户必须手动滚动到该位置。
 
-在 mdn 文档中没有看到 auto 是默认值，但是自己手动验证以及在 [google blog](https://developer.chrome.com/blog/history-api-scroll-restoration) 中提到：
+在 mdn 文档中没有看到 auto 是默认值，但是自己手动验证以及在 [google blog](<https://developer.chrome.com/blog/history-api-scroll-restoration>) 中提到：
 
 > The good news is, however, that there's a potential fix: history.scrollRestoration. It takes two string values: auto, which keeps everything as it is today (and is its default value), and manual, which means that you as the developer will take ownership of any scroll changes that may be required when a user traverses the app's history.
 
@@ -91,13 +91,13 @@ useEffect(() => {
 ## 举例
 
 1. 如果 history.scrollRestoration = 'auto'; 自动回到原有位置。
-   ![](https://pictures.kazoottt.top/2024/04/20240407-7667c40d30dd5df692f894b63de0e395.gif)
+   ![](<https://pictures.kazoottt.top/2024/04/20240407-7667c40d30dd5df692f894b63de0e395.gif>)
 
 2. 如果 history.scrollRestoration = 'manual'; 回到顶部。
-   ![](https://pictures.kazoottt.top/2024/04/20240407-cf4eabae0c082ae50dc617ae67e140d8.gif)
+   ![](<https://pictures.kazoottt.top/2024/04/20240407-cf4eabae0c082ae50dc617ae67e140d8.gif>)
 
 ## 在 react.dev (新版官网) 中为什么要使用 manual
 
 这是因为这个项目用的 next.js，涉及到 ssr，可能出现页面还没渲染完就滚动到了之前的位置。（待补充例子。）
 
-可以看一下这篇文档 [Next.js 中怎么保持页面的滚动位置](https://juejin.cn/post/7141235243326898213)
+可以看一下这篇文档 [Next.js 中怎么保持页面的滚动位置](<https://juejin.cn/post/7141235243326898213>)

@@ -1,5 +1,5 @@
 ---
-title: 在react中不要滥用 &&
+title: 在react中不要滥用 short-circuit &&
 date: 2024-10-16T00:00:00.000Z
 author: KazooTTT
 tags:
@@ -20,7 +20,7 @@ link-notionnext: >-
   https://kazoottt.notion.site/react-short-circuit-12b55568fd75815cba9cff587a86a262
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 ## 错误现象
@@ -55,4 +55,4 @@ date_modified: 2025-02-07T03:25:34.000Z
 
 ## 参考
 
-[reactjs - React showing 0 instead of nothing with short-circuit (&&) conditional component - Stack Overflow](https://stackoverflow.com/questions/53048037/react-showing-0-instead-of-nothing-with-short-circuit-conditional-component)
+[reactjs - React showing 0 instead of nothing with short-circuit (&&) conditional component - Stack Overflow](<https://stackoverflow.com/questions/53048037/react-showing-0-instead-of-nothing-with-short-circuit-conditional-component>)

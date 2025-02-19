@@ -20,14 +20,14 @@ link-notionnext: 'https://kazoottt.notion.site/abort-801e2fa1dfa94b4fb579ef7f665
 rinId: 53
 toAstro: true
 date_created: 2025-01-04T03:34:08.000Z
-date_modified: 2025-02-07T03:25:34.000Z
+date_modified: 2025-02-19T03:44:15.000Z
 ---
 
 # 在前端使用 abort 取消请求
 
 举个例子，在写 llm 的 chat 的时候，经常会出现需要取消请求的场景。
 
-如何在**前端**取消请求，涉及到一个接口：[AbortController.AbortController() - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/AbortController/AbortController)
+如何在**前端**取消请求，涉及到一个接口：[AbortController.AbortController() - Web API 接口参考 | MDN](<https://developer.mozilla.org/zh-CN/docs/Web/API/AbortController/AbortController>)
 
 在原生的 js 的写法，参考 mdn 的写法。
 
@@ -133,7 +133,7 @@ const RequestComponent = () => {
 export default RequestComponent
 ```
 
-在 solidjs 中的写法，可以参考 diu 老师的 [GitHub - anse-app/chatgpt-demo: Minimal web UI for ChatGPT.](https://github.com/anse-app/chatgpt-demo)
+在 solidjs 中的写法，可以参考 diu 老师的 [GitHub - anse-app/chatgpt-demo: Minimal web UI for ChatGPT.](<https://github.com/anse-app/chatgpt-demo>)
 
 ```js
 import { Index, Show, createEffect, createSignal, onCleanup, onMount } from 'solid-js'

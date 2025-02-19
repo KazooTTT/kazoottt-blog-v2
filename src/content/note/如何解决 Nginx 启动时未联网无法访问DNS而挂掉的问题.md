@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-07T07:04:05.000Z
-date_modified: 2025-02-08T03:43:19.000Z
+date_modified: 2025-02-19T03:44:14.000Z
 title: 如何解决 Nginx 启动时未联网无法访问DNS而挂掉的问题
 date: 2025-02-08T00:00:00.000Z
 author: KazooTTT
@@ -66,10 +66,10 @@ http {
 
 ## 参考
 
-[nginx中resolver参数配置解释 \|](https://www.rootop.org/pages/4307.html)
+[nginx中resolver参数配置解释 \|](<https://www.rootop.org/pages/4307.html>)
 
-[Module ngx\_http\_core\_module](https://nginx.org/en/docs/http/ngx_http_core_module.html#resolver)
+[Module ngx\_http\_core\_module](<https://nginx.org/en/docs/http/ngx_http_core_module.html#resolver>)
 
- [89 \| proxy模块中的proxy\_pass指令--极客时间](https://time.geekbang.org/course/detail/138-75140)
+ [89 \| proxy模块中的proxy\_pass指令--极客时间](<https://time.geekbang.org/course/detail/138-75140>)
 
-[^1]: [89 \| proxy模块中的proxy\_pass指令--极客时间](https://time.geekbang.org/course/detail/138-75140)
+[^1]: [89 \| proxy模块中的proxy\_pass指令--极客时间](<https://time.geekbang.org/course/detail/138-75140>)
