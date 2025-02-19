@@ -25,12 +25,17 @@ export const GET = async () => {
 				pubDate: post.data.date,
 				link: `posts/${post.id}/`,
 				content: post.body
-					? sanitizeHtml(parser.render(post.body), {
-							allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
-							textFilter: function (text: string) {
-								return text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F\uFFF0-\uFFFF]/g, "");
+					? sanitizeHtml(
+							parser
+								.render(post.body)
+								.replace(/<img\s+src="\/images\//g, `<img src="${import.meta.env.SITE}images/`),
+							{
+								allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+								textFilter: function (text: string) {
+									return text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F\uFFF0-\uFFFF]/g, "");
+								},
 							},
-						})
+						)
 					: "",
 				author: siteConfig.author,
 				categories: post.data?.category ? [post.data.category] : [],
