@@ -1,6 +1,6 @@
 ---
 date_created: 2025-02-05T05:21:09.000Z
-date_modified: 2025-02-19T17:22:51.000Z
+date_modified: 2025-02-19T17:54:54.000Z
 title: 使用 1password 的 secure notes 存储提示词
 date: 2025-02-05T00:00:00.000Z
 author: KazooTTT
@@ -10,6 +10,8 @@ tags:
   - prompt
   - prompt-template
   - 提示词
+finished: false
+published: false
 category: 软件
 slug: use-1password-secure-notes-to-store-prompt-templates
 description: null
@@ -34,4 +36,4 @@ toAstro: true
 2. 跨平台使用，macos、pc、手机等都可以使用。
 3. 快捷键唤起搜索框，快速复制提示词。
 
-[[使用 copyQ 存储提示词]]
+[[使用 copyQ 存储提示词 ]]

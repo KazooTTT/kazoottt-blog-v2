@@ -11,6 +11,8 @@ tags:
   - Script
   - 脚本
   - 自动更新播放量
+finished: true
+published: true
 category: null
 slug: use-google-sheet-api-to-get-youtube-playbacks-on-a-regular-basis
 description: >-
@@ -22,7 +24,7 @@ description: >-
   YouTube 视频的播放量并存入 Google Sheets 表格。
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:15.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 起因是想要记录一下 milklove 的二搭剧 Whale Store xoxo 在油管上的预告片的播放量的 [คุณวาฬร้านชำ (Whale Store xoxo) \| GMMTV 2025 - YouTube](<https://www.youtube.com/watch?v=Eia_Sh_ZTyQ>)

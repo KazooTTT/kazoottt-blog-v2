@@ -12,10 +12,12 @@ description: >-
 title: win11恢复win10右键的样式
 date: 2024-12-17T00:00:00.000Z
 author: KazooTTT
+finished: true
+published: true
 category: 软件
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:54:54.000Z
 ---
 
 # win11 恢复 win10 右键的样式

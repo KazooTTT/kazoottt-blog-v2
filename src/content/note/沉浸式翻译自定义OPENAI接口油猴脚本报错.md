@@ -3,16 +3,19 @@ title: 沉浸式翻译自定义OPENAI接口油猴脚本报错
 date: 2024-05-21T00:00:00.000Z
 author: KazooTTT
 tags: []
+finished: true
+published: true
 slug: >-
   immersion-translation-error-message-for-custom-openai-interface-tampermonkey-script
 description: >-
   用户在使用oneapi部署服务并接入deepseek翻译模型时遇到错误，错误信息显示域名未被列入@connect列表。通过查询，了解到@connect是油猴脚本的一个标签，用于允许脚本跨域请求特定配置的域名。解决方法包括手动添加域名到@connect列表、使用通配符*简化配置、在油猴脚本设置中添加域名到用户域白名单，或使用浏览器插件直接配置匹配所有URL的模式。
 NotionID-notionnext: 26f6fc5b-4286-45e2-8e83-e178f45c1ae0
 link-notionnext: 'https://kazoottt.notion.site/OPENAI-26f6fc5b428645e28e83e178f45c1ae0'
+rinId: 56
 category: 软件
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:54:54.000Z
 ---
 
 # 沉浸式翻译自定义 OPENAI 接口油猴脚本报错

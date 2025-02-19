@@ -7,13 +7,15 @@ tags:
   - unity
   - shader
   - github
+finished: false
+published: true
 category: null
 slug: hanser-repository
 description: 收集与hanser相关的开源项目
 toAstro: true
 astroType: post
 date_created: 2024-12-18T05:20:01.000Z
-date_modified: 2025-02-19T17:22:54.000Z
+date_modified: 2025-02-19T17:54:57.000Z
 ---
 
 ## UnityURPToonLitShader

@@ -5,15 +5,18 @@ author: KazooTTT
 tags:
   - slug
   - 项目
+finished: true
+published: true
 slug: implement-an-auto-slugify
 description: >-
   Discover an auto slugify webapp designed to convert text into URL-friendly
   slugs. Check out the live demo at https://slugify.kazoottt.top/. This tool is
   based on the auto-slugify library available on GitHub.
+rinId: 65
 category: 项目
 toAstro: true
 date_created: 2024-12-02T03:03:24.000Z
-date_modified: 2025-02-19T03:43:53.000Z
+date_modified: 2025-02-19T17:54:57.000Z
 ---
 
 # Auto Slugify Webapp

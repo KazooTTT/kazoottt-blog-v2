@@ -1,9 +1,12 @@
 ---
+category: null
 title: 使用cursor生成git commit msg
 date: 2024-11-12T00:00:00.000Z
 author: KazooTTT
 tags:
   - 笔记
+finished: true
+published: true
 description: |-
   我是这个问题的解决方案：
   如何使用Git提交代码，请按照以下步骤操作：
@@ -12,7 +15,7 @@ description: |-
 slug: cursorgit-commit-msg
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:16.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 原文参考：

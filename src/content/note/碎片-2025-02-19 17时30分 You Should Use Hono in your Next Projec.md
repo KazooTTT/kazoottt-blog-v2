@@ -6,18 +6,19 @@ tags:
   - 碎片
 description: null
 slug: fragmented-notes-2025-02-19-17-30-55
+published: false
 toAstro: true
 astroType: null
 category: 碎片
 date_created: 2025-02-11T15:38:40.000Z
-date_modified: 2025-02-19T17:22:48.000Z
+date_modified: 2025-02-19T17:54:50.000Z
 ---
 
-[You Should Use Hono in your Next Project](<https://www.youtube.com/watch?v=sYZW8TK2IV4>)
+[You Should Use Hono in your Next Project](<https://www.youtube.com/watch?v=sYZW8TK2IV4)
 
 ![IMG-41F8AD4A7B808D2191BF4861D3847A35](/mdImages/IMG-41F8AD4A7B808D2191BF4861D3847A35.png)
 
-这是一个很好的hono + zod + drizzle的入门教程
+这是一个很好的hono + zod + drizzle的入门教程  
 
 对应的仓库也是开源的：
 

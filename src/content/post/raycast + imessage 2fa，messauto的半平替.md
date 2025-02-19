@@ -7,6 +7,8 @@ tags:
   - macOS
   - 验证码
   - messauto
+finished: true
+published: true
 category: null
 slug: raycast-imessage-2fa
 description: >-
@@ -16,7 +18,7 @@ description: >-
 toAstro: true
 astroType: post
 date_created: 2024-12-11T12:27:36.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:54:54.000Z
 ---
 
 很久之前做过一个 messauto 的安利

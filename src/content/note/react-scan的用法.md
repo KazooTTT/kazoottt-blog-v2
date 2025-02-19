@@ -8,6 +8,8 @@ tags:
   - components
   - re-render
   - performance优化
+finished: true
+published: true
 category: null
 slug: react-scan
 description: >-
@@ -16,7 +18,7 @@ description: >-
   props、context 和 state，以及是否发生了 re-render，并且会标记出可能存在性能优化问题的 bad render。
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:15.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 在本地运行 follow 的源代码的时候是我第一次接触到 react-scan, 后来又在 x 的首页山上面刷到了原作者以及其他人对于 [react-scan](<https://react-scan.com/>) 的推荐。

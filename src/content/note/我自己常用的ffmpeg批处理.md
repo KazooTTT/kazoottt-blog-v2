@@ -6,13 +6,14 @@ tags:
   - 视频处理
   - ffmpeg
 finished: false
+published: true
 category: 软件
 slug: >-
   01-my-own-commonly-used-ffmpeg-batch-processingmy-own-commonly-used-ffmpeg-batching
 description: 转换FLV格式的视频成HDDP，用于弹幕压制。使用FFmpeg来实现该功能，支持多个操作系统，如Windows和macOS。
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:54:54.000Z
 ---
 
 ## 720x1080 批量转 1920x1080（两边黑屏）

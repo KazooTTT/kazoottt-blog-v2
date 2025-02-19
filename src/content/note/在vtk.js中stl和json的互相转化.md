@@ -8,6 +8,8 @@ tags:
   - vtkjs
   - 3D模型
   - 数据转换
+finished: true
+published: true
 category: 前端
 slug: in-vtkjs-stl-and-json-are-converted-to-each-other
 description: >-
@@ -20,7 +22,7 @@ update_time: '2024/11/22 14:40:08'
 publish_time: '2024/11/22 14:38:29'
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-07T03:17:03.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 ## stl 如何转为 json

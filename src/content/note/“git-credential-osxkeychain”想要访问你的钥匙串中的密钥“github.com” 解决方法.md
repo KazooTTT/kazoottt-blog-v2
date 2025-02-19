@@ -6,6 +6,8 @@ tags:
   - Git
   - macOS
   - 解决方案
+finished: true
+published: true
 category: 软件
 slug: git-credential-osxkeychain-solve-method
 description: 解决 macOS 弹出 'git-credential-osxkeychain' 访问 GitHub 密钥的问题
@@ -14,7 +16,7 @@ link-notionnext: >-
   https://kazoottt.notion.site/git-credential-osxkeychain-github-com-462377ea6b4a472c9f55ca4965dfe5c4
 toAstro: true
 date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T03:44:14.000Z
+date_modified: 2025-02-19T17:54:54.000Z
 ---
 
 # macos 一直弹出 “git-credential-osxkeychain”想要访问你的钥匙串中的密钥“github.com” 解决方法

@@ -7,6 +7,8 @@ tags:
   - github action
   - build docs
   - OBSidian模板
+finished: true
+published: true
 category: null
 description: >-
   这个 GitHub Action 通过 Node.js 脚本在每次推送到 content 目录和 build_docs.cjs
@@ -19,7 +21,7 @@ description: >-
 toAstro: true
 astroType: post
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:22:51.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 ## github action
@@ -118,10 +120,11 @@ published 是 true 且 notAstro 不为 true 的时候，会被发布到另外一
 title: {{title}}
 date: {{date}}
 author: KazooTTT
-
-
+type: Post
+status: Published
 tags: []
-
+finished: false
+published: false
 category:
 slug:
 description:

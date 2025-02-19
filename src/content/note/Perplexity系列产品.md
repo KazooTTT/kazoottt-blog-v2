@@ -8,6 +8,8 @@ tags:
   - Perplexity
   - Playground
   - 播客
+finished: true
+published: true
 category: 软件
 slug: perplexity-productions-intro
 description: 概述Perplexity系列产品，包括搜索引擎、Playground和播客，重点介绍其功能和区别。
@@ -15,7 +17,7 @@ NotionID-notionnext: ae2fba46-af30-4bd5-b6d0-fe751c162800
 link-notionnext: 'https://kazoottt.notion.site/01-Perplexity-ae2fba46af304bd5b6d0fe751c162800'
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:16.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 # Perplexity 系列产品

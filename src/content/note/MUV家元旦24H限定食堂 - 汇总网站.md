@@ -8,27 +8,29 @@ tags:
   - 同人
   - milkpansa
   - loverrukk
+finished: true
+published: true
 category: 项目
 slug: milklovemuv
 description: null
 toAstro: true
 date_created: 2025-01-06T02:02:35.000Z
-date_modified: 2025-02-19T17:22:55.000Z
+date_modified: 2025-02-19T17:54:57.000Z
 ---
 
 [MUV家元旦24H限定食堂 - 汇总](<https://milklovemuv.com/>)
 
 ## 介绍
 
-方便后续回顾，写了一个 [#muv家元旦24h限定食堂#](<https://s.weibo.com/weibo?q=%23muv%E5%AE%B6%E5%85%83%E6%97%A624h%E9%99%90%E5%AE%9A%E9%A3%9F%E5%A0%82%23>) 的汇总网站。
+方便后续回顾，写了一个 [#muv家元旦24h限定食堂#](<https://s.weibo.com/weibo?q=%23muv%E5%AE%B6%E5%85%83%E6%97%A624h%E9%99%90%E5%AE%9A%E9%A3%9F%E5%A0%82%23>) 的汇总网站。  
 
-点击卡片内的微博图标可以跳转到对应的微博，点击蓝色的外链图标可以直接跳转至查看文章或者视频的平台。
+点击卡片内的微博图标可以跳转到对应的微博，点击蓝色的外链图标可以直接跳转至查看文章或者视频的平台。  
 
 非常感谢各位老师的产出
 
 ![IMG-20250106115740490](<https://pictures.kazoottt.top/2025/01/20250106-b1e56dd97c719d35d9e7db0486caf588.png>)
 
----
+--- 
 
 ## 开发
 

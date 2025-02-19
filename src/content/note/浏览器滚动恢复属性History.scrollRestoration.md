@@ -9,15 +9,18 @@ tags:
   - 前端
   - 页面滚动
 slug: browser-scroll-restoration-property-historyscrollrestoration
+published: true
 description: >-
   在React新版官网的代码中，发现了一个名为History.scrollRestoration的属性，用于控制页面刷新或返回后是否恢复到原来的滚动位置。该属性有两个值：'auto'表示自动恢复到用户滚动到的位置，而'manual'则表示不恢复，用户需手动滚动到该位置。在React官网的实现中，针对Safari浏览器设置了'auto'，而其他浏览器则使用'manual'，以优化不同浏览器的用户体验。这一设置有助于避免在Safari浏览器中出现返回时的灰色屏幕问题，同时确保其他浏览器如Chrome和Firefox的用户体验。
 NotionID-notionnext: 7dc13064-8325-4aa3-bf45-5450c89e0223
 link-notionnext: >-
   https://kazoottt.notion.site/History-scrollRestoration-7dc1306483254aa3bf455450c89e0223
+rinId: 21
+finished: true
 category: 前端
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:15.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 ## 后续 2024-05-23

@@ -5,12 +5,14 @@ author: KazooTTT
 tags:
   - 前端
   - html
+finished: true
+published: true
 category: 前端
 slug: the-download-attribute-for-the-a-tag
 description: download属性是如何定义的以及注意事项。 不能设置为null，可以直接设置成空串或者null。
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:15.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 ## 对于 a 标签的 download 属性

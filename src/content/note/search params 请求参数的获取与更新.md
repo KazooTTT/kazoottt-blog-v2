@@ -7,6 +7,8 @@ tags:
   - React Router
   - qs
   - window.location.search
+finished: true
+published: true
 category: 前端
 slug: search-params
 description: >-
@@ -20,7 +22,7 @@ NotionID-notionnext: 13d55568-fd75-81f5-be1b-e0a4f8137355
 link-notionnext: 'https://kazoottt.notion.site/search-params-13d55568fd7581f5be1be0a4f8137355'
 toAstro: true
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:15.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 ---
 
 ## react router `useSearchParams`

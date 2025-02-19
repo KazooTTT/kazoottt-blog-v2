@@ -8,6 +8,8 @@ tags:
   - store
   - react-scan
   - 最小粒度原则
+finished: true
+published: true
 category: 前端
 slug: zustand-use-record
 description: >-
@@ -18,7 +20,7 @@ description: >-
 toAstro: true
 astroType: post
 date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:15.000Z
+date_modified: 2025-02-19T17:54:55.000Z
 banner: 'https://pictures.kazoottt.top/2025/02/20250201-og-1738417688145.png'
 ---
 
