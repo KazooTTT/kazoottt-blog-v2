@@ -1,6 +1,5 @@
 ---
-astroType:
-  - post
+astroType: post
 author: KazooTTT
 category: 脑洞
 date: 2025-02-12T00:00:00.000Z
