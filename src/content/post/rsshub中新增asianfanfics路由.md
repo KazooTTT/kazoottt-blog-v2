@@ -7,16 +7,16 @@ title: rsshub中新增asianfanfics路由
 date: 2025-02-21T00:00:00.000Z
 author: KazooTTT
 tags:
-  - 脑洞
   - asianfanfics
   - rss
   - rsshub
+  - 脑洞
 description: null
 slug: fragmented-notes-2025-02-21-16-38-50
 published: true
 category: 碎片
 date_created: 2025-02-11T15:38:40.000Z
-date_modified: 2025-02-21T12:35:43.000Z
+date_modified: 2025-02-21T12:41:36.000Z
 ---
 
 突然想订阅 #asianfanfics 某个 Tag 或者搜索关键词的更新，打算用 rsshub 来实现，在 follow 中订阅。
@@ -35,7 +35,7 @@ date_modified: 2025-02-21T12:35:43.000Z
 
 示例代码
 
-[[IMG-E759B225225068DF0D09FBD60313AEF3.html]]
+[[IMG-977CB6C832B618287EEC19F1A3F74507.html]]
 
 手动剔除掉无关的元素之后，剩下的结构为：
 
