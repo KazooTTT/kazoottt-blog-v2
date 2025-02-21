@@ -1,14 +1,18 @@
 ---
+toAstro: true
+astroType: post
+toWexin: null
+toJuejin: null
 date_created: 2025-02-09T08:34:48.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_modified: 2025-02-21T13:59:38.000Z
 title: 不引入astro wiki plugin实现链接跳转的思路
 date: 2025-02-09T00:00:00.000Z
 author: KazooTTT
 tags:
-  - obsidian
   - astro
-  - wiki-link
+  - obsidian
   - remark
+  - wiki-link
 finished: true
 published: true
 category: 前端
@@ -17,10 +21,10 @@ description: >-
   在 Obsidian 中，Wiki 语法 ([[某个笔记]]) 使用频率较高，但 Astro 默认不支持。由于现有 remark
   插件无法满足需求，我选择在导出到 Astro 时预处理 Wiki 链接，将其转换为标准 Markdown 语法，并使用 slug
   作为唯一标识，从而实现正确的链接跳转。
-toAstro: true
-astroType: post
 excalidrawFile: '[[不引入astro wiki plugin实现链接跳转的思路.excalidraw]]'
 ---
+
+![IMG-2F53DF7357EC28522945C58351B62D96](/mdImages/IMG-2F53DF7357EC28522945C58351B62D96.png)
 
 ## 背景
 
@@ -37,7 +41,7 @@ obsidian 是我的进行笔记编辑的主力软件，并且 wiki 语法，也�
 
 所以这与我的需求不符合，我需要的是使用 slug 字段作为笔记的唯一标识，并且使用 wiki 语法进行链接跳转。
 
-也就是`[[Test Page]]` 转化为了 `/page/test_page`。
+也就是 `[[Test Page]]` 转化为了 `/page/test_page`。
 
 假设我的中文笔记的信息是：
 
