@@ -30,6 +30,7 @@
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
+ - [2025-02-21 配置 cloudflare 规则实现重定向](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-21-15-44-58/)
  - [2025-02-19 241029 1144 vite环境变量](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-21-11-25/)
  - [2025-02-19 碎片-2025-02-19 17时30分 You Should Use Hono in your Next Projec](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-17-30-55/)
  - [2025-02-17 碎片-2025-02-17 10时55分 做事设计](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-17-10-55-29/)
@@ -48,5 +49,4 @@
  - [2025-01-20 how to separate object in blender](https://blog.kazoottt.top/notes/how-to-separate-object-in-blender/)
  - [2025-01-20 win11如何下载chatgpt](https://blog.kazoottt.top/notes/win11chatgpt/)
  - [2025-01-15 how to make a hollow cylinder in blender](https://blog.kazoottt.top/notes/how-to-make-a-hollow-cylinder-in-blender/)
- - [2025-01-07 在浏览器中 opengl 的配置与检测](https://blog.kazoottt.top/notes/how-to-check-opengl-configuration-and-detection-in-browser/)
- - [2025-01-06 2025-01-06](https://blog.kazoottt.top/notes/diary-2025-01-06/)<!-- MEMO-POST-LIST:END -->
+ - [2025-01-07 在浏览器中 opengl 的配置与检测](https://blog.kazoottt.top/notes/how-to-check-opengl-configuration-and-detection-in-browser/)<!-- MEMO-POST-LIST:END -->
