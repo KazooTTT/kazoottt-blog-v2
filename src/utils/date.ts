@@ -22,7 +22,7 @@ export function collectionDateSort(
 	return b.data.date.getTime() - a.data.date.getTime();
 }
 
-const datePriorityForNote = ["date_modified", "date", "data_created"];
+const datePriorityForNote = ["date", "date_modified", "data_created"];
 
 export function collectionModifiedDateSort(
 	a: CollectionEntry<"post" | "note">,
