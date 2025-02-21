@@ -29,6 +29,12 @@ export default defineConfig({
 		domains: ["webmention.io", "kazoottt.top"],
 		service: passthroughImageService(),
 	},
+	redirects: {
+		"/blog/[...slug]": "/posts/[...slug]",
+		"/category/[...slug]": "/categories/[...slug]",
+		"/diary/[...slug]": "/notes/[...slug]",
+		"/tag/[...slug]": "/tags/[...slug]",
+	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
 		icon(),
