@@ -3,6 +3,7 @@ toAstro: true
 astroType: post
 toWexin: null
 toJuejin: null
+toZhihu: null
 title: rsshub中新增asianfanfics路由
 date: 2025-02-21T00:00:00.000Z
 author: KazooTTT
@@ -16,7 +17,7 @@ slug: fragmented-notes-2025-02-21-16-38-50
 published: true
 category: 碎片
 date_created: 2025-02-11T15:38:40.000Z
-date_modified: 2025-02-21T12:41:36.000Z
+date_modified: 2025-02-21T14:46:06.000Z
 ---
 
 突然想订阅 #asianfanfics 某个 Tag 或者搜索关键词的更新，打算用 rsshub 来实现，在 follow 中订阅。
@@ -143,8 +144,4 @@ tag 和 text-search 的分别根据上面的分析进行实现即可。代码很
 
 如何发现的，激活 latest 筛选的时候，item 重点显示的是 updated
 
-![IMG-EAB6D9A347C7926AB395DC9F5D27F42A](/mdImages/IMG-EAB6D9A347C7926AB395DC9F5D27F42A.png)
-
 激活 newest 筛选的时候，item 重点显示的是 published
-
-![IMG-42AE74197F09A21FA3B3182045DE5126](/mdImages/IMG-42AE74197F09A21FA3B3182045DE5126.png)
