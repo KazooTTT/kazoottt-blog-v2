@@ -15,13 +15,16 @@ export const GET = async () => {
 		<feedId>116728239358236672</feedId>
 		<userId>62156866798228480</userId>
 	</follow_challenge>`,
-		title: siteConfig.title,
-		description: siteConfig.description,
+		title: siteConfig.rssConfig.noteTitle,
+		description: siteConfig.rssConfig.noteDescription,
 		site: import.meta.env.SITE,
 		items: sortedNotes.map((post) => {
+			const tagStr = post.data.tags.reduce((acc, tag) => {
+				return `${acc}#${tag} `;
+			}, "");
 			return {
 				title: post.data.title,
-				description: post.data.description ?? "",
+				description: (post.data.description ?? "") + "\t" + tagStr,
 				pubDate: post.data.date,
 				link: `notes/${post.id}/`,
 				content: post.body

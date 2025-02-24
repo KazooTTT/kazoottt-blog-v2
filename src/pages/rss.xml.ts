@@ -15,13 +15,16 @@ export const GET = async () => {
 		<feedId>75113012474671104</feedId>
 		<userId>62156866798228480</userId>
 	</follow_challenge>`,
-		title: siteConfig.title,
-		description: siteConfig.description,
+		title: siteConfig.rssConfig.blogTitle,
+		description: siteConfig.rssConfig.blogDescription,
 		site: import.meta.env.SITE,
 		items: sortedPosts.map((post) => {
+			const tagStr = post.data.tags.reduce((acc, tag) => {
+				return `${acc}#${tag} `;
+			}, "");
 			return {
-				title: post.data.title,
-				description: post.data.description ?? "",
+				title: post.data.category ? `[${post.data.category}] ${post.data.title}` : post.data.title,
+				description: (post.data.description ?? "") + "\t" + tagStr,
 				pubDate: post.data.date,
 				link: `posts/${post.id}/`,
 				content: post.body

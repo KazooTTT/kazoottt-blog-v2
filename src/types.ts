@@ -9,6 +9,12 @@ export interface SiteConfig {
 	ogLocale: string;
 	title: string;
 	url: string;
+	rssConfig: {
+		noteTitle: string;
+		noteDescription: string;
+		blogTitle: string;
+		blogDescription: string;
+	};
 }
 
 export interface PaginationLink {
