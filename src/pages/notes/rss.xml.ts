@@ -12,7 +12,7 @@ export const GET = async () => {
 
 	return rss({
 		customData: `<follow_challenge>
-		<feedId>75113012474671104</feedId>
+		<feedId>116728239358236672</feedId>
 		<userId>62156866798228480</userId>
 	</follow_challenge>`,
 		title: siteConfig.title,
