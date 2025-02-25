@@ -23,7 +23,7 @@ date_modified: 2025-02-19T17:54:54.000Z
 
 很久之前做过一个 messauto 的安利
 
-[messAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码](/notes/messauto-imessage-to-synchronize-iphone-and-mac-messages-and-automatically-copy-captchagraphic-bed-edition)
+[messAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码](/posts/messauto-imessage-to-synchronize-iphone-and-mac-messages-and-automatically-copy-captchagraphic-bed-edition)
 
 但是最近收到评论才发现作者在前段时间删库了
 

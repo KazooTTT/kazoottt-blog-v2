@@ -1,17 +1,22 @@
 ---
+toAstro: true
+astroType: post
+toWexin: true
+toJuejin: null
+toZhihu: null
 title: messAuto + iMessage 实现iPhone和mac信息同步和自动复制验证码
 date: 2023-09-24T00:00:00.000Z
 author: KazooTTT
 tags:
+  - 短信同步
+  - 苹果
   - 效率
-  - messauto
+  - 验证码
+  - apple
   - imessage
   - iphone
   - mac
-  - apple
-  - 苹果
-  - 验证码
-  - 短信同步
+  - messauto
 published: true
 slug: >-
   messauto-imessage-to-synchronize-iphone-and-mac-messages-and-automatically-copy-captchagraphic-bed-edition
@@ -24,9 +29,8 @@ publish_time: '2023/10/20 13:50:45'
 finished: true
 rinId: 61
 category: 软件
-toAstro: true
-date_created: 2024-12-02T03:03:24.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20241202
+date_modified: 20250225
 ---
 
 # messAuto + iMessage 实现 iPhone 和 mac 信息同步和自动复制验证码
@@ -48,7 +52,7 @@ date_modified: 2025-02-19T17:54:54.000Z
 
 二、安装 messauto，并设置。
 
-然后我们需要安装 [messauto](<https://github.com/LeeeSe/MessAuto>),地址是 [https://github.com/LeeeSe/MessAuto](<https://github.com/LeeeSe/MessAuto/releases/tag/v0.5.0>)  
+然后我们需要安装 [messauto](<https://github.com/LeeeSe/MessAuto>),地址是 [https://github.com/LeeeSe/MessAuto](<https://github.com/LeeeSe/MessAuto/releases>)  
 ![djoq7](<https://pictures.kazoottt.top/2024/01/20240119-721babc141ee23a2300868bbd701179c.webp>)  
 版本：
 

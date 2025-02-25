@@ -19,8 +19,8 @@ description: >-
   based on the auto-slugify library available on GitHub.
 rinId: 65
 category: 项目
-date_created: 2024-12-02T03:03:24.000Z
-date_modified: 2025-02-24T07:06:21.000Z
+date_created: 20241202
+date_modified: 20250225
 ---
 
 # Auto Slugify Webapp
