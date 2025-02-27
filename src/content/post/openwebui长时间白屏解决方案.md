@@ -7,16 +7,16 @@ toZhihu: true
 author: KazooTTT
 category: 碎片
 date: 2025-02-20T00:00:00.000Z
-date_created: 2025-02-11T15:38:40.000Z
-date_modified: 2025-02-21T14:45:09.000Z
+date_created: 20250220
+date_modified: 20250226
 description: null
 published: true
 slug: openwebui-long-loading-white-screen-solution
 tags:
+  - 碎片
   - docker
   - ollama
   - openwebui
-  - 碎片
 title: openwebui长时间白屏解决方案
 ---
 

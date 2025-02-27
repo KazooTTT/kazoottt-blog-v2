@@ -1,4 +1,9 @@
 ---
+toAstro: true
+astroType: null
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 我自己常用的ffmpeg批处理
 date: 2024-10-14T00:00:00.000Z
 author: KazooTTT
@@ -11,9 +16,8 @@ category: 软件
 slug: >-
   01-my-own-commonly-used-ffmpeg-batch-processingmy-own-commonly-used-ffmpeg-batching
 description: 转换FLV格式的视频成HDDP，用于弹幕压制。使用FFmpeg来实现该功能，支持多个操作系统，如Windows和macOS。
-toAstro: true
-date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20241217
+date_modified: 20250226
 ---
 
 ## 720x1080 批量转 1920x1080（两边黑屏）
@@ -88,3 +92,17 @@ for f in "$input_folder"/*.mp4; do
     ffmpeg -i "$f" -vf "ass=$subtitle_file" "$output_file"
 done
 ```
+
+## 帧截图
+
+``` shell
+ffmpeg -i inputfilepath %d.jpg  
+```
+
+根据视频的帧率来提取截图，每帧都会被提取，并保存为 JPEG 图像文件  
+
+``` shell
+ffmpeg -i inputfilepath -vf "fps=1" %d.jpg  
+```
+
+每隔 1 秒从视频中提取一帧，并保存为 JPEG 图像文件 ​​​
