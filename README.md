@@ -30,13 +30,15 @@
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
+ - [2025-03-03 使用大模型处理 git diff 生成 commit msg](https://blog.kazoottt.top/notes/use-llm-to-generate-commit-message-from-git-diff/)
+ - [2025-03-03 pip安装和运行openwebui](https://blog.kazoottt.top/notes/how-to-install-and-run-openwebui-with-pip/)
  - [2025-02-21 配置 cloudflare 规则实现重定向](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-21-15-44-58/)
  - [2025-02-19 241029 1144 vite环境变量](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-21-11-25/)
  - [2025-02-19 碎片-2025-02-19 17时30分 You Should Use Hono in your Next Projec](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-17-30-55/)
  - [2025-02-17 碎片-2025-02-17 10时55分 做事设计](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-17-10-55-29/)
  - [2025-02-16 2024-10-25 13分02秒 Vintage Camera Lab](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-16-23-41-18/)
- - [2025-02-14 碎片-2025-02-14 15时00分 状态没变更？记录一次没阻止冒泡导致的bug](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-14-15-00-49/)
  - [2025-02-14 碎片-2025-02-14 15时18分 飞书 excalidraw画图对比](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-14-15-18-56/)
+ - [2025-02-14 碎片-2025-02-14 15时00分 状态没变更？记录一次没阻止冒泡导致的bug](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-14-15-00-49/)
  - [2025-02-11 碎片-2025-02-11 12时32分](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-11-12-32-42/)
  - [2025-02-08 如何解决 Nginx 启动时未联网无法访问DNS而挂掉的问题](https://blog.kazoottt.top/notes/nginx-startup-fix-configure-local-hosts-file/)
  - [2025-02-06 小红书长文切图笔记？其实 craft 就可以实现。](https://blog.kazoottt.top/notes/use-craft-to-cut-the-long-text-note-of-xiaohongshu/)
@@ -47,6 +49,4 @@
  - [2025-01-31 Blender on macOS - Steam Version Limitations for Apple Silicon Devices](https://blog.kazoottt.top/notes/blender-macos-steam-version-limitations/)
  - [2025-01-31 how to split window in blender](https://blog.kazoottt.top/notes/split-window-in-blender/)
  - [2025-01-20 how to separate object in blender](https://blog.kazoottt.top/notes/how-to-separate-object-in-blender/)
- - [2025-01-20 win11如何下载chatgpt](https://blog.kazoottt.top/notes/win11chatgpt/)
- - [2025-01-15 how to make a hollow cylinder in blender](https://blog.kazoottt.top/notes/how-to-make-a-hollow-cylinder-in-blender/)
- - [2025-01-07 在浏览器中 opengl 的配置与检测](https://blog.kazoottt.top/notes/how-to-check-opengl-configuration-and-detection-in-browser/)<!-- MEMO-POST-LIST:END -->
+ - [2025-01-20 win11如何下载chatgpt](https://blog.kazoottt.top/notes/win11chatgpt/)<!-- MEMO-POST-LIST:END -->
