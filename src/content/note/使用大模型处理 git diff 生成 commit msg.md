@@ -65,7 +65,7 @@ finished: true
 4. **使用 Cherry Studio (可选):**
 	* 可以使用 Cherry Studio 创建 commit msg 生成助手
 
-![Pasted image 20250228170840](/mdImages/Pasted image 20250228170840.png)  
+![IMG-BF22CA923126747336FA047AD2FFE0B3](/mdImages/IMG-BF22CA923126747336FA047AD2FFE0B3.png)  
 具体效果 
 
-![Pasted image 20250228170859](/mdImages/Pasted image 20250228170859.png)
+![IMG-42E5510D67C42284041E3402E4D459AD](/mdImages/IMG-42E5510D67C42284041E3402E4D459AD.png)
