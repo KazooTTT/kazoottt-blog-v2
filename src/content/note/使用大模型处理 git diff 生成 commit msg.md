@@ -1,19 +1,23 @@
 ---
 toAstro: true
 astroType: null
-published: null
+published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
 description: 使用大模型处理 `git diff` 生成 commit msg 的流程
-date: 20250228
+date: 2025-03-03T00:00:00.000Z
 tags:
   - 大模型
+  - cherrystudio
   - Git
-category: null
+category: git
 slug: use-llm-to-generate-commit-message-from-git-diff
 date_created: 20250228
-date_modified: 20250228
+date_modified: 20250303
+title: 使用大模型处理 git diff 生成 commit msg
+author: KazooTTT
+finished: true
 ---
 
 使用大模型处理 `git diff` 生成 commit msg 的流程如下：
