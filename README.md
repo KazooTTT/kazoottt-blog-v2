@@ -4,6 +4,7 @@
 <!-- BLOG-POST-LIST:START -->
  - [2025-03-02 [周报] 2025-W09 工作流升级](https://blog.kazoottt.top/posts/2025-W09/)
  - [2025-02-23 [周报] 2025-W08](https://blog.kazoottt.top/posts/2025-W08/)
+ - [2025-02-21 [碎片] rsshub中新增asianfanfics路由](https://blog.kazoottt.top/posts/fragmented-notes-2025-02-21-16-38-50/)
  - [2025-02-20 [碎片] openwebui长时间白屏解决方案](https://blog.kazoottt.top/posts/openwebui-long-loading-white-screen-solution/)
  - [2025-02-16 [周报] 2025-W07](https://blog.kazoottt.top/posts/2025-W07/)
  - [2025-02-12 [脑洞] 处理markdown图片链接包含空格导致无法预览图片的问题](https://blog.kazoottt.top/posts/handling-markdown-image-links-containing-spaces-causing-preview-failures/)
@@ -25,8 +26,7 @@
  - [2024-11-23 [软件] 个人工具与设备清单202502](https://blog.kazoottt.top/posts/personal-tools-and-equipment-inventory-202502/)
  - [2024-11-12 [旅行] 五一 上海-重庆-成都流水账](https://blog.kazoottt.top/posts/may-1st-shanghai-chongqing-chengdu-flow-account/)
  - [2024-09-02 [旅行] 2024 小缘永不完结的冒险 武汉线下vlog](https://blog.kazoottt.top/posts/yukari-2024-live/)
- - [2024-07-30 [项目] 微信读书网页版复制快捷键](https://blog.kazoottt.top/posts/wechat-reading-web-version-copy-shortcut/)
- - [2024-07-17 [旅行] 2024 BW记录-个人向流水账版](https://blog.kazoottt.top/posts/bw-record-personal-notes/)<!-- BLOG-POST-LIST:END -->
+ - [2024-07-30 [项目] 微信读书网页版复制快捷键](https://blog.kazoottt.top/posts/wechat-reading-web-version-copy-shortcut/)<!-- BLOG-POST-LIST:END -->
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
