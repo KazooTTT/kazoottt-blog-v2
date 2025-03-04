@@ -19,25 +19,12 @@ export function collectionDateSort(
 	a: CollectionEntry<"post" | "note">,
 	b: CollectionEntry<"post" | "note">,
 ) {
-	return b.data.date.getTime() - a.data.date.getTime();
-}
+	const getDate = (entry: CollectionEntry<"post" | "note">): Date => {
+		if (entry.data.date) return entry.data.date;
+		if (entry.data.data_created) return entry.data.data_created;
+		if (entry.data.date_modified) return entry.data.date_modified;
+		return new Date();
+	};
 
-const datePriorityForNote = ["date", "date_modified", "data_created"];
-
-export function collectionModifiedDateSort(
-	a: CollectionEntry<"post" | "note">,
-	b: CollectionEntry<"post" | "note">,
-) {
-	let dateA: Date = new Date(),
-		dateB: Date = new Date();
-	datePriorityForNote.forEach((key) => {
-		if (a.data[key as keyof typeof a.data]) {
-			dateA = a.data[key as keyof typeof a.data] as Date;
-		}
-		if (b.data[key as keyof typeof b.data]) {
-			dateB = b.data[key as keyof typeof b.data] as Date;
-		}
-	});
-
-	return dateB.getTime() - dateA.getTime();
+	return getDate(b).getTime() - getDate(a).getTime();
 }

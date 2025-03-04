@@ -34,7 +34,10 @@ const post = defineCollection({
 			draft: z.boolean().default(false),
 			banner: z.string().optional(),
 			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
-			date: z.union([z.string(), z.number(), z.date()]).transform(processDate),
+			date: z
+				.union([z.string(), z.number(), z.date()])
+				.optional()
+				.transform((val) => (val ? processDate(val) : undefined)),
 			date_modified: z
 				.union([z.string(), z.number(), z.date()])
 				.optional()
@@ -52,7 +55,10 @@ const note = defineCollection({
 	loader: glob({ base: "./src/content/note", pattern: "**/*.{md,mdx}" }),
 	schema: baseSchema.extend({
 		description: z.string().optional().nullable(),
-		date: z.union([z.string(), z.number(), z.date()]).transform(processDate),
+		date: z
+			.union([z.string(), z.number(), z.date()])
+			.optional()
+			.transform((val) => (val ? processDate(val) : undefined)),
 		date_modified: z
 			.union([z.string(), z.number(), z.date()])
 			.optional()
