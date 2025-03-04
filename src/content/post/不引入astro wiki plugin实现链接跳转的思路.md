@@ -24,7 +24,7 @@ description: >-
 excalidrawFile: '[[不引入astro wiki plugin实现链接跳转的思路.excalidraw]]'
 ---
 
-![IMG-2F53DF7357EC28522945C58351B62D96](/mdImages/IMG-2F53DF7357EC28522945C58351B62D96.png)
+![IMG-2F53DF7357EC28522945C58351B62D96](</mdImages/IMG-2F53DF7357EC28522945C58351B62D96.png>)
 
 ## 背景
 
