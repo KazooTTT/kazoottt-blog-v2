@@ -30,8 +30,8 @@
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
- - [2025-03-03 使用大模型处理 git diff 生成 commit msg](https://blog.kazoottt.top/notes/use-llm-to-generate-commit-message-from-git-diff/)
  - [2025-03-03 pip安装和运行openwebui](https://blog.kazoottt.top/notes/how-to-install-and-run-openwebui-with-pip/)
+ - [2025-03-03 使用大模型处理 git diff 生成 commit msg](https://blog.kazoottt.top/notes/use-llm-to-generate-commit-message-from-git-diff/)
  - [2025-02-21 配置 cloudflare 规则实现重定向](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-21-15-44-58/)
  - [2025-02-19 241029 1144 vite环境变量](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-21-11-25/)
  - [2025-02-19 碎片-2025-02-19 17时30分 You Should Use Hono in your Next Projec](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-17-30-55/)
