@@ -1,10 +1,12 @@
 ---
 toAstro: true
 astroType: post
+published: true
 toWexin: null
 toJuejin: null
-date_created: 2025-02-09T08:34:48.000Z
-date_modified: 2025-02-21T13:59:38.000Z
+toZhihu: null
+date_created: 20250221
+date_modified: 20250304
 title: 不引入astro wiki plugin实现链接跳转的思路
 date: 2025-02-09T00:00:00.000Z
 author: KazooTTT
@@ -14,7 +16,6 @@ tags:
   - remark
   - wiki-link
 finished: true
-published: true
 category: 前端
 slug: redirect-links-without-astro-wiki-plugin
 description: >-

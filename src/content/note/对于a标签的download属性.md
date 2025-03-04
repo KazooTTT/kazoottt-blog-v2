@@ -1,4 +1,10 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 对于a标签的download属性
 date: 2024-10-15T00:00:00.000Z
 author: KazooTTT
@@ -6,13 +12,11 @@ tags:
   - 前端
   - html
 finished: true
-published: true
 category: 前端
 slug: the-download-attribute-for-the-a-tag
 description: download属性是如何定义的以及注意事项。 不能设置为null，可以直接设置成空串或者null。
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 ## 对于 a 标签的 download 属性

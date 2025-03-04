@@ -1,21 +1,25 @@
 ---
-date_created: 2025-02-05T05:21:09.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+toAstro: true
+astroType: null
+published: false
+toWexin: null
+toJuejin: null
+toZhihu: null
+date_created: 20250205
+date_modified: 20250304
 title: 使用 1password 的 secure notes 存储提示词
 date: 2025-02-05T00:00:00.000Z
 author: KazooTTT
 tags:
   - 1password
-  - secure-notes
+  - 提示词
   - prompt
   - prompt-template
-  - 提示词
+  - secure-notes
 finished: false
-published: false
 category: 软件
 slug: use-1password-secure-notes-to-store-prompt-templates
 description: null
-toAstro: true
 ---
 
 你的提示词模板是如何存储和快速查找获取的？

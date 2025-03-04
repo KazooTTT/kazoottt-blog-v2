@@ -1,6 +1,12 @@
 ---
-date_created: 2025-01-31T12:24:09.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
+date_created: 20250131
+date_modified: 20250304
 slug: split-window-in-blender
 tags:
   - Blender
@@ -12,9 +18,7 @@ title: how to split window in blender
 date: 2025-01-31T00:00:00.000Z
 author: KazooTTT
 finished: true
-published: true
 category: blender
-toAstro: true
 ---
 
 [Areas - Blender 4.3 Manual](<https://docs.blender.org/manual/en/latest/interface/window_system/areas.html>)

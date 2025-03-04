@@ -1,21 +1,24 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 与hanser有关的github仓库
 date: 2024-12-18T00:00:00.000Z
 author: KazooTTT
 tags:
-  - hanser
-  - unity
-  - shader
   - github
+  - hanser
+  - shader
+  - unity
 finished: false
-published: true
 category: null
 slug: hanser-repository
 description: 收集与hanser相关的开源项目
-toAstro: true
-astroType: post
-date_created: 2024-12-18T05:20:01.000Z
-date_modified: 2025-02-19T17:54:57.000Z
+date_created: 20241218
+date_modified: 20250304
 ---
 
 ## UnityURPToonLitShader

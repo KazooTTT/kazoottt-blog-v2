@@ -1,4 +1,10 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 slug: fragmented-notes-2025-02-16-23-41-18
 tags:
   - 复古相机，摄影爱好者，数字中心
@@ -6,14 +12,11 @@ tags:
 description: >-
   Vintage Camera Lab
   是专注于复古相机的网站，提供多种型号的详细信息与历史，按品牌、格式和类型分类，便于摄影师、收藏家了解相机的背景与特点。此外，该网站还提供复古相机风格的周边商品。
-date_created: 2025-02-11T15:38:40.000Z
-date_modified: 2025-02-19T17:54:51.000Z
+date_created: 20250104
+date_modified: 20250304
 title: 2024-10-25 13分02秒 Vintage Camera Lab
 date: 2025-02-16T00:00:00.000Z
 author: KazooTTT
-published: true
-toAstro: true
-astroType: null
 category: 碎片
 ---
 

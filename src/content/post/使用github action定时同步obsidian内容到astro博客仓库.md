@@ -1,14 +1,19 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 slug: synchronize-profiles-to-remote-and-local-on-a-regular-basis
 title: 使用github action定时同步obsidian内容到astro博客仓库
 date: 2024-11-29T00:00:00.000Z
 author: KazooTTT
 tags:
-  - github action
   - build docs
+  - github action
   - OBSidian模板
 finished: true
-published: true
 category: null
 description: >-
   这个 GitHub Action 通过 Node.js 脚本在每次推送到 content 目录和 build_docs.cjs
@@ -18,10 +23,8 @@ description: >-
   run sort 批量安装和排序博客内容。 该 Action 通过使用 Gray Matter 脚本来处理 Markdown文件，并根据其
   frontMatter 信息决定是否需要将其复制到目标仓库中。它还支持从特定目录忽略某些文件或文件夹。 该 Action 的主要功能是自动化 blog
   内容的更新和复制，确保 content ALWAYS 是最新的。
-toAstro: true
-astroType: post
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 ## github action

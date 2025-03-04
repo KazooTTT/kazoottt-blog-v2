@@ -1,15 +1,20 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 分享一下我的zustand错误使用案例
 date: 2024-12-17T00:00:00.000Z
 author: KazooTTT
 tags:
-  - zustand
+  - 最小粒度原则
+  - react-scan
   - selector
   - store
-  - react-scan
-  - 最小粒度原则
+  - zustand
 finished: true
-published: true
 category: 前端
 slug: zustand-use-record
 description: >-
@@ -17,10 +22,8 @@ description: >-
   state，避免所有组件都重新渲染。当 state 更新时，可以通过 useShallow
   来只获取需要的数据。同时，应该遵循最小粒度原则，只获取需要的数据，而不是使用多个 store 去存储不同的 state。另外，与 UI 无关的 state
   不需要通过 selector 获取，正确的做法是直接在 handleSave 方法内部访问 store。
-toAstro: true
-astroType: post
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250207
+date_modified: 20250304
 banner: 'https://pictures.kazoottt.top/2025/02/20250201-og-1738417688145.png'
 ---
 

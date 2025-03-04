@@ -1,17 +1,20 @@
 ---
+toAstro: true
+astroType: null
+published: false
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 小红书长文切图笔记？其实 craft 就可以实现。
 date: 2025-02-06T00:00:00.000Z
 author: KazooTTT
 tags: []
 finished: false
-published: false
 category: 软件
 slug: use-craft-to-cut-the-long-text-note-of-xiaohongshu
 description: null
-toAstro: true
-astroType: null
-date_created: 2025-02-06T05:02:16.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20250206
+date_modified: 20250304
 ---
 
 访问 craft.do，登录后在右上角新建 doc ，复制你要切图的长文内容到里面去。 (如果你创建数量达到上限，可以打开一个老的文档替换你新的内容）

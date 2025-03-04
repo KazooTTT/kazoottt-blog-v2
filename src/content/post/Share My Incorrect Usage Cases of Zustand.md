@@ -1,15 +1,20 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: Share My Incorrect Usage Cases of Zustand
 date: 2024-12-17T00:00:00.000Z
 author: KazooTTT
 tags:
-  - zustand
+  - 最小粒度原则
+  - react-scan
   - selector
   - store
-  - react-scan
-  - 最小粒度原则
+  - zustand
 finished: true
-published: true
 category: null
 slug: share-my-incorrect-usage-case-of-zustand-en
 description: >-
@@ -22,10 +27,8 @@ description: >-
   Moreover, state that is unrelated to the UI does not need to be accessed via a
   selector. The correct approach is to directly access the store within the
   `handleSave` method.
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
-astroType: post
+date_created: 20250207
+date_modified: 20250304
 ---
 
 ## What is Zustand?

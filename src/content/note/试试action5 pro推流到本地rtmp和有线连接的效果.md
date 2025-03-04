@@ -1,22 +1,25 @@
 ---
+toAstro: true
+astroType: null
+published: false
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 试试action5 pro推流到本地rtmp和有线连接的效果
 slug: action5-pro-obs-rtmp
 banner: >-
   https://cdn.hashnode.com/res/hashnode/image/upload/v1731222266182/79cc2982-584c-4638-bcb2-472a5705c668.jpeg
 tags:
-  - rtmp
-  - dji
   - action5pro
-date_created: 2025-02-06T04:04:03.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+  - dji
+  - rtmp
+date_created: 20250206
+date_modified: 20250304
 date: 2025-02-06T00:00:00.000Z
 author: KazooTTT
 finished: false
-published: false
 category: 软件
 description: null
-toAstro: true
-astroType: null
 ---
 
 b 站：

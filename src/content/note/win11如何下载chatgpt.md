@@ -1,20 +1,24 @@
 ---
+toAstro: true
+astroType: null
+published: false
+toWexin: null
+toJuejin: null
+toZhihu: null
 slug: win11chatgpt
 tags:
+  - 软件
   - chatgpt
   - win11
   - windows
-  - 软件
 description: null
 title: win11如何下载chatgpt
 date: 2025-01-20T00:00:00.000Z
 author: KazooTTT
 finished: false
-published: false
 category: 软件
-toAstro: true
-date_created: 2025-01-04T03:34:08.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 打开设置 - 时间和语言 - 选择国家和地区为美国

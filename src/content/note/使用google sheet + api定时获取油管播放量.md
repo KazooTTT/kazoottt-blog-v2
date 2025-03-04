@@ -1,18 +1,23 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 使用google sheet + api定时获取油管播放量
 date: 2024-12-15T00:00:00.000Z
 author: KazooTTT
 tags:
-  - milklove
-  - YouTube
-  - Google
-  - Sheet
-  - Apps
-  - Script
   - 脚本
   - 自动更新播放量
+  - Apps
+  - Google
+  - milklove
+  - Script
+  - Sheet
+  - YouTube
 finished: true
-published: true
 category: null
 slug: use-google-sheet-api-to-get-youtube-playbacks-on-a-regular-basis
 description: >-
@@ -22,9 +27,8 @@ description: >-
   来获取视频的统计数据，包括播放量等。若统计数据成功则将播放量返回给脚本。 3. 
   **记录播放量和时间到表格中**：如果在获取播放量后没有发生错误，则会向表格中插入一行，其中包含当前时间和播放量。 因此，通过这个脚本，可以定时地获取
   YouTube 视频的播放量并存入 Google Sheets 表格。
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 起因是想要记录一下 milklove 的二搭剧 Whale Store xoxo 在油管上的预告片的播放量的 [คุณวาฬร้านชำ (Whale Store xoxo) \| GMMTV 2025 - YouTube](<https://www.youtube.com/watch?v=Eia_Sh_ZTyQ>)

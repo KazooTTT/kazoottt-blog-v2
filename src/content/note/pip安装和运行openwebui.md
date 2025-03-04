@@ -1,21 +1,21 @@
 ---
 toAstro: true
 astroType: null
+published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
-published: true
 description: null
 date: 2025-03-03T00:00:00.000Z
 tags:
+  - 大模型
   - openwebui
   - pip
   - python
-  - 大模型
 category: null
 slug: how-to-install-and-run-openwebui-with-pip
 date_created: 20250226
-date_modified: 20250303
+date_modified: 20250304
 title: pip安装和运行openwebui
 author: KazooTTT
 finished: true

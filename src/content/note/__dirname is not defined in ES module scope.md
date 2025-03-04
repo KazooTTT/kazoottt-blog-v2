@@ -1,20 +1,24 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: __dirname is not defined in ES module scope
 date: 2024-05-29T00:00:00.000Z
 author: KazooTTT
 tags:
-  - nodejs
   - 前端
   - esm
   - module
+  - nodejs
 finished: true
-published: true
 category: 前端
 slug: dirname-is-not-defined-in-es-module-scope
 NotionID-notionnext: 543bfc66-a416-4704-92be-9a93fed191a8
 link-notionnext: >-
   https://kazoottt.notion.site/__dirname-is-not-defined-in-ES-module-scope-543bfc66a416470492be9a93fed191a8
-rinId: 14
 description: >-
   # ES Module 问题：__dirname 不定义 在使用
   TypeScript创建的ESM文件中，遇到__dirname不定义的问题通常是因为使用了module的语法，应该改为ESM的写法。两种解决方法分别是改为module的写法和改为ESM的写法。
@@ -24,9 +28,8 @@ description: >-
   ```typescript import { fileURLToPath } from "url" import path from "path" //
   获取当前模块的目录路径 const __filename = fileURLToPath(import.meta.url) const __dirname
   = path.dirname(__filename) ``` 这种方法推荐使用，避免了相对路径的问题。
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # __dirname Is not Defined in ES Module Scope

@@ -1,4 +1,10 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: how to make a hollow cylinder in blender
 date: 2025-01-15T00:00:00.000Z
 author: KazooTTT
@@ -7,13 +13,11 @@ tags:
   - cylinder
   - model
 finished: true
-published: true
 category: blender
 slug: how-to-make-a-hollow-cylinder-in-blender
 description: null
-toAstro: true
-date_created: 2025-01-14T16:38:23.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20250115
+date_modified: 20250304
 ---
 
 this is a blender note is to record how to make a hollow cylinder in blender.

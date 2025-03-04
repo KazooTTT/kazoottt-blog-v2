@@ -1,24 +1,27 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: focusee录制系统声音被强制切换为扬声器播放的可能原因和解决方法
 date: 2024-05-25T00:00:00.000Z
 author: KazooTTT
 tags:
-  - focusee
-  - obs
   - 虚拟声卡
   - BlackHole2ch
+  - focusee
+  - obs
 finished: true
-published: true
 slug: >-
   possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly
 description: macOS上，使用focusee录制系统声音时遇到问题。解决方法是卸载BlackHole2ch，并通过obs选择录制桌面音频或应用音频。
 NotionID-notionnext: 8ac966eb-66b4-4f39-b2fa-3fd4e4911a41
 link-notionnext: 'https://kazoottt.notion.site/focusee-8ac966eb66b44f39b2fa3fd4e4911a41'
-rinId: 41
 category: 软件
-toAstro: true
-date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20241217
+date_modified: 20250304
 ---
 
 # Focusee 录制系统声音被强制切换为扬声器播放的可能原因和解决方法

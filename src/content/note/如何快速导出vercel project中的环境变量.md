@@ -1,19 +1,22 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 如何快速导出vercel project中的环境变量
 date: 2024-02-23T00:00:00.000Z
 author: KazooTTT
 tags:
   - vercel
 finished: true
-published: true
 slug: how-to-quickly-export-environment-variables-in-vercel-project
 description: >-
   本文介绍了如何在Vercel中集成插件或链接数据库后，快速导出环境变量的方法。首先，需要全局安装Vercel，然后通过命令链接Vercel账户，并拉取环境变量到本地的.env.local文件中。这一过程简化了环境变量的管理，提高了开发效率。
-rinId: 3
 category: 前端
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # 如何快速导出 vercel Project 中的环境变量
