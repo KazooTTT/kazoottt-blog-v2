@@ -50,6 +50,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Notes",
 	},
 	{
+		path: "/archive/",
+		title: "Archive",
+	},
+	{
 		path: "/friends/",
 		title: "Friends",
 	},

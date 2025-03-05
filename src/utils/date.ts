@@ -1,5 +1,6 @@
-import type { CollectionEntry } from "astro:content";
+import { getDateSortByUpdateTime } from "@/data/post";
 import { siteConfig } from "@/site.config";
+import type { AllItem } from "@/types";
 
 export function getFormattedDate(
 	date: Date | undefined,
@@ -15,16 +16,10 @@ export function getFormattedDate(
 	}).format(date);
 }
 
-export function collectionDateSort(
-	a: CollectionEntry<"post" | "note">,
-	b: CollectionEntry<"post" | "note">,
-) {
-	const getDate = (entry: CollectionEntry<"post" | "note">): Date => {
-		if (entry.data.date) return entry.data.date;
-		if (entry.data.data_created) return entry.data.data_created;
-		if (entry.data.date_modified) return entry.data.date_modified;
-		return new Date();
-	};
+export function collectionDateSort(a: AllItem, b: AllItem) {
+	return b.dateToCmp.getTime() - a.dateToCmp.getTime();
+}
 
-	return getDate(b).getTime() - getDate(a).getTime();
+export function getLatestUpdatedPost(a: AllItem, b: AllItem) {
+	return getDateSortByUpdateTime(b).getTime() - getDateSortByUpdateTime(a).getTime();
 }

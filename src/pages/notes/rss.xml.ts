@@ -1,12 +1,12 @@
+import { getAllNotes } from "@/data/post";
 import { siteConfig } from "@/site.config";
 import { collectionDateSort } from "@/utils/date";
 import rss from "@astrojs/rss";
-import { getCollection } from "astro:content";
 import MarkdownIt from "markdown-it";
 import sanitizeHtml from "sanitize-html";
 
 export const GET = async () => {
-	const notes = await getCollection("note");
+	const notes = await getAllNotes();
 	const sortedNotes = notes.sort(collectionDateSort);
 	const parser = new MarkdownIt();
 
@@ -25,7 +25,7 @@ export const GET = async () => {
 			return {
 				title: post.data.title,
 				description: (post.data.description ?? "") + "\t" + tagStr,
-				pubDate: post.data.date,
+				pubDate: post.dateToCmp,
 				link: `notes/${post.id}/`,
 				content: post.body
 					? sanitizeHtml(

@@ -1,15 +1,16 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
 import Pagination from "@/components/Paginator.astro";
 import Note from "@/components/note/Note.astro";
 import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 import type { GetStaticPaths, Page } from "astro";
 import { Icon } from "astro-icon/components";
+import { getAllNotes } from "@/data/post";
+import type { NoteItem } from "@/types";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const MAX_NOTES_PER_PAGE = 10;
-	const allNotes = await getCollection("note");
+	const allNotes = await getAllNotes();
 	const notesCount = allNotes.length;
 	return paginate(allNotes.sort(collectionDateSort), {
 		pageSize: MAX_NOTES_PER_PAGE,
@@ -18,7 +19,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 }) satisfies GetStaticPaths;
 
 interface Props {
-	page: Page<CollectionEntry<"note">>;
+	page: Page<NoteItem>;
 	uniqueTags: string[];
 	notesCount: number;
 }
@@ -45,7 +46,7 @@ const paginationProps = {
 	}),
 };
 
-function calculateIndex(index: number, page: Page<CollectionEntry<"note">>) {
+function calculateIndex(index: number, page: Page<NoteItem>) {
 	return index + page.start;
 }
 ---
@@ -60,11 +61,11 @@ function calculateIndex(index: number, page: Page<CollectionEntry<"note">>) {
 			</a>
 			<div class="flex-1"></div>
 			<a
-				href={`/notes/list/${page.currentPage === 1 ? "" : page.currentPage}`}
-				class="cactus-link text-sm">flow</a
+				href={`/notes/${page.currentPage === 1 ? "" : page.currentPage}`}
+				class="cactus-link text-sm">preview</a
 			>
 		</h1>
-		<div class="columns-1 gap-4 md:columns-2">
+		<div class="columns-1">
 			{
 				page.data.map((note, index) => (
 					<Note
@@ -72,7 +73,7 @@ function calculateIndex(index: number, page: Page<CollectionEntry<"note">>) {
 						as="h2"
 						isPreview
 						index={calculateIndex(index, page)}
-						enableLineClamp={true}
+						enableLineClamp={false}
 					/>
 				))
 			}

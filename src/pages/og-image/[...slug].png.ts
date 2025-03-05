@@ -15,7 +15,7 @@ const ogOptions: SatoriOptions = {
 			name: "ZCOOLXiaoWei",
 			style: "normal",
 			weight: 400,
-		}
+		},
 	],
 	height: 630,
 	width: 1200,
@@ -76,7 +76,7 @@ export async function getStaticPaths() {
 		.map((post) => ({
 			params: { slug: post.id },
 			props: {
-				pubDate: post.data.date ?? post.data.date_modified ,
+				pubDate: post.dateToCmp,
 				title: post.data.title,
 			},
 		}));

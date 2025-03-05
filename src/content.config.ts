@@ -68,6 +68,7 @@ const note = defineCollection({
 			.optional()
 			.transform((val) => (val ? processDate(val) : undefined)),
 		tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
+		category: z.string().optional().nullable(),
 	}),
 });
 

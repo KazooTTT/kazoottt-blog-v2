@@ -23,9 +23,9 @@ export const GET = async () => {
 				return `${acc}#${tag} `;
 			}, "");
 			return {
-				title: post.data.category ? `[${post.data.category}] ${post.data.title}` : post.data.title,
+				title: post.data.title,
 				description: (post.data.description ?? "") + "\t" + tagStr,
-				pubDate: post.data.date,
+				pubDate: post.dateToCmp,
 				link: `posts/${post.id}/`,
 				content: post.body
 					? sanitizeHtml(

@@ -1,18 +1,18 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
 import Card from "../componentsBefore/Card.astro";
 import { Icon } from "astro-icon/components";
 import Label from "../componentsBefore/Label.astro";
+import type { PostItem } from "@/types";
 
 interface Props {
-	content: CollectionEntry<"post">;
+	content: PostItem;
 	readingTime: string;
 	ogImage: string;
 }
 
 const {
-	content: { data },
+	content: { data, dateToCmp },
 	readingTime,
 	ogImage,
 } = Astro.props;
@@ -27,13 +27,7 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 {
 	socialImageURL && (
 		<div class="mb-6 aspect-video">
-			<img
-				alt={socialImageURL}
-				class="rounded-lg object-cover"
-				fetchpriority="high"
-				loading="eager"
-				src={socialImageURL}
-			/>
+			<img alt={socialImageURL} class="rounded-lg object-cover" src={socialImageURL} />
 		</div>
 	)
 }
@@ -54,7 +48,7 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 </h1>
 <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
 	<p class="font-semibold">
-		<FormattedDate date={data.date} dateTimeOptions={dateTimeOptions} /> /{" "}
+		<FormattedDate date={dateToCmp} dateTimeOptions={dateTimeOptions} /> /{" "}
 		{readingTime}
 	</p>
 	{

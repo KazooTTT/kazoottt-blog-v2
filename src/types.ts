@@ -1,3 +1,5 @@
+import type { CollectionEntry } from "astro:content";
+
 export interface SiteConfig {
 	author: string;
 	date: {
@@ -88,3 +90,13 @@ export interface Summary {
 }
 
 export type AdmonitionType = "tip" | "note" | "important" | "caution" | "warning" | "quote";
+
+export type PostItem = CollectionEntry<"post"> & {
+	dateToCmp: Date;
+};
+
+export type NoteItem = CollectionEntry<"note"> & {
+	dateToCmp: Date;
+};
+
+export type AllItem = PostItem | NoteItem;

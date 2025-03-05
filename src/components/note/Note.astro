@@ -1,5 +1,5 @@
 ---
-import { type CollectionEntry, render } from "astro:content";
+import { render } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
 import type { HTMLTag, Polymorphic } from "astro/types";
 import GiscusComment from "@/components/componentsBefore/GiscusComment";
@@ -8,8 +8,9 @@ import ShareButtons from "../ShareButtons.astro";
 import ContentFooter from "../ContentFooter.astro";
 import { cn } from "@/utils/tailwind";
 import Card from "../componentsBefore/Card.astro";
+import type { NoteItem } from "@/types";
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
-	note: CollectionEntry<"note">;
+	note: NoteItem;
 	isPreview?: boolean | undefined;
 	index?: number;
 	enableLineClamp?: boolean;
@@ -78,17 +79,17 @@ if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 				enableLineClamp && "line-clamp-4"
 			)}
 		>
-		{
-			!isPreview && note.data.description && note.data.description.trim().length > 0 && (
-				<Card heading="摘要（由llm生成）" altText="摘要" class="my-4 w-full">
-					<div class="text-muted-foreground ml-4">{note.data.description}</div>
-				</Card>
-			)
-		}
+			{
+				!isPreview && note.data.description && note.data.description.trim().length > 0 && (
+					<Card heading="摘要（由llm生成）" altText="摘要" class="my-4 w-full">
+						<div class="text-muted-foreground ml-4">{note.data.description}</div>
+					</Card>
+				)
+			}
 			<Content />
 		</div>
 	</div>
-	
+
 	{!isPreview && <ContentFooter />}
 
 	{!isPreview && <GiscusComment client:load />}
@@ -99,5 +100,4 @@ if (modifiedDate && modifiedDate.toDateString() === date.toDateString()) {
 			</div>
 		)
 	}
-
 </ArticleContainer>

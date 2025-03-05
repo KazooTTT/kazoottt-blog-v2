@@ -7,11 +7,10 @@ import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 import type { GetStaticPaths, Page } from "astro";
 import { Icon } from "astro-icon/components";
+import { MAX_TAGS, MAX_CATEGORIES, MAX_POSTS_PER_PAGE } from "@/utils/constant";
+import type { PostItem } from "@/types";
 
 export const getStaticPaths = (async ({ paginate }) => {
-	const MAX_POSTS_PER_PAGE = 20;
-	const MAX_TAGS = 7;
-	const MAX_CATEGORIES = 7;
 	const allPosts = await getAllPosts();
 	const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
 	const uniqueCategories = getUniqueCategories(allPosts).slice(0, MAX_CATEGORIES);
@@ -23,7 +22,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 }) satisfies GetStaticPaths;
 
 interface Props {
-	page: Page<CollectionEntry<"post">>;
+	page: Page<PostItem>;
 	uniqueTags: string[];
 	uniqueCategories: string[];
 	postsCount: number;
@@ -90,7 +89,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 				!!uniqueTags.length && (
 					<div>
 						<h2 class="title mb-4 flex items-center gap-2 text-lg">
-							<a href="/tags/" class="hover:text-link cactus-link">
+							<a href="/tags/" class="hover:text-link">
 								Tags
 							</a>
 							<svg
@@ -113,7 +112,10 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 						<ul class="flex flex-wrap gap-2">
 							{uniqueTags.map((tag) => (
 								<li>
-									<a class="cactus-link flex items-center justify-center" href={`/tags/${tag}/`}>
+									<a
+										class="hover:text-link flex items-center justify-center"
+										href={`/tags/${tag}/`}
+									>
 										<span aria-hidden="true">#</span>
 										<span class="sr-only">View all posts with the tag</span>
 										{tag}
@@ -129,7 +131,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 				!!uniqueCategories.length && (
 					<div>
 						<h2 class="title mb-4 flex items-center gap-2 text-lg">
-							<a href="/categories/" class="hover:text-link cactus-link">
+							<a href="/categories/" class="hover:text-link">
 								Categories
 							</a>
 							<svg
@@ -153,7 +155,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 							{uniqueCategories.map((category) => (
 								<li>
 									<a
-										class="cactus-link flex items-center justify-center"
+										class="hover:text-link flex items-center justify-center"
 										href={`/categories/${category}/`}
 									>
 										<span aria-hidden="true">#</span>
