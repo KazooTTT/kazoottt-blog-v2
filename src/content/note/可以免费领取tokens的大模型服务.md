@@ -1,23 +1,26 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 可以免费领取tokens的大模型服务
 date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 tags:
   - 大模型
   - 豆包
-  - siliconflow
   - deepseek
+  - siliconflow
 finished: true
-published: true
 category: AI
 slug: free-tokens-large-model-service
 description: 可免费领取tokens的大模型服务于今后8月30日前有以下几家平台可以领取，包括豆包大模型、DeepSeek和SiliconCloud。
 NotionID-notionnext: 30a20483-ea28-4daf-b8be-155f0e690bc7
 link-notionnext: 'https://kazoottt.notion.site/tokens-30a20483ea284dafb8be155f0e690bc7'
-rinId: 43
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # 可以免费领取 tokens 的大模型服务

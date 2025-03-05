@@ -1,16 +1,21 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: >-
   Possible Causes and Solutions for Focusee Switching System Audio to Speaker
   Playback forcibly
 date: 2024-05-25T00:00:00.000Z
 author: KazooTTT
 tags:
+  - BlackHole2ch
   - focusee
   - obs
   - VirtualSoundCard
-  - BlackHole2ch
 finished: true
-published: true
 slug: >-
   possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly-en
 description: >-
@@ -22,11 +27,9 @@ description: >-
 NotionID-notionnext: 80f19b4c-d207-45a0-bbbb-39641a9dc330
 link-notionnext: >-
   https://kazoottt.notion.site/Possible-Causes-and-Solutions-for-Focusee-Switching-System-Audio-to-Speaker-Playback-forcibly-80f19b4cd20745a0bbbb39641a9dc330
-rinId: 39
 category: 软件
-toAstro: true
-date_created: 2024-12-02T03:03:21.000Z
-date_modified: 2025-02-19T17:54:57.000Z
+date_created: 20241202
+date_modified: 20250304
 ---
 
 # Possible Causes and Solutions for Focusee Switching System Audio to Speaker Playback Forcibly

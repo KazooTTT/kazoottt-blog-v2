@@ -1,6 +1,7 @@
 ---
 toAstro: true
 astroType: post
+published: true
 toWexin: true
 toJuejin: null
 toZhihu: null
@@ -17,7 +18,6 @@ tags:
   - iphone
   - mac
   - messauto
-published: true
 slug: >-
   messauto-imessage-to-synchronize-iphone-and-mac-messages-and-automatically-copy-captchagraphic-bed-edition
 description: >-
@@ -27,10 +27,9 @@ create_time: '2023/10/20 13:49:09'
 update_time: '2023/10/20 13:55:39'
 publish_time: '2023/10/20 13:50:45'
 finished: true
-rinId: 61
 category: 软件
 date_created: 20241202
-date_modified: 20250225
+date_modified: 20250304
 ---
 
 # messAuto + iMessage 实现 iPhone 和 mac 信息同步和自动复制验证码

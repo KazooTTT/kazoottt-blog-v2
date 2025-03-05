@@ -1,25 +1,25 @@
 ---
 toAstro: true
 astroType: null
+published: true
 toWexin: null
 toJuejin: null
 toZhihu: true
 author: KazooTTT
 category: 碎片
 date: 2025-02-21T00:00:00.000Z
-date_created: 2025-02-11T15:38:40.000Z
-date_modified: 2025-02-21T14:45:21.000Z
+date_created: 20250221
+date_modified: 20250304
 description: null
-published: true
 slug: fragmented-notes-2025-02-21-15-44-58
 tags:
+  - 重定向
   - astro
   - cloudflare
-  - 重定向
 title: 配置 cloudflare 规则实现重定向
 ---
 
-![IMG-16E2701A71548A6357EB84B23B32A3E2](/mdImages/IMG-16E2701A71548A6357EB84B23B32A3E2.jpeg)
+![IMG-16E2701A71548A6357EB84B23B32A3E2](</mdImages/IMG-16E2701A71548A6357EB84B23B32A3E2.jpeg>)
 
 # 博客路由结构对比
 
@@ -62,11 +62,11 @@ https://blog.kazoottt.top/tag,https://blog.kazoottt.top/tags,301,true,false,true
 
 （也可以点击域名然后再设置规则，总之入口和可配置项有很多，按需选择）
 
-![IMG-9B20E505345B2B2FFAEFCE7463420E90](/mdImages/IMG-9B20E505345B2B2FFAEFCE7463420E90.png)
+![IMG-9B20E505345B2B2FFAEFCE7463420E90](</mdImages/IMG-9B20E505345B2B2FFAEFCE7463420E90.png>)
 
 下图是配置完成的效果
 
-![IMG-8072C6F424C6D27A40E457198B622A5C](/mdImages/IMG-8072C6F424C6D27A40E457198B622A5C.png)
+![IMG-8072C6F424C6D27A40E457198B622A5C](</mdImages/IMG-8072C6F424C6D27A40E457198B622A5C.png>)
 
 这样我再访问 [https://blog.kazoottt.top/posts/2025-W07/](<https://blog.kazoottt.top/blog/2025-W07/>) 就会被重定向到 `https://blog.kazoottt.top/posts/2025-W07/`
 
@@ -74,7 +74,7 @@ https://blog.kazoottt.top/tag,https://blog.kazoottt.top/tags,301,true,false,true
 
 其实 astro 也可以配置 astro.config.ts 中的 redirect 属性来实现，但是个人用下来觉得它对于动态路由的支持并不好，且文档中没有写的很详细，我通过代码跳转过去才知道支持动态路由的配置。
 
-![IMG-145A60CDEC5C619A9F432DBAA2325AA2-1](/mdImages/IMG-145A60CDEC5C619A9F432DBAA2325AA2-1.png)
+![IMG-145A60CDEC5C619A9F432DBAA2325AA2-1](</mdImages/IMG-145A60CDEC5C619A9F432DBAA2325AA2-1.png>)
 
 配置如下：
 

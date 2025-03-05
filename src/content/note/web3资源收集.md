@@ -1,22 +1,25 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: web3资源收集
 slug: web3-resource-collection
-published: true
 description: >-
   本资源收集提供了深入了解Web3的基础材料，包括比特币和以太坊的历史与技术细节。推荐阅读比特币前传系列文章，了解比特币诞生前的技术背景和发展历程。以太坊简史则概述了其近十年的重大突破和变化，以及创始人Vitalik
   Buterin的初衷。此外，加密思潮编年史帮助读者快速把握加密技术的发展脉络。技术方面，比特币和以太坊的白皮书精读版详细解读了其技术原理，而“一个以太坊交易的完整周期”则深入探讨了交易的具体流程。YouTube教程和相关文章进一步提供了Foundry开发框架和Web3.0应用架构的讲解，以及Uniswap
   v2的详细解析，为学习和研究Web3提供了丰富的资料。
-rinId: 13
 finished: true
 date: 2024-02-07T00:00:00.000Z
 category: web3
 tags:
   - 比特币
-  - 以太坊
   - 区块链
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+  - 以太坊
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # web3 资源收集

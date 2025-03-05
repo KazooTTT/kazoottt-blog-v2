@@ -1,13 +1,18 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: file-downloader
 date: 2024-02-18T00:00:00.000Z
 author: KazooTTT
 tags:
-  - file-downloader
   - 项目
+  - file-downloader
   - npm包
 finished: true
-published: true
 slug: file-downloader
 description: >-
   本文介绍了两个用于文件下载的函数：`downloadFileFromURL` 和
@@ -15,11 +20,9 @@ description: >-
   函数用于从指定的URL下载文件，可以自定义文件名；`downloadFileFromBlob`
   函数则用于从Blob对象下载文件，同样支持自定义文件名。这两个函数均来自 `@kzttools/file-downloader`
   包，该包的NPM地址和GitHub地址均已提供。项目遵循MIT许可证，作者为kazoottt。
-rinId: 63
 category: 项目
-toAstro: true
-date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T17:54:57.000Z
+date_created: 20241217
+date_modified: 20250304
 ---
 
 # File Download

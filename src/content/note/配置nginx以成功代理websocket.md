@@ -1,4 +1,10 @@
 ---
+toAstro: true
+astroType: null
+published: false
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 配置nginx以成功代理websocket
 date: 2024-12-17T00:00:00.000Z
 author: KazooTTT
@@ -6,16 +12,13 @@ tags:
   - nginx
   - websocket
 finished: false
-published: false
 slug: configure-nginx-to-successfully-proxy-websockets
 description: >-
   在使用socket.io时，用户遇到了WebSocket消息顺序错位的问题，并且浏览器控制台显示WebSocket连接失败，错误代码为200。经过调查，发现问题源于Nginx配置不当。用户参考了GitHub上的相关问题讨论和Nginx官方文档，发现需要正确配置Nginx以支持WebSocket代理。特别需要注意的是，在Nginx配置中，应正确设置`proxy_pass`、`proxy_http_version`、`proxy_set_header
   Upgrade`和`proxy_set_header Connection`等参数，确保backend指向正确的IP地址或域名，且无需添加后缀。
-rinId: 81
 category: null
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # 配置 nginx 以成功代理 websocket

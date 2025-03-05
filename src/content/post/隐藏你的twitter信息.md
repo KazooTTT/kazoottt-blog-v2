@@ -1,24 +1,26 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 隐藏你的twitter信息
 date: 2023-03-16T00:00:00.000Z
 author: KazooTTT
 tags:
-  - 油猴脚本
-  - twitter
-  - javascript
   - 开源
   - 项目
+  - 油猴脚本
+  - javascript
+  - twitter
 slug: hide-your-twitter-messages
-published: true
 description: >-
   为了在公共场合保护个人隐私，防止他人查看自己的Twitter账号信息，如ID、昵称和头像，作者开发了一个油猴脚本。该脚本专门用于屏蔽Twitter首页上显示的个人信息。用户可以通过greasyfork安装此脚本，源代码可在GitHub上查看。脚本使用前后对比图展示了隐藏个人信息的效果。
 finished: true
-rinId: 125
 category: 项目
-toAstro: true
-astroType: post
-date_created: 2024-12-02T03:03:24.000Z
-date_modified: 2025-02-19T17:54:57.000Z
+date_created: 20241202
+date_modified: 20250304
 ---
 
 # Hide-your-twitter-info

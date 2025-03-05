@@ -1,25 +1,27 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 不推荐macos用户购买focusee的理由
 date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 tags:
-  - macOS
-  - Focusee
   - 录屏软件
   - 评价
   - 退款
+  - Focusee
+  - macOS
 finished: true
-published: true
 category: 软件
 slug: focusee-macos-review
 description: 分析了Focusee在macOS上的缺陷，包括色差严重、导出速度慢以及声卡配置冲突等问题，并分享了作者的退款经历。
 NotionID-notionnext: c6b6e2f5-9da1-43f9-b531-b07d974815ed
 link-notionnext: 'https://kazoottt.notion.site/macos-focusee-c6b6e2f59da143f9b531b07d974815ed'
-rinId: 42
-toAstro: true
-astroType: post
-date_created: 2024-12-17T05:34:45.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20241217
+date_modified: 20250304
 ---
 
 # 不推荐 macos 用户购买 focusee 的理由

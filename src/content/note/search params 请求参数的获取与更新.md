@@ -1,14 +1,19 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: search params 请求参数的获取与更新
 date: 2024-11-13T00:00:00.000Z
 author: KazooTTT
 tags:
-  - useSearchParams
-  - React Router
   - qs
+  - React Router
+  - useSearchParams
   - window.location.search
 finished: true
-published: true
 category: 前端
 slug: search-params
 description: >-
@@ -20,9 +25,8 @@ description: >-
   `useSearchParams` Hook 和 `qs` 库结合使用，可以帮助开发者更容易地管理 URL 中的 query parameters。
 NotionID-notionnext: 13d55568-fd75-81f5-be1b-e0a4f8137355
 link-notionnext: 'https://kazoottt.notion.site/search-params-13d55568fd7581f5be1be0a4f8137355'
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 ## react router `useSearchParams`

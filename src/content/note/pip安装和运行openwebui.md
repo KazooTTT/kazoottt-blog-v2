@@ -1,21 +1,21 @@
 ---
 toAstro: true
 astroType: null
+published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
-published: true
 description: null
 date: 2025-03-03T00:00:00.000Z
 tags:
+  - 大模型
   - openwebui
   - pip
   - python
-  - 大模型
 category: null
 slug: how-to-install-and-run-openwebui-with-pip
 date_created: 20250226
-date_modified: 20250303
+date_modified: 20250304
 title: pip安装和运行openwebui
 author: KazooTTT
 finished: true
@@ -27,7 +27,7 @@ finished: true
 
 [GitHub - open-webui/open-webui: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)](<https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-via-python-pip->)
 
-![IMG-pip运行的时候如何设置环境变量-CDC2BAD93093406D70B0F9A6F01B86BF](/mdImages/IMG-pip运行的时候如何设置环境变量-CDC2BAD93093406D70B0F9A6F01B86BF.png)
+![IMG-pip运行的时候如何设置环境变量-CDC2BAD93093406D70B0F9A6F01B86BF](</mdImages/IMG-pip运行的时候如何设置环境变量-CDC2BAD93093406D70B0F9A6F01B86BF.png>)
 
 <!--section: 1.1-->
 
@@ -56,7 +56,7 @@ open-webui : 无法将“open-webui”项识别为 cmdlet、函数、脚本文�
 pip show requests
 ```
 
-![Pasted image 20250226143342](/mdImages/Pasted image 20250226143342.png)
+![Pasted image 20250226143342](</mdImages/Pasted image 20250226143342.png>)
 
 能够看到这里面的 location, 所以实际的 script 的路径就是这个（site-packges 替换为 Scripts)
 
@@ -68,15 +68,15 @@ C:\Users\turbo\AppData\Roaming\Python\Python312\Scripts
 
 ### 如何编辑环境变量
 
-![Pasted image 20250226143542](/mdImages/Pasted image 20250226143542.png)
+![Pasted image 20250226143542](</mdImages/Pasted image 20250226143542.png>)
 
 搜索环境变量，进入编辑窗口
 
-![Pasted image 20250226143633](/mdImages/Pasted image 20250226143633.png)
+![Pasted image 20250226143633](</mdImages/Pasted image 20250226143633.png>)
 
 然后编辑系统变量把刚刚的那段路径添加到里面就可以了
 
-![Pasted image 20250226143746](/mdImages/Pasted image 20250226143746.png)
+![Pasted image 20250226143746](</mdImages/Pasted image 20250226143746.png>)
 
 然后再打开一个命令行运行
 

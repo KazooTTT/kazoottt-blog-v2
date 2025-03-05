@@ -1,13 +1,18 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: ChainForge简单介绍
 date: 2024-05-22T00:00:00.000Z
 author: KazooTTT
 tags:
-  - llm
-  - chainforge
   - 工具
+  - chainforge
+  - llm
 finished: true
-published: true
 category: AI
 slug: chainforge-intro
 description: >-
@@ -24,10 +29,8 @@ description: >-
   environments.
 NotionID-notionnext: 40ec4f8d-2030-4ce1-b8c7-c1c9f56ef55b
 link-notionnext: 'https://kazoottt.notion.site/ChainForge-40ec4f8d20304ce1b8c7c1c9f56ef55b'
-rinId: 8
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # ChainForge 简单介绍

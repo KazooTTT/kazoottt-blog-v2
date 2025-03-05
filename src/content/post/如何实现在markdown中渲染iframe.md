@@ -1,21 +1,23 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 如何实现在markdown中渲染iframe
 date: 2024-04-01T00:00:00.000Z
 author: KazooTTT
 tags: []
 finished: true
-published: true
 slug: how-to-render-iframes-in-markdown
 description: >-
   本文介绍了如何在Markdown中渲染iframe的两种方法。第一种方法是通过直接在Markdown中嵌入iframe标签，需要使用`rehypeRaw`插件来实现HTML内容的嵌入。第二种方法是通过重写Markdown中的`a`标签，将其转换为iframe，这种方法可以根据链接内容进行定制化处理，例如将特定链接转换为iframe展示。文中还提供了相关的代码示例和项目源代码链接，以及一个演示地址供参考。
 NotionID-notionnext: a63f5e28-352a-48cc-8c89-f9dd5b5a18ac
 link-notionnext: 'https://kazoottt.notion.site/markdown-iframe-a63f5e28352a48cc8c89f9dd5b5a18ac'
-rinId: 19
 category: 前端
-toAstro: true
-astroType: post
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T03:44:15.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # 1 如何实现在 markdown 中渲染 iframe

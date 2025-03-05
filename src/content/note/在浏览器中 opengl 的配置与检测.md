@@ -1,22 +1,26 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 在浏览器中 opengl 的配置与检测
 date: 2025-01-07T00:00:00.000Z
 author: KazooTTT
 tags:
-  - opengl
-  - webgl
-  - canvas
-  - 硬件加速
   - 浏览器
   - 性能优化
+  - 硬件加速
+  - canvas
+  - opengl
+  - webgl
 finished: true
-published: true
 category: 前端
 slug: how-to-check-opengl-configuration-and-detection-in-browser
 description: 本文介绍了如何在浏览器中配置和检测 OpenGL，包括硬件加速的设置和检测方法，帮助用户优化浏览器性能。
-toAstro: true
-date_created: 2025-01-07T03:03:25.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250107
+date_modified: 20250304
 ---
 
 # 在 google 浏览器中硬件加速、OpenGL 的配置与检测

@@ -1,21 +1,24 @@
 ---
-date_created: 2025-02-06T03:59:39.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+toAstro: true
+astroType: post
+published: false
+toWexin: null
+toJuejin: null
+toZhihu: null
+date_created: 20250206
+date_modified: 20250304
 title: Obsidian Web Clipper 离线阅读同人作品
 date: 2025-02-06T00:00:00.000Z
 author: KazooTTT
 tags:
-  - obsidian
-  - web-clipper
   - 离线阅读
   - 同人作品
+  - obsidian
+  - web-clipper
 finished: false
-published: false
 category: 软件
 slug: obsidian-web-clipper-offline-reading-fanfics
 description: null
-toAstro: true
-astroType: post
 ---
 
 作为一个经常阅读同人作品的人来说，我使用过许多方法，有使用 raindrop 保存链接的，也有使用 epubkit 把同人作品转换成 epub 格式然后上传到微信读书或者 apple books 上进行阅读的。

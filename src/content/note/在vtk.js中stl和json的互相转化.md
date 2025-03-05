@@ -1,15 +1,20 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 在vtk.js中stl和json的互相转化
 date: 2024-11-22T00:00:00.000Z
 author: KazooTTT
 tags:
-  - stl
-  - json
-  - vtkjs
   - 3D模型
   - 数据转换
+  - json
+  - stl
+  - vtkjs
 finished: true
-published: true
 category: 前端
 slug: in-vtkjs-stl-and-json-are-converted-to-each-other
 description: >-
@@ -20,9 +25,8 @@ noteId_x: 15
 create_time: '2024/11/22 13:35:36'
 update_time: '2024/11/22 14:40:08'
 publish_time: '2024/11/22 14:38:29'
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 ## stl 如何转为 json

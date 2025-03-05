@@ -1,16 +1,20 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 合并多个PDF
 date: 2024-12-19T00:00:00.000Z
 author: KazooTTT
 tags: []
 finished: true
-published: true
 category: 项目
 slug: merge-pdfs
 description: null
-toAstro: true
-date_created: 2024-12-19T02:15:23.000Z
-date_modified: 2025-02-19T17:54:57.000Z
+date_created: 20241219
+date_modified: 20250304
 ---
 
 地址：

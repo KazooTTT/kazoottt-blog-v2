@@ -1,21 +1,25 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 管理python环境的方式
 date: 2023-12-05T00:00:00.000Z
 author: KazooTTT
 tags:
-  - python
   - 环境管理
-  - pyenv
-  - poetry
   - conda
-published: true
+  - poetry
+  - pyenv
+  - python
 slug: managing-the-python-environment
 description: >-
   本文总结了管理Python环境的几种主流方式，包括venv、virtualenv、conda、pipenv和poetry等。虚拟环境能够为不同的项目提供独立的Python版本和依赖库，避免了全局解释器带来的切换和维护问题。文章还介绍了作者个人常用的环境管理工具：pyenv用于Python版本管理，poetry和virtualenv用于依赖管理。此外，还简要说明了conda的使用注意事项，建议避免与pip混用，并了解import优先级。
 category: 后端
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # 管理 python 环境的方式

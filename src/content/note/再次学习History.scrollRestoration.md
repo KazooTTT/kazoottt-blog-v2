@@ -1,15 +1,20 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: 再次学习History.scrollRestoration
 date: 2024-05-23T00:00:00.000Z
 author: KazooTTT
 tags:
+  - 浏览器
   - History API
+  - JavaScript
   - scrollRestoration
   - Web Development
-  - JavaScript
-  - 浏览器
 finished: true
-published: true
 category: 前端
 slug: understanding-history-scrollrestoration
 description: >-
@@ -17,10 +22,8 @@ description: >-
 NotionID-notionnext: b5838d05-d223-4a6d-b92c-e284c5e5a2ce
 link-notionnext: >-
   https://kazoottt.notion.site/History-scrollRestoration-b5838d05d2234a6db92ce284c5e5a2ce
-rinId: 18
-toAstro: true
-date_created: 2025-01-04T03:44:53.000Z
-date_modified: 2025-02-19T17:54:55.000Z
+date_created: 20250104
+date_modified: 20250304
 ---
 
 # 再次学习 History.scrollRestoration

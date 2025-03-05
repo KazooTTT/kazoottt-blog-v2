@@ -1,6 +1,7 @@
 ---
 toAstro: true
 astroType: null
+published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
@@ -11,16 +12,14 @@ tags:
   - 项目
   - slug
 finished: true
-published: true
 slug: implement-an-auto-slugify
 description: >-
   Discover an auto slugify webapp designed to convert text into URL-friendly
   slugs. Check out the live demo at https://slugify.kazoottt.top/. This tool is
   based on the auto-slugify library available on GitHub.
-rinId: 65
 category: 项目
 date_created: 20241202
-date_modified: 20250225
+date_modified: 20250304
 ---
 
 # Auto Slugify Webapp

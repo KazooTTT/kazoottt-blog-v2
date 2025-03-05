@@ -1,24 +1,27 @@
 ---
+toAstro: true
+astroType: post
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: raycast + imessage 2fa，messauto的半平替
 date: 2024-12-11T00:00:00.000Z
 author: KazooTTT
 tags:
-  - raycast
-  - macOS
   - 验证码
+  - macOS
   - messauto
+  - raycast
 finished: true
-published: true
 category: null
 slug: raycast-imessage-2fa
 description: >-
   我做过一个messAuto的安利，使用raycast + iMessage
   2fa插件来实现iPhone和mac信息同步和自动复制验证码。最近发现作者删库了，我现在找到了一种快速获取验证码的方法。使用方法是在获取到验证码之后访问iMessage
   2fa插件，然后可以看到当前接收到的验证码，敲回车复制验证码到粘贴板。但这种方法缺点是没有messAuto方便，多了额外的步骤。
-toAstro: true
-astroType: post
-date_created: 2024-12-11T12:27:36.000Z
-date_modified: 2025-02-19T17:54:54.000Z
+date_created: 20241211
+date_modified: 20250304
 ---
 
 很久之前做过一个 messauto 的安利

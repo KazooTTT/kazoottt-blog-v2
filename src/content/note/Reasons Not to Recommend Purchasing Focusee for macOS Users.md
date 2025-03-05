@@ -1,17 +1,22 @@
 ---
+toAstro: true
+astroType: null
+published: true
+toWexin: null
+toJuejin: null
+toZhihu: null
 title: Reasons Not to Recommend Purchasing Focusee for macOS Users
 date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 tags:
-  - macOS
   - Focusee
-  - Screen
+  - macOS
   - Recording
-  - Software
-  - Review
   - Refund
+  - Review
+  - Screen
+  - Software
 finished: true
-published: true
 category: 软件
 slug: focusee-macos-review-en
 description: >-
@@ -21,10 +26,8 @@ description: >-
 NotionID-notionnext: c692f30c-bcbc-48fd-9739-19e23a3e1e40
 link-notionnext: >-
   https://kazoottt.notion.site/Reasons-Not-to-Recommend-Purchasing-Focusee-for-macOS-Users-c692f30cbcbc48fd973919e23a3e1e40
-rinId: 40
-toAstro: true
-date_created: 2024-12-02T03:03:21.000Z
-date_modified: 2025-02-19T17:54:57.000Z
+date_created: 20241202
+date_modified: 20250304
 ---
 
 # Reasons Not to Recommend Purchasing Focusee for macOS Users
