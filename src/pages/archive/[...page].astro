@@ -94,7 +94,10 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 						<ul class="flex flex-wrap gap-2">
 							{latestUpdatedPost.map((post) => (
 								<li>
-									<a href={`/${post.collection}/${post.id}/`} class="hover:text-link">
+									<a
+										href={`${post.collection === "post" ? "/posts/" : "/notes/"}${post.id}/`}
+										class="hover:text-link"
+									>
 										<span>{post.data.date_modified.toLocaleDateString()}</span>
 										{post.data.title}
 									</a>
