@@ -9,7 +9,7 @@ description: >-
   本文针对在 VSCode 中运行 TypeScript 文件时遇到的问题，提供了多种解决方案。比较了不同方式的优缺点，特别强调了 bun
   在速度和易用性方面的优势，以及 ts-node 配置的复杂性。同时，文章还指导用户如何配置 Code Runner 扩展，以便更方便地运行
   TypeScript 代码。
-date: 20250225
+date: 20250306
 tags:
   - bun
   - code
