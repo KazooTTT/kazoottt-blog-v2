@@ -2,6 +2,7 @@
 
 ## [Blog](https://blog.kazoottt.top/posts/)
 <!-- BLOG-POST-LIST:START -->
+ - [2025-03-06 [前端] 如何运行 ts 文件](https://blog.kazoottt.top/posts/how-to-run-ts-files/)
  - [2025-03-02 [周报] 2025-W09 工作流升级](https://blog.kazoottt.top/posts/2025-W09/)
  - [2025-02-23 [周报] 2025-W08](https://blog.kazoottt.top/posts/2025-W08/)
  - [2025-02-21 [碎片] rsshub中新增asianfanfics路由](https://blog.kazoottt.top/posts/fragmented-notes-2025-02-21-16-38-50/)
@@ -25,8 +26,7 @@
  - [2024-11-29 使用github action定时同步obsidian内容到astro博客仓库](https://blog.kazoottt.top/posts/synchronize-profiles-to-remote-and-local-on-a-regular-basis/)
  - [2024-11-23 [软件] 个人工具与设备清单202502](https://blog.kazoottt.top/posts/personal-tools-and-equipment-inventory-202502/)
  - [2024-11-12 [旅行] 五一 上海-重庆-成都流水账](https://blog.kazoottt.top/posts/may-1st-shanghai-chongqing-chengdu-flow-account/)
- - [2024-09-02 [旅行] 2024 小缘永不完结的冒险 武汉线下vlog](https://blog.kazoottt.top/posts/yukari-2024-live/)
- - [2024-07-30 [项目] 微信读书网页版复制快捷键](https://blog.kazoottt.top/posts/wechat-reading-web-version-copy-shortcut/)<!-- BLOG-POST-LIST:END -->
+ - [2024-09-02 [旅行] 2024 小缘永不完结的冒险 武汉线下vlog](https://blog.kazoottt.top/posts/yukari-2024-live/)<!-- BLOG-POST-LIST:END -->
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
