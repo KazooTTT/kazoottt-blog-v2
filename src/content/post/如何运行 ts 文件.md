@@ -131,7 +131,7 @@ node --loader ts-node/esm index.ts
 
 ``` json
 {
-  "typescript": "bun $fullFileName"
+    "typescript": "cd $dir && bun $fileName",
 }
 ```
 
@@ -139,7 +139,7 @@ node --loader ts-node/esm index.ts
 
 ``` json
 {
-  "typescript": "tsc $fullFileName && node $fileNameWithoutExt.js"
+  "typescript": "cd $dir && tsc $fullFileName && node $fileNameWithoutExt.js"
 }
 ```
 
