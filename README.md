@@ -30,8 +30,16 @@
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
+ - [2025-03-06 [日记] 2025-03-06 星期四](https://blog.kazoottt.top/notes/diary-2025-03-06/)
+ - [2025-03-05 [日记] 2025-03-05  星期三](https://blog.kazoottt.top/notes/diary-2025-03-05/)
+ - [2025-03-04 [日记] 2025-03-04  星期二](https://blog.kazoottt.top/notes/diary-2025-03-04/)
+ - [2025-03-03 [日记] 2025-03-03 星期一](https://blog.kazoottt.top/notes/diary-2025-03-03/)
  - [2025-03-03 pip安装和运行openwebui](https://blog.kazoottt.top/notes/how-to-install-and-run-openwebui-with-pip/)
  - [2025-03-03 [git] 使用大模型处理 git diff 生成 commit msg](https://blog.kazoottt.top/notes/use-llm-to-generate-commit-message-from-git-diff/)
+ - [2025-02-28 [日记] 2025-02-28 星期五](https://blog.kazoottt.top/notes/diary-2025-02-28/)
+ - [2025-02-27 [日记] 2025-02-27  星期四](https://blog.kazoottt.top/notes/diary-2025-02-27/)
+ - [2025-02-25 [日记] 2025-02-25 星期二](https://blog.kazoottt.top/notes/diary-2025-02-25/)
+ - [2025-02-24 [日记] 2025-02-24  星期一](https://blog.kazoottt.top/notes/diary-2025-02-24/)
  - [2025-02-21 [碎片] 配置 cloudflare 规则实现重定向](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-21-15-44-58/)
  - [2025-02-19 [碎片] 241029 1144 vite环境变量](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-21-11-25/)
  - [2025-02-19 [碎片] 碎片-2025-02-19 17时30分 You Should Use Hono in your Next Projec](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-19-17-30-55/)
@@ -41,12 +49,4 @@
  - [2025-02-14 [碎片] 碎片-2025-02-14 15时18分 飞书 excalidraw画图对比](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-14-15-18-56/)
  - [2025-02-11 [碎片] 碎片-2025-02-11 12时32分](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-11-12-32-42/)
  - [2025-02-08 如何解决 Nginx 启动时未联网无法访问DNS而挂掉的问题](https://blog.kazoottt.top/notes/nginx-startup-fix-configure-local-hosts-file/)
- - [2025-02-06 [软件] 小红书长文切图笔记？其实 craft 就可以实现。](https://blog.kazoottt.top/notes/use-craft-to-cut-the-long-text-note-of-xiaohongshu/)
- - [2025-02-06 [软件] 试试action5 pro推流到本地rtmp和有线连接的效果](https://blog.kazoottt.top/notes/action5-pro-obs-rtmp/)
- - [2025-02-05 [软件] askfm的关停](https://blog.kazoottt.top/notes/askfm-shutdown/)
- - [2025-02-05 [软件] 使用 1password 的 secure notes 存储提示词](https://blog.kazoottt.top/notes/use-1password-secure-notes-to-store-prompt-templates/)
- - [2025-02-03 [随笔] 记录一次滴滴打车维权](https://blog.kazoottt.top/notes/record-a-ride-sharing-complaint/)
- - [2025-01-31 [3D Modeling] Blender on macOS - Steam Version Limitations for Apple Silicon Devices](https://blog.kazoottt.top/notes/blender-macos-steam-version-limitations/)
- - [2025-01-31 [blender] how to split window in blender](https://blog.kazoottt.top/notes/split-window-in-blender/)
- - [2025-01-20 [blender] how to separate object in blender](https://blog.kazoottt.top/notes/how-to-separate-object-in-blender/)
- - [2025-01-20 [软件] win11如何下载chatgpt](https://blog.kazoottt.top/notes/win11chatgpt/)<!-- MEMO-POST-LIST:END -->
+ - [2025-02-06 [软件] 小红书长文切图笔记？其实 craft 就可以实现。](https://blog.kazoottt.top/notes/use-craft-to-cut-the-long-text-note-of-xiaohongshu/)<!-- MEMO-POST-LIST:END -->
