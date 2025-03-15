@@ -21,7 +21,7 @@
  - [2024-12-19 [推荐] 值得一看的博客](https://blog.kazoottt.top/posts/blogs-worth-reading/)
  - [2024-12-18 与hanser有关的github仓库](https://blog.kazoottt.top/posts/hanser-repository/)
  - [2024-12-17 Share My Incorrect Usage Cases of Zustand](https://blog.kazoottt.top/posts/share-my-incorrect-usage-case-of-zustand-en/)
- - [2024-12-17 [前端] 分享一下我的zustand错误使用案例](https://blog.kazoottt.top/posts/zustand-use-record/)
+ - [2024-12-17 [前端] 分享一下我的 zustand 错误使用案例](https://blog.kazoottt.top/posts/zustand-use-record/)
  - [2024-12-11 raycast + imessage 2fa，messauto的半平替](https://blog.kazoottt.top/posts/raycast-imessage-2fa/)
  - [2024-11-29 使用github action定时同步obsidian内容到astro博客仓库](https://blog.kazoottt.top/posts/synchronize-profiles-to-remote-and-local-on-a-regular-basis/)
  - [2024-11-23 [软件] 个人工具与设备清单202502](https://blog.kazoottt.top/posts/personal-tools-and-equipment-inventory-202502/)
