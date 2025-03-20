@@ -61,19 +61,16 @@ const { className = "", dataPagefindBody = true } = Astro.props;
 
 	/* 修改图片相关样式 */
 	:global(article img) {
-		opacity: 0;
 		position: relative;
 		background-color: #f0f0f0;
 		transition: all 0.5s ease-in-out;
 	}
 
 	:global(article img.loading) {
-		opacity: 1;
 		filter: blur(10px);
 	}
 
 	:global(article img.loaded) {
-		opacity: 1;
 		filter: blur(0);
 	}
 </style>
