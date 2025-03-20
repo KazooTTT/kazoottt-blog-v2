@@ -23,7 +23,7 @@ description: >-
   来只获取需要的数据。同时，应该遵循最小粒度原则，只获取需要的数据，而不是使用多个 store 去存储不同的 state。另外，与 UI 无关的 state
   不需要通过 selector 获取，正确的做法是直接在 handleSave 方法内部访问 store。
 date_created: 20250207
-date_modified: 20250313
+date_modified: 20250317
 banner: 'https://pictures.kazoottt.top/2025/02/20250201-og-1738417688145.png'
 ---
 
@@ -128,15 +128,15 @@ const CurrentCamera: React.FC = () => {
 
 > [!quote]
 > Recommended patterns 推荐模式
->
+> 
 > Single store 单一存储
->
+> 
 > Your applications global state should be located in a single Zustand store.
->
+> 
 > 你的应用程序的全局状态应该位于一个单一的 Zustand 存储中。
->
+> 
 > If you have a large application, Zustand supports splitting the store into slices.
->
+> 
 > 如果你有一个大型应用程序，Zustand 支持将存储拆分为切片。
 
 ## 错误用法 4 与 UI 无关的 state 通过 selector 获取
