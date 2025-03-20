@@ -22,7 +22,9 @@ date_modified: 20250320
 
 ## 太长不看
 
-步骤如下：
+步骤如下：  
+
+![IMG-72886D90590DCDBBFDD4DFF5E21DDAA6](<https://s2.loli.net/2025/03/20/crg9yGiLflh8n2E.png>)
 
 ``` mermaid
 graph TD
@@ -37,13 +39,13 @@ graph TD
 
 [在 Mac 上听写信息和文稿 - 官方 Apple 支持 (中国)](<https://support.apple.com/zh-cn/guide/mac-help/mh40584/mac>)
 
-![IMG-A5FC835FCE95BF1B2F41D8C92AF396AD](</mdImages/IMG-A5FC835FCE95BF1B2F41D8C92AF396AD.png>)  
+![IMG-A5FC835FCE95BF1B2F41D8C92AF396AD](<https://s2.loli.net/2025/03/20/ymDUw1KhikvsJ7o.png>)  
 快捷键可以自己设置（搜索 “键盘” 进入入口），默认是按下两次 ctrl 键
 
-![IMG-3766F08366080FBC6CFA90E99D014C40](</mdImages/IMG-3766F08366080FBC6CFA90E99D014C40.png>)
+![IMG-3766F08366080FBC6CFA90E99D014C40](<https://s2.loli.net/2025/03/20/zVnpcX6gdSFyKfI.png>)
 
 实时识别的效果：  
-![IMG-A799C354077C63D32B329D50E9FE2A7D](</mdImages/IMG-A799C354077C63D32B329D50E9FE2A7D.gif>)  
+![IMG-A799C354077C63D32B329D50E9FE2A7D](<https://s2.loli.net/2025/03/20/k9D3a7W8MNCEXmA.gif>)  
 
 Cherry Studio 自带的助手的提示词：  
 
@@ -53,4 +55,4 @@ Using concise and clear language, please edit the following passage to improve i
 
 最后的效果：
 
-![IMG-26E3E06BA410A4A583D67874EFA2F307](</mdImages/IMG-26E3E06BA410A4A583D67874EFA2F307.png>)  
+![IMG-26E3E06BA410A4A583D67874EFA2F307](<https://s2.loli.net/2025/03/20/YfNprhouvmqGgwB.png>)  
