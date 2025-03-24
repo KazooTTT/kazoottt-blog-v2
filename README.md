@@ -2,8 +2,8 @@
 
 ## [Blog](https://blog.kazoottt.top/posts/)
 <!-- BLOG-POST-LIST:START -->
- - [2025-03-24 [项目] milklove 重生计划 分支可视化](https://blog.kazoottt.top/posts/milklove-project-reborn/)
  - [2025-03-24 milklove 小项目产出汇总](https://blog.kazoottt.top/posts/milklove-%E5%B0%8F%E9%A1%B9%E7%9B%AE%E4%BA%A7%E5%87%BA%E6%B1%87%E6%80%BB/)
+ - [2025-03-24 [项目] milklove 重生计划 分支可视化](https://blog.kazoottt.top/posts/milklove-project-reborn/)
  - [2025-03-20 [随笔] 写在离职之后](https://blog.kazoottt.top/posts/post-resignation-reflections/)
  - [2025-03-20 使用macOS自带的语音听写功能作为输入方式，省时省力](https://blog.kazoottt.top/posts/using-macos-built-in-voice-dictation-as-input/)
  - [2025-03-10 [旅行] 南宁三天之旅](https://blog.kazoottt.top/posts/nanning-three-day-trip/)
