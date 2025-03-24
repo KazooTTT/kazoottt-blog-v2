@@ -4,6 +4,7 @@ import Tools from "@/components/tools/index.astro";
 import GiscusComment from "@/components/componentsBefore/GiscusComment";
 import SocialList from "@/components/SocialList.astro";
 import ContentFooter from "@/components/ContentFooter.astro";
+import SelfIntro from "@/pages/self-intro.astro";
 const meta = {
 	description: "introduction for KazooTTT",
 	title: "About",
@@ -12,7 +13,7 @@ const meta = {
 
 <PageLayout meta={meta}>
 	<h1 class="title mb-6">About</h1>
-	<div class="prose prose-base prose-cactus max-w-none">TODO ...</div>
+	<SelfIntro />
 
 	<div class="my-2">
 		<a href="https://wakatime.com/@d3dc2570-e4bf-4469-b0c2-127b495e8b91"
