@@ -5,7 +5,7 @@ published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
-title: rsshub中新增asianfanfics路由
+title: rsshub 中新增 asianfanfics 路由
 date: 2025-02-21T00:00:00.000Z
 author: KazooTTT
 tags:
@@ -13,12 +13,13 @@ tags:
   - asianfanfics
   - rss
   - rsshub
+  - milklove
 description: >-
   本文讲述了作者利用 RSSHub 实现 Asianfanfics
   特定标签/关键词更新订阅的过程。通过对网站结构的分析，确认了数据的获取方式。在实际操作中，遇到了反爬机制的问题，最终通过使用 ofetch 并手动设置
   User-Agent 解决。作者还分享了遇到的坑和参与开源项目的感想。
 slug: fragmented-notes-2025-02-21-16-38-50
-category: 碎片
+category: 项目
 date_created: 20250221
 date_modified: 20250304
 ---
@@ -51,9 +52,9 @@ date_modified: 20250304
 
 ![IMG-5ECA04383C3D96B4A767C5A0B3463E19](</mdImages/IMG-5ECA04383C3D96B4A767C5A0B3463E19.png>)
 
-观察了一下，获取文章列表就是找到 primary-container 中的所有的.excerpt
+观察了一下，获取文章列表就是找到 primary-container 中的所有的。excerpt
 
-现在再来看单个的.excerpt
+现在再来看单个的。excerpt
 
 ``` html
 <section class="excerpt">
@@ -167,4 +168,4 @@ tag 和 text-search 的分别根据上面的分析进行实现即可。代码很
 
 后来在 pr 中咨询了维护的老师，才知道要手动设置 ua  
 
-感想就是自己做事情还是比较粗糙以及参与开源的项目，特别是会审查 pr 和提一定修改意见的，其实对自己会是很大的帮助.  可以多多参与。
+感想就是自己做事情还是比较粗糙以及参与开源的项目，特别是会审查 pr 和提一定修改意见的，其实对自己会是很大的帮助。可以多多参与。
