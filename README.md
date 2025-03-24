@@ -2,13 +2,15 @@
 
 ## [Blog](https://blog.kazoottt.top/posts/)
 <!-- BLOG-POST-LIST:START -->
+ - [2025-03-24 [项目] milklove 重生计划 分支可视化](https://blog.kazoottt.top/posts/milklove-project-reborn/)
+ - [2025-03-24 milklove 小项目产出汇总](https://blog.kazoottt.top/posts/milklove-%E5%B0%8F%E9%A1%B9%E7%9B%AE%E4%BA%A7%E5%87%BA%E6%B1%87%E6%80%BB/)
  - [2025-03-20 [随笔] 写在离职之后](https://blog.kazoottt.top/posts/post-resignation-reflections/)
  - [2025-03-20 使用macOS自带的语音听写功能作为输入方式，省时省力](https://blog.kazoottt.top/posts/using-macos-built-in-voice-dictation-as-input/)
  - [2025-03-10 [旅行] 南宁三天之旅](https://blog.kazoottt.top/posts/nanning-three-day-trip/)
  - [2025-03-06 [前端] 如何运行 ts 文件](https://blog.kazoottt.top/posts/how-to-run-ts-files/)
  - [2025-03-02 [周报] 2025-W09 工作流升级](https://blog.kazoottt.top/posts/2025-W09/)
  - [2025-02-23 [周报] 2025-W08](https://blog.kazoottt.top/posts/2025-W08/)
- - [2025-02-21 [碎片] rsshub中新增asianfanfics路由](https://blog.kazoottt.top/posts/fragmented-notes-2025-02-21-16-38-50/)
+ - [2025-02-21 [项目] rsshub 中新增 asianfanfics 路由](https://blog.kazoottt.top/posts/fragmented-notes-2025-02-21-16-38-50/)
  - [2025-02-20 [碎片] openwebui长时间白屏解决方案](https://blog.kazoottt.top/posts/openwebui-long-loading-white-screen-solution/)
  - [2025-02-16 [周报] 2025-W07](https://blog.kazoottt.top/posts/2025-W07/)
  - [2025-02-12 [脑洞] 处理markdown图片链接包含空格导致无法预览图片的问题](https://blog.kazoottt.top/posts/handling-markdown-image-links-containing-spaces-causing-preview-failures/)
@@ -24,9 +26,7 @@
  - [2024-12-19 [推荐] 值得一看的博客](https://blog.kazoottt.top/posts/blogs-worth-reading/)
  - [2024-12-18 与hanser有关的github仓库](https://blog.kazoottt.top/posts/hanser-repository/)
  - [2024-12-17 Share My Incorrect Usage Cases of Zustand](https://blog.kazoottt.top/posts/share-my-incorrect-usage-case-of-zustand-en/)
- - [2024-12-17 [前端] 分享一下我的 zustand 错误使用案例](https://blog.kazoottt.top/posts/zustand-use-record/)
- - [2024-12-11 raycast + imessage 2fa，messauto的半平替](https://blog.kazoottt.top/posts/raycast-imessage-2fa/)
- - [2024-11-29 使用github action定时同步obsidian内容到astro博客仓库](https://blog.kazoottt.top/posts/synchronize-profiles-to-remote-and-local-on-a-regular-basis/)<!-- BLOG-POST-LIST:END -->
+ - [2024-12-17 [前端] 分享一下我的 zustand 错误使用案例](https://blog.kazoottt.top/posts/zustand-use-record/)<!-- BLOG-POST-LIST:END -->
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
