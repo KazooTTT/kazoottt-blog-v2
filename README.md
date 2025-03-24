@@ -30,6 +30,7 @@
 
 ## [Memos](https://blog.kazoottt.top/notes/)
 <!-- MEMO-POST-LIST:START -->
+ - [2025-03-24 歌词本](https://blog.kazoottt.top/notes/lyrics-book/)
  - [2025-03-06 [日记] 2025-03-06 星期四](https://blog.kazoottt.top/notes/diary-2025-03-06/)
  - [2025-03-05 [日记] 2025-03-05  星期三](https://blog.kazoottt.top/notes/diary-2025-03-05/)
  - [2025-03-04 [日记] 2025-03-04  星期二](https://blog.kazoottt.top/notes/diary-2025-03-04/)
@@ -48,5 +49,4 @@
  - [2025-02-14 [碎片] 碎片-2025-02-14 15时18分 飞书 excalidraw画图对比](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-14-15-18-56/)
  - [2025-02-11 [碎片] 碎片-2025-02-11 12时32分](https://blog.kazoottt.top/notes/fragmented-notes-2025-02-11-12-32-42/)
  - [2025-02-08 如何解决 Nginx 启动时未联网无法访问DNS而挂掉的问题](https://blog.kazoottt.top/notes/nginx-startup-fix-configure-local-hosts-file/)
- - [2025-02-06 [软件] 小红书长文切图笔记？其实 craft 就可以实现。](https://blog.kazoottt.top/notes/use-craft-to-cut-the-long-text-note-of-xiaohongshu/)
- - [2025-02-06 [软件] 试试action5 pro推流到本地rtmp和有线连接的效果](https://blog.kazoottt.top/notes/action5-pro-obs-rtmp/)<!-- MEMO-POST-LIST:END -->
+ - [2025-02-06 [软件] 小红书长文切图笔记？其实 craft 就可以实现。](https://blog.kazoottt.top/notes/use-craft-to-cut-the-long-text-note-of-xiaohongshu/)<!-- MEMO-POST-LIST:END -->
