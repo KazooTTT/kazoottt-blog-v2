@@ -12,6 +12,7 @@ import { collectionDateSort, getLatestUpdatedPost } from "@/utils/date";
 import type { GetStaticPaths, Page } from "astro";
 import { MAX_TAGS, MAX_CATEGORIES, MAX_POSTS_PER_PAGE, MAX_LATEST_POSTS } from "@/utils/constant";
 import type { AllItem } from "@/types";
+import RecentUpdate from "@/components/RecentUpdate.astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const allPosts = await getAllCollectionPosts();
@@ -33,7 +34,7 @@ interface Props {
 	latestUpdatedPost: AllItem[];
 }
 
-const { page, postsCount, latestUpdatedPost } = Astro.props;
+const { page, postsCount } = Astro.props;
 
 const meta = {
 	description: "Read my collection of posts and the things that interest me",
@@ -85,28 +86,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 			<Pagination {...paginationProps} />
 		</div>
 		<aside class="flex flex-col gap-8">
-			{
-				(
-					<div>
-						<h2 class="title mb-4 flex items-center gap-2 text-lg">
-							<a class="">最近更新</a>
-						</h2>
-						<ul class="flex flex-wrap gap-2">
-							{latestUpdatedPost.map((post) => (
-								<li>
-									<a
-										href={`${post.collection === "post" ? "/posts/" : "/notes/"}${post.id}/`}
-										class="hover:text-link"
-									>
-										<span>{post.data.date_modified.toLocaleDateString()}</span>
-										{post.data.title}
-									</a>
-								</li>
-							))}
-						</ul>
-					</div>
-				)
-			}
+			<RecentUpdate />
 		</aside>
 	</div>
 </PageLayout>

@@ -6,6 +6,9 @@ import { getAllFixedToTopPosts, getAllNotes, getAllPosts } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 import SelfIntro from "@/pages/self-intro.astro";
+import ContentFooter from "@/components/ContentFooter.astro";
+import GiscusComment from "@/components/componentsBefore/GiscusComment";
+import Tools from "@/components/tools/index.astro";
 
 // Posts
 const MAX_POSTS = 10;
@@ -24,9 +27,22 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
-		<SelfIntro />
+		<div class="">
+			<h1 class="title mb-6">About</h1>
+			<SelfIntro />
+		</div>
+
+		<div class="my-2">
+			<a href="https://wakatime.com/@d3dc2570-e4bf-4469-b0c2-127b495e8b91"
+				><img
+					src="https://wakatime.com/badge/user/d3dc2570-e4bf-4469-b0c2-127b495e8b91.svg"
+					alt="Total time coded since Nov 4 2017"
+				/></a
+			>
+		</div>
+
 		<SocialList />
+		<Tools enableCollapse={true} defaultOpen={false} />
 	</section>
 
 	{
@@ -74,4 +90,6 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 			</section>
 		)
 	}
+	<ContentFooter />
+	<GiscusComment client:load />
 </PageLayout>

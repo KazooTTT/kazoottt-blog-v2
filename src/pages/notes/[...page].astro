@@ -62,17 +62,7 @@ function calculateIndex(index: number, page: Page<NoteItem>) {
 			<div class="flex-1"></div>
 		</h1>
 		<div class="columns-1">
-			{
-				page.data.map((note, index) => (
-					<Note
-						note={note}
-						as="h2"
-						isPreview
-						index={calculateIndex(index, page)}
-						enableLineClamp={false}
-					/>
-				))
-			}
+			{page.data.map((note) => <Note note={note} as="h2" isPreview enableLineClamp={false} />)}
 		</div>
 		<Pagination {...paginationProps} />
 	</section>

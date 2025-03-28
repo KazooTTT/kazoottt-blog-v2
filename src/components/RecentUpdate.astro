@@ -1,0 +1,30 @@
+---
+import { getAllCollectionPosts } from "@/data/post";
+import { MAX_LATEST_POSTS } from "@/utils/constant";
+import { getLatestUpdatedPost } from "@/utils/date";
+const allPosts = await getAllCollectionPosts();
+const latestUpdatedPost = allPosts.sort(getLatestUpdatedPost).slice(0, MAX_LATEST_POSTS);
+---
+
+{
+	(
+		<div>
+			<h2 class="title mb-4 flex items-center gap-2 text-lg">
+				<a class="">最近更新</a>
+			</h2>
+			<ul class="flex flex-wrap gap-2">
+				{latestUpdatedPost.map((post) => (
+					<li>
+						<a
+							href={`${post.collection === "post" ? "/posts/" : "/notes/"}${post.id}/`}
+							class="hover:text-link"
+						>
+							<span>{post.data.date_modified.toLocaleDateString()}</span>
+							{post.data.title}
+						</a>
+					</li>
+				))}
+			</ul>
+		</div>
+	)
+}
