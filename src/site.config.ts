@@ -20,13 +20,13 @@ export const siteConfig: SiteConfig = {
 	// Meta property, found in src/components/BaseHead.astro L:42
 	ogLocale: "zh_CN",
 	// Used to construct the meta title property found in src/components/BaseHead.astro L:11, and webmanifest name found in astro.config.ts L:42
-	title: "声控烤箱 ｜ KazooTTT 博客",
+	title: "KazooTTT 博客",
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
 	url: "https://blog.kazoottt.top/",
 	rssConfig: {
-		noteTitle: "碎碎念 - 声控烤箱 ｜ KazooTTT",
+		noteTitle: "碎碎念 - KazooTTT 博客",
 		noteDescription: "分享一些比较碎片化的内容。",
-		blogTitle: "博客 - 声控烤箱 ｜ KazooTTT",
+		blogTitle: "博客 - KazooTTT",
 		blogDescription: "分享一些技术笔记、个人随笔、生活日常等比较长篇的内容。",
 	},
 };

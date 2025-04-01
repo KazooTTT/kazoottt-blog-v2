@@ -1,111 +1,111 @@
 ---
-import kazootttAvatar from '../../assets/kazoottt-avatar.jpeg'
-import { Image } from 'astro:assets'
+import kazootttAvatar from "../../assets/kazoottt-avatar.jpeg";
+import { Image } from "astro:assets";
 ---
 
-<header class='fixed left-0 right-0 top-0 z-50 bg-white shadow-sm dark:bg-gray-800'>
+<header class="fixed top-0 right-0 left-0 z-50 bg-white shadow-sm dark:bg-gray-800">
 	<nav
-		class='mx-auto flex w-full items-center justify-between px-4 py-3 lg:flex lg:w-3/5 lg:w-4/5 lg:items-center'
-		aria-label='global'
+		class="mx-auto flex w-full items-center justify-between px-4 py-3 lg:flex lg:w-3/5 lg:w-4/5 lg:items-center"
+		aria-label="global"
 	>
-		<a class='flex items-center' href='/'>
+		<a class="flex items-center" href="/">
 			<Image
 				src={kazootttAvatar}
-				alt='profile photo'
-				class='mr-2 h-8 w-auto rounded-full lg:hidden'
-				loading='eager'
+				alt="profile photo"
+				class="mr-2 h-8 w-auto rounded-full lg:hidden"
+				loading="eager"
 			/>
-			<div class='hidden flex-none text-xl font-semibold lg:block' aria-label='Brand'>声控烤箱</div>
+			<div class="hidden flex-none text-xl font-semibold lg:block" aria-label="Brand">KazooTTT</div>
 		</a>
 
 		<!-- Mobile menu button -->
 		<button
-			id='mobileMenuButton'
-			class='rounded-md p-2 hover:bg-border lg:hidden'
-			aria-label='Toggle mobile menu'
+			id="mobileMenuButton"
+			class="hover:bg-border rounded-md p-2 lg:hidden"
+			aria-label="Toggle mobile menu"
 		>
 			<svg
-				xmlns='http://www.w3.org/2000/svg'
-				width='24'
-				height='24'
-				viewBox='0 0 24 24'
-				class='h-6 w-6'
+				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				class="h-6 w-6"
 			>
-				<path fill='currentColor' d='M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z'></path>
+				<path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
 			</svg>
 		</button>
 
 		<!-- Desktop Navigation -->
-		<div class='hidden flex-row items-center justify-center gap-x-7 lg:flex'>
-			<div class='relative'>
+		<div class="hidden flex-row items-center justify-center gap-x-7 lg:flex">
+			<div class="relative">
 				<a
-					href='/blog'
-					class={`peer flex items-center text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/blog') ? 'text-green-400' : ''}`}
-					aria-label='Blog Menu'
+					href="/blog"
+					class={`peer flex items-center text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/blog") ? "text-green-400" : ""}`}
+					aria-label="Blog Menu"
 				>
 					Blog
 					<svg
-						xmlns='http://www.w3.org/2000/svg'
-						width='20'
-						height='20'
-						viewBox='0 0 24 24'
-						class='ml-1 transform transition-transform duration-200 peer-hover:rotate-180'
+						xmlns="http://www.w3.org/2000/svg"
+						width="20"
+						height="20"
+						viewBox="0 0 24 24"
+						class="ml-1 transform transition-transform duration-200 peer-hover:rotate-180"
 					>
-						<path fill='currentColor' d='m12 15l-5-5h10z'></path>
+						<path fill="currentColor" d="m12 15l-5-5h10z"></path>
 					</svg>
 				</a>
 				<div
-					class='invisible absolute left-0 mt-2 w-48 rounded-md bg-white py-2 opacity-0 shadow-lg transition-all duration-200 hover:visible hover:opacity-100 peer-hover:visible peer-hover:opacity-100 dark:bg-gray-800'
+					class="invisible absolute left-0 mt-2 w-48 rounded-md bg-white py-2 opacity-0 shadow-lg transition-all duration-200 peer-hover:visible peer-hover:opacity-100 hover:visible hover:opacity-100 dark:bg-gray-800"
 				>
 					<a
-						href='/categories'
-						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith('/categories') ? 'text-green-400' : ''} dark:hover:bg-gray-700`}
-						aria-label='Categories Page'
+						href="/categories"
+						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith("/categories") ? "text-green-400" : ""} dark:hover:bg-gray-700`}
+						aria-label="Categories Page"
 					>
 						Categories
 					</a>
 					<a
-						href='/tags'
-						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith('/tags') ? 'text-green-400' : ''} dark:hover:bg-gray-700`}
-						aria-label='Tags Page'
+						href="/tags"
+						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith("/tags") ? "text-green-400" : ""} dark:hover:bg-gray-700`}
+						aria-label="Tags Page"
 					>
 						Tags
 					</a>
 					<a
-						href='/diary'
-						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith('/diary') ? 'text-green-400' : ''} dark:hover:bg-gray-700`}
-						aria-label='Diary Page'
+						href="/diary"
+						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith("/diary") ? "text-green-400" : ""} dark:hover:bg-gray-700`}
+						aria-label="Diary Page"
 					>
 						Diary
 					</a>
 				</div>
 			</div>
 			<a
-				href='/tools'
-				class={`flex-none text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/tools') ? 'text-green-400' : ''}`}
-				aria-label='Nav Menu Item'
+				href="/tools"
+				class={`flex-none text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/tools") ? "text-green-400" : ""}`}
+				aria-label="Nav Menu Item"
 				>Tools
 			</a>
-			<div class='relative'>
-				<button class='peer flex items-center text-[1.05rem] font-medium' aria-label='More Menu'>
+			<div class="relative">
+				<button class="peer flex items-center text-[1.05rem] font-medium" aria-label="More Menu">
 					More
 					<svg
-						xmlns='http://www.w3.org/2000/svg'
-						width='20'
-						height='20'
-						viewBox='0 0 24 24'
-						class='ml-1 transform transition-transform duration-200 peer-hover:rotate-180'
+						xmlns="http://www.w3.org/2000/svg"
+						width="20"
+						height="20"
+						viewBox="0 0 24 24"
+						class="ml-1 transform transition-transform duration-200 peer-hover:rotate-180"
 					>
-						<path fill='currentColor' d='m12 15l-5-5h10z'></path>
+						<path fill="currentColor" d="m12 15l-5-5h10z"></path>
 					</svg>
 				</button>
 				<div
-					class='invisible absolute right-0 mt-2 w-48 rounded-md bg-white py-2 opacity-0 shadow-lg transition-all duration-200 hover:visible hover:opacity-100 peer-hover:visible peer-hover:opacity-100 dark:bg-gray-800'
+					class="invisible absolute right-0 mt-2 w-48 rounded-md bg-white py-2 opacity-0 shadow-lg transition-all duration-200 peer-hover:visible peer-hover:opacity-100 hover:visible hover:opacity-100 dark:bg-gray-800"
 				>
 					<a
-						href='/friends'
-						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith('/friends') ? 'text-green-400' : ''} dark:hover:bg-gray-700`}
-						aria-label='Friends Page'
+						href="/friends"
+						class={`block px-6 py-3 text-[1.05rem] font-medium transition-colors hover:bg-gray-100  ${Astro.url.pathname.startsWith("/friends") ? "text-green-400" : ""} dark:hover:bg-gray-700`}
+						aria-label="Friends Page"
 					>
 						Friends
 					</a>
@@ -113,30 +113,30 @@ import { Image } from 'astro:assets'
 			</div>
 
 			<button
-				id='toggleDarkMode'
-				class='relative rounded-md border border-border p-1.5 transition-all hover:bg-border'
+				id="toggleDarkMode"
+				class="border-border hover:bg-border relative rounded-md border p-1.5 transition-all"
 			>
-				<span class='sr-only'>Dark Theme</span>
+				<span class="sr-only">Dark Theme</span>
 				<svg
-					xmlns='http://www.w3.org/2000/svg'
-					width='32'
-					height='32'
-					viewBox='0 0 24 24'
-					class='h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:hidden dark:-rotate-90 dark:scale-0'
+					xmlns="http://www.w3.org/2000/svg"
+					width="32"
+					height="32"
+					viewBox="0 0 24 24"
+					class="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:hidden dark:scale-0 dark:-rotate-90"
 					><path
-						fill='currentColor'
-						d='M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15m0 1q-1.671 0-2.836-1.164T8 12q0-1.671 1.164-2.836T12 8q1.671 0 2.836 1.164T16 12q0 1.671-1.164 2.836T12 16m-7-3.5H1.5v-1H5zm17.5 0H19v-1h3.5zM11.5 5V1.5h1V5zm0 17.5V19h1v3.5zM6.746 7.404l-2.16-2.098l.695-.744l2.111 2.134zM18.72 19.438l-2.117-2.14l.652-.702l2.16 2.098zM16.596 6.746l2.098-2.16l.744.695l-2.134 2.111zM4.562 18.72l2.14-2.117l.663.652l-2.078 2.179zM12 12'
+						fill="currentColor"
+						d="M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15m0 1q-1.671 0-2.836-1.164T8 12q0-1.671 1.164-2.836T12 8q1.671 0 2.836 1.164T16 12q0 1.671-1.164 2.836T12 16m-7-3.5H1.5v-1H5zm17.5 0H19v-1h3.5zM11.5 5V1.5h1V5zm0 17.5V19h1v3.5zM6.746 7.404l-2.16-2.098l.695-.744l2.111 2.134zM18.72 19.438l-2.117-2.14l.652-.702l2.16 2.098zM16.596 6.746l2.098-2.16l.744.695l-2.134 2.111zM4.562 18.72l2.14-2.117l.663.652l-2.078 2.179zM12 12"
 					></path></svg
 				>
 				<svg
-					xmlns='http://www.w3.org/2000/svg'
-					width='32'
-					height='32'
-					viewBox='0 0 24 24'
-					class='hidden h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:block dark:rotate-0 dark:scale-100'
+					xmlns="http://www.w3.org/2000/svg"
+					width="32"
+					height="32"
+					viewBox="0 0 24 24"
+					class="hidden h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:block dark:scale-100 dark:rotate-0"
 					><path
-						fill='currentColor'
-						d='M12.058 20q-3.334 0-5.667-2.333Q4.058 15.333 4.058 12q0-3.038 1.98-5.27Q8.02 4.5 10.942 4.097q.081 0 .159.006t.153.017q-.506.706-.801 1.57q-.295.865-.295 1.811q0 2.667 1.866 4.533q1.867 1.867 4.534 1.867q.952 0 1.813-.295q.862-.295 1.548-.801q.012.075.018.153q.005.078.005.158q-.384 2.923-2.615 4.904T12.057 20'
+						fill="currentColor"
+						d="M12.058 20q-3.334 0-5.667-2.333Q4.058 15.333 4.058 12q0-3.038 1.98-5.27Q8.02 4.5 10.942 4.097q.081 0 .159.006t.153.017q-.506.706-.801 1.57q-.295.865-.295 1.811q0 2.667 1.866 4.533q1.867 1.867 4.534 1.867q.952 0 1.813-.295q.862-.295 1.548-.801q.012.075.018.153q.005.078.005.158q-.384 2.923-2.615 4.904T12.057 20"
 					></path></svg
 				>
 			</button>
@@ -144,71 +144,71 @@ import { Image } from 'astro:assets'
 
 		<!-- Mobile Navigation -->
 		<div
-			id='mobileMenu'
-			class='fixed inset-x-0 top-[72px] z-50 hidden max-h-[calc(100vh-72px)] overflow-y-auto rounded-b-lg bg-white shadow-lg dark:bg-gray-800 lg:hidden'
+			id="mobileMenu"
+			class="fixed inset-x-0 top-[72px] z-50 hidden max-h-[calc(100vh-72px)] overflow-y-auto rounded-b-lg bg-white shadow-lg lg:hidden dark:bg-gray-800"
 		>
-			<div class='space-y-2 px-4 py-2'>
+			<div class="space-y-2 px-4 py-2">
 				<a
-					href='/blog'
-					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/blog') ? 'text-green-400' : ''}`}
+					href="/blog"
+					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/blog") ? "text-green-400" : ""}`}
 				>
 					Blog
 				</a>
 				<a
-					href='/categories'
-					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/categories') ? 'text-green-400' : ''}`}
+					href="/categories"
+					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/categories") ? "text-green-400" : ""}`}
 				>
 					Categories
 				</a>
 				<a
-					href='/tags'
-					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/tags') ? 'text-green-400' : ''}`}
+					href="/tags"
+					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/tags") ? "text-green-400" : ""}`}
 				>
 					Tags
 				</a>
 				<a
-					href='/diary'
-					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/diary') ? 'text-green-400' : ''}`}
+					href="/diary"
+					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/diary") ? "text-green-400" : ""}`}
 				>
 					Diary
 				</a>
 				<a
-					href='/tools'
-					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/tools') ? 'text-green-400' : ''}`}
+					href="/tools"
+					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/tools") ? "text-green-400" : ""}`}
 				>
 					Tools
 				</a>
 				<a
-					href='/friends'
-					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith('/friends') ? 'text-green-400' : ''}`}
+					href="/friends"
+					class={`block py-2 text-[1.05rem] font-medium  ${Astro.url.pathname.startsWith("/friends") ? "text-green-400" : ""}`}
 				>
 					Friends
 				</a>
 				<button
-					id='mobileToggleDarkMode'
-					class='mt-2 flex w-full items-center py-2 text-[1.05rem] font-medium'
+					id="mobileToggleDarkMode"
+					class="mt-2 flex w-full items-center py-2 text-[1.05rem] font-medium"
 				>
 					<span>Theme</span>
 					<svg
-						xmlns='http://www.w3.org/2000/svg'
-						width='32'
-						height='32'
-						viewBox='0 0 24 24'
-						class='ml-2 h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:hidden dark:-rotate-90 dark:scale-0'
+						xmlns="http://www.w3.org/2000/svg"
+						width="32"
+						height="32"
+						viewBox="0 0 24 24"
+						class="ml-2 h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:hidden dark:scale-0 dark:-rotate-90"
 						><path
-							fill='currentColor'
-							d='M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15m0 1q-1.671 0-2.836-1.164T8 12q0-1.671 1.164-2.836T12 8q1.671 0 2.836 1.164T16 12q0 1.671-1.164 2.836T12 16m-7-3.5H1.5v-1H5zm17.5 0H19v-1h3.5zM11.5 5V1.5h1V5zm0 17.5V19h1v3.5zM6.746 7.404l-2.16-2.098l.695-.744l2.111 2.134zM18.72 19.438l-2.117-2.14l.652-.702l2.16 2.098zM16.596 6.746l2.098-2.16l.744.695l-2.134 2.111zM4.562 18.72l2.14-2.117l.663.652l-2.078 2.179zM12 12'
+							fill="currentColor"
+							d="M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15m0 1q-1.671 0-2.836-1.164T8 12q0-1.671 1.164-2.836T12 8q1.671 0 2.836 1.164T16 12q0 1.671-1.164 2.836T12 16m-7-3.5H1.5v-1H5zm17.5 0H19v-1h3.5zM11.5 5V1.5h1V5zm0 17.5V19h1v3.5zM6.746 7.404l-2.16-2.098l.695-.744l2.111 2.134zM18.72 19.438l-2.117-2.14l.652-.702l2.16 2.098zM16.596 6.746l2.098-2.16l.744.695l-2.134 2.111zM4.562 18.72l2.14-2.117l.663.652l-2.078 2.179zM12 12"
 						></path></svg
 					>
 					<svg
-						xmlns='http://www.w3.org/2000/svg'
-						width='32'
-						height='32'
-						viewBox='0 0 24 24'
-						class='ml-2 hidden h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:block dark:rotate-0 dark:scale-100'
+						xmlns="http://www.w3.org/2000/svg"
+						width="32"
+						height="32"
+						viewBox="0 0 24 24"
+						class="ml-2 hidden h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:block dark:scale-100 dark:rotate-0"
 						><path
-							fill='currentColor'
-							d='M12.058 20q-3.334 0-5.667-2.333Q4.058 15.333 4.058 12q0-3.038 1.98-5.27Q8.02 4.5 10.942 4.097q.081 0 .159.006t.153.017q-.506.706-.801 1.57q-.295.865-.295 1.811q0 2.667 1.866 4.533q1.867 1.867 4.534 1.867q.952 0 1.813-.295q.862-.295 1.548-.801q.012.075.018.153q.005.078.005.158q-.384 2.923-2.615 4.904T12.057 20'
+							fill="currentColor"
+							d="M12.058 20q-3.334 0-5.667-2.333Q4.058 15.333 4.058 12q0-3.038 1.98-5.27Q8.02 4.5 10.942 4.097q.081 0 .159.006t.153.017q-.506.706-.801 1.57q-.295.865-.295 1.811q0 2.667 1.866 4.533q1.867 1.867 4.534 1.867q.952 0 1.813-.295q.862-.295 1.548-.801q.012.075.018.153q.005.078.005.158q-.384 2.923-2.615 4.904T12.057 20"
 						></path></svg
 					>
 				</button>
@@ -219,59 +219,59 @@ import { Image } from 'astro:assets'
 
 <script>
 	function getCurrentTheme() {
-		return localStorage.getItem('theme')
+		return localStorage.getItem("theme");
 	}
 
 	function setupDarkModeToggle() {
-		const toggleDarkModeButton = document.getElementById('toggleDarkMode')
-		const mobileToggleDarkMode = document.getElementById('mobileToggleDarkMode')
+		const toggleDarkModeButton = document.getElementById("toggleDarkMode");
+		const mobileToggleDarkMode = document.getElementById("mobileToggleDarkMode");
 
 		function toggleTheme() {
-			const currentTheme = getCurrentTheme()
-			const newTheme = currentTheme === 'dark' ? 'light' : 'dark'
-			localStorage.setItem('theme', newTheme)
-			document.documentElement.classList.toggle('dark')
+			const currentTheme = getCurrentTheme();
+			const newTheme = currentTheme === "dark" ? "light" : "dark";
+			localStorage.setItem("theme", newTheme);
+			document.documentElement.classList.toggle("dark");
 
 			// Dispatch theme change event
-			window.dispatchEvent(new CustomEvent('theme-change', { detail: { theme: newTheme } }))
+			window.dispatchEvent(new CustomEvent("theme-change", { detail: { theme: newTheme } }));
 		}
 
 		if (toggleDarkModeButton) {
-			toggleDarkModeButton.addEventListener('click', toggleTheme)
+			toggleDarkModeButton.addEventListener("click", toggleTheme);
 		}
 
 		if (mobileToggleDarkMode) {
-			mobileToggleDarkMode.addEventListener('click', toggleTheme)
+			mobileToggleDarkMode.addEventListener("click", toggleTheme);
 		}
 	}
 
 	function setupMobileMenu() {
-		const mobileMenuButton = document.getElementById('mobileMenuButton')
-		const mobileMenu = document.getElementById('mobileMenu')
-		if (!mobileMenuButton || !mobileMenu) return
+		const mobileMenuButton = document.getElementById("mobileMenuButton");
+		const mobileMenu = document.getElementById("mobileMenu");
+		if (!mobileMenuButton || !mobileMenu) return;
 
-		mobileMenuButton.addEventListener('click', () => {
-			mobileMenu.classList.toggle('hidden')
-		})
+		mobileMenuButton.addEventListener("click", () => {
+			mobileMenu.classList.toggle("hidden");
+		});
 
 		// Close mobile menu when clicking outside
-		document.addEventListener('click', (event) => {
+		document.addEventListener("click", (event) => {
 			if (
 				!mobileMenuButton.contains(event.target as Node) &&
 				!mobileMenu.contains(event.target as Node)
 			) {
-				mobileMenu.classList.add('hidden')
+				mobileMenu.classList.add("hidden");
 			}
-		})
+		});
 	}
 
 	// Setup initial functionality
-	setupDarkModeToggle()
-	setupMobileMenu()
+	setupDarkModeToggle();
+	setupMobileMenu();
 
 	// Re-setup functionality after view transitions
-	document.addEventListener('astro:after-swap', () => {
-		setupDarkModeToggle()
-		setupMobileMenu()
-	})
+	document.addEventListener("astro:after-swap", () => {
+		setupDarkModeToggle();
+		setupMobileMenu();
+	});
 </script>
