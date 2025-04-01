@@ -1,6 +1,6 @@
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site.config";
-import { collectionDateSort } from "@/utils/date";
+import { collectionDateSort, convertToBeijingTime } from "@/utils/date";
 import rss from "@astrojs/rss";
 import MarkdownIt from "markdown-it";
 import sanitizeHtml from "sanitize-html";
@@ -25,7 +25,7 @@ export const GET = async () => {
 			return {
 				title: post.data.title,
 				description: (post.data.description ?? "") + "\t" + tagStr,
-				pubDate: post.dateToCmp,
+				pubDate: convertToBeijingTime(post.dateToCmp),
 				link: `posts/${post.id}/`,
 				content: post.body
 					? sanitizeHtml(
