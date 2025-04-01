@@ -24,17 +24,7 @@ export function getLatestUpdatedPost(a: AllItem, b: AllItem) {
 	return getDateSortByUpdateTime(b).getTime() - getDateSortByUpdateTime(a).getTime();
 }
 
-export function convertToBeijingTime(date: Date) {
-	const options = {
-		timeZone: "Asia/Shanghai",
-		year: "numeric",
-		month: "2-digit",
-		day: "2-digit",
-		hour: "2-digit",
-		minute: "2-digit",
-		second: "2-digit",
-	};
-	const formatter = new Intl.DateTimeFormat("zh-CN", options as Intl.DateTimeFormatOptions);
-	const formattedDate = formatter.format(date);
-	return formattedDate;
+export function convertToGMT(date: Date) {
+	// Subtract 8 hours to convert Beijing time to GMT
+	return new Date(date.getTime() - 8 * 60 * 60 * 1000);
 }
