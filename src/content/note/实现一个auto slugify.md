@@ -5,6 +5,7 @@ published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
+status: Published
 title: 实现一个auto slugify
 date: 2024-02-20T00:00:00.000Z
 author: KazooTTT
@@ -18,7 +19,7 @@ description: >-
   based on the auto-slugify library available on GitHub.
 category: 项目
 date_created: 20241202
-date_modified: 20250315
+date_modified: 20250409
 ---
 
 <!--section: 1-->
