@@ -4,6 +4,7 @@ import PageLayout from "@/layouts/Base.astro";
 
 const allPosts = await getAllPosts();
 const allCategories = getUniqueCategoriesWithCount(allPosts);
+const count = allCategories.length;
 
 const meta = {
 	description: "A list of all the categories I've written about in my posts",
@@ -12,7 +13,7 @@ const meta = {
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title mb-6">Categories</h1>
+	<h1 class="title mb-6">Categories({count})</h1>
 	<ul class="space-y-4">
 		{
 			allCategories.map(([item, val]) => (

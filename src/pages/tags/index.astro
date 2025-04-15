@@ -4,6 +4,7 @@ import PageLayout from "@/layouts/Base.astro";
 
 const allPosts = await getAllPosts();
 const allTags = getUniqueTagsWithCount(allPosts);
+const count = allTags.length;
 
 const meta = {
 	description: "A list of all the topics I've written about in my posts",
@@ -12,7 +13,7 @@ const meta = {
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title mb-6">Tags</h1>
+	<h1 class="title mb-6">Tags({count})</h1>
 	<ul class="space-y-4">
 		{
 			allTags.map(([tag, val]) => (
