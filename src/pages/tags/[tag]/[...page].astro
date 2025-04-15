@@ -6,6 +6,7 @@ import { getAllPosts, getUniqueTags } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 import type { GetStaticPaths, Page } from "astro";
+import { MAX_CATEGORIES } from "@/utils/constant";
 
 export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
 	const allPosts = await getAllPosts();
@@ -15,7 +16,7 @@ export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
 	return uniqueTags.flatMap((tag) => {
 		const filterPosts = sortedPosts.filter((post) => post.data.tags.includes(tag));
 		return paginate(filterPosts, {
-			pageSize: 20,
+			pageSize: MAX_CATEGORIES,
 			params: { tag },
 		});
 	});
