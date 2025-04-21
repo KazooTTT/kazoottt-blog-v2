@@ -19,7 +19,7 @@ title: 处理markdown图片链接包含空格导致无法预览图片的问题
 
 ![IMG-4792F6481346E5FBAA24C7291676135F-1](<https://pictures.kazoottt.top/2025/02/20250221-4792f6481346e5fbaa24c7291676135f.jpg>)
 
-在很久之前有写过 [md路径正确但是图片不显示的原因](https://notes.kazoottt.top/05-临时/01-草稿箱/md路径正确但是图片不显示的原因)
+在很久之前有写过 [md路径正确但是图片不显示的原因](https://notes.kazoottt.top/05-临时/01-草稿箱/202501/md路径正确但是图片不显示的原因)
 
 具体来说就是 flowus 如果上传了多张图片到一个 md，然后导出的时候会出现在 obsidian 或者 vscode 中无法正常查看图片的情况。
 

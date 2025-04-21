@@ -5,6 +5,7 @@ published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
+status: Published
 date: 2025-04-01T22:56:00.000Z
 tags:
   - 鉴抄
@@ -13,7 +14,7 @@ slug: no-unproven-claims-against-creators
 description: null
 title: 避免空口鉴抄、鉴AI
 date_created: 20250401
-date_modified: 20250401
+date_modified: 20250418
 ---
 前几天朋友在小红书上发了自己的作品，被底下的人评论鉴 AI。她们的对话如下：  
 
