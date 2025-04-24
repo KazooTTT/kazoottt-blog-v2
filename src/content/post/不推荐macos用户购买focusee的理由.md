@@ -5,7 +5,8 @@ published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
-title: 不推荐macos用户购买focusee的理由
+status: Published
+title: 不推荐 macos 用户购买 focusee 的理由
 date: 2024-06-20T00:00:00.000Z
 author: KazooTTT
 tags:
@@ -17,11 +18,11 @@ tags:
 finished: true
 category: 软件
 slug: focusee-macos-review
-description: 分析了Focusee在macOS上的缺陷，包括色差严重、导出速度慢以及声卡配置冲突等问题，并分享了作者的退款经历。
+description: 分析了 Focusee 在 macOS 上的缺陷，包括色差严重、导出速度慢以及声卡配置冲突等问题，并分享了作者的退款经历。
 NotionID-notionnext: c6b6e2f5-9da1-43f9-b531-b07d974815ed
 link-notionnext: 'https://kazoottt.notion.site/macos-focusee-c6b6e2f59da143f9b531b07d974815ed'
 date_created: 20241217
-date_modified: 20250304
+date_modified: 20250423
 ---
 
 # 不推荐 macos 用户购买 focusee 的理由
@@ -41,7 +42,7 @@ date_modified: 20250304
 
 这一点是最严重的问题。
 
-在 macos 上录制出来的视频色差明显，与实际画面相差很大，大到我认为几乎不能使用，具体的对比如下:
+在 macos 上录制出来的视频色差明显，与实际画面相差很大，大到我认为几乎不能使用，具体的对比如下：
 
 ![8c214f3f-65f7-49d6-8abd-7011886b3392-spark-clipboard](<https://pictures.kazoottt.top/2024/06/20240620-f8632859027aa520b2acfe05f8010997.jpg>)
 
@@ -67,9 +68,9 @@ date_modified: 20250304
 
 Focusee 的声卡设置会与我系统中的其他虚拟声卡产生冲突，可能会导致声音输出的声音被强制切换为扬声器，无法切换回耳机。
 
-问题排查和解决方法：[focusee录制系统声音被强制切换为扬声器播放的可能原因和解决方法](/notes/possible-causes-and-solutions-for-focusee-switching-system-audio-to-speaker-playback-forcibly)
+问题排查和解决方法：[[focusee 录制系统声音被强制切换为扬声器播放的可能原因和解决方法]]
 
-而且它不支持单应用声音录制，无论是同类产品的 screen studio(需付费)，QuickRecorder（开源免费），还是 obs 都已支持单应用声音录制了。
+而且它不支持单应用声音录制，无论是同类产品的 screen studio（需付费），QuickRecorder（开源免费），还是 obs 都已支持单应用声音录制了。
 
 ## 退款经历
 
