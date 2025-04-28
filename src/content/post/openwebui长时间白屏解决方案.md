@@ -20,7 +20,7 @@ tags:
 title: openwebui长时间白屏解决方案
 ---
 
-![[IMG-CAC1EEA1E39685627A82ED14C5001F20.png]]
+![IMG-CAC1EEA1E39685627A82ED14C5001F20](</mdImages/IMG-CAC1EEA1E39685627A82ED14C5001F20.png>)
 
 # ollama #openwebui #docker
 
