@@ -5,8 +5,9 @@ published: false
 toWexin: null
 toJuejin: null
 toZhihu: null
+status: Published
 date_created: 20250206
-date_modified: 20250304
+date_modified: 20250429
 title: Obsidian Web Clipper 离线阅读同人作品
 date: 2025-02-06T00:00:00.000Z
 author: KazooTTT
