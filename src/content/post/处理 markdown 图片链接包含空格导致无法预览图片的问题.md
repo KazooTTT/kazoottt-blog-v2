@@ -5,11 +5,12 @@ published: true
 toWexin: null
 toJuejin: null
 toZhihu: null
+status: Published
 author: KazooTTT
-category: 脑洞
+category: 软件
 date: 2025-02-12T00:00:00.000Z
 date_created: 20250220
-date_modified: 20250304
+date_modified: 20250518
 description: null
 slug: handling-markdown-image-links-containing-spaces-causing-preview-failures
 tags:
